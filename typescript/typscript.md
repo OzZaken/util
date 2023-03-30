@@ -1,6 +1,16 @@
-# typescript
+# Typescript
 
-[typescript play](https://www.typescriptlang.org/play)
+TypeScript is a superset of JavaScript that provides optional static typing and other features that help improve code quality and maintainability.
+- A free and open source programming language
+created by Microsoft (first made public in October 2012).
+- It is a (kind of) a strict superset of JavaScript.
+- It adds optional type system.
+- Type annotations => compile-time type checking .
+
+<a href="https://www.typescriptlang.org/play" target="_blank">TypeScript Play</a>
+
+The annotations for the primitive types are:
+number, boolean and string.
 ## Data Type
 | Keyword/Data Type | Description                                                    |
 |-------------------|----------------------------------------------------------------|
@@ -21,18 +31,8 @@
 | `protected`       | An access modifier that allows a member to be accessed within the class and its subclasses |
 | `static`          | A keyword that specifies that a member is associated with the class itself, rather than with an instance of the class |
 
-## description
-TypeScript is a superset of JavaScript that provides optional static typing and other features that help improve code quality and maintainability.
-- A free and open source programming language
-created by Microsoft (first made public in October 2012).
-- It is a (kind of) a strict superset of JavaScript.
-- It adds optional type system.
-- Type annotations => compile-time type checking .
+## Duck Typing
 
-The annotations for the primitive types are:
-number, boolean and string.
-
-Duck Typing
 TS check types by checking the actual structure
 AKA duck-typing:
 – if it looks like a duck, and quacks like a duck, then it

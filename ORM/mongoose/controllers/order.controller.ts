@@ -6,7 +6,8 @@ const order: IOrder = new Order({
   price: 50,
 })
 
-order.save()
+order.save() //The order.save() method is a method provided by the Mongoose library.
+
   .then((savedOrder: IOrder) => {
     console.log(`Saved order: ${savedOrder}`);
   })
@@ -15,25 +16,25 @@ order.save()
   })
 
 const createOrder = async (order: IOrder): Promise<IOrder> => {
-    const newOrder = new Order(order)
-    return await newOrder.save()
+  const newOrder = new Order(order)
+  return await newOrder.save()
 }
 
 const readOrder = async (id: string): Promise<IOrder | null> => {
-    return await Order.findById(id).exec()
+  return await Order.findById(id).exec()
 }
 
 const updateOrder = async (id: string, order: Partial<IOrder>): Promise<IOrder | null> => {
-    return await Order.findByIdAndUpdate(id, order, { new: true }).exec()
+  return await Order.findByIdAndUpdate(id, order, { new: true }).exec()
 }
 
 const deleteOrder = async (id: string): Promise<void> => {
-    await Order.findByIdAndDelete(id).exec()
+  await Order.findByIdAndDelete(id).exec()
 }
 
 export {
-    createOrder,
-    readOrder,
-    updateOrder,
-    deleteOrder,
+  createOrder,
+  readOrder,
+  updateOrder,
+  deleteOrder,
 }

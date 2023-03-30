@@ -1,15 +1,26 @@
-import mongoose from 'mongoose'
+import mongoose, { Schema, Document } from 'mongoose'
 
-// Define a schema for the product model
-const productSchema = new mongoose.Schema({
-  name: String,
-  price: Number,
-  description: String,
-  category: {
-    type: String,
-    enum: ['electronics', 'books', 'clothing', 'food']
-  }
+interface IProduct extends Document {
+    name: string
+    description: string
+    price: number
+}
+
+const productSchema = new Schema<IProduct>({
+    name: {
+        type: String,
+        required: true,
+    },
+    description: {
+        type: String,
+        required: true,
+    },
+    price: {
+        type: Number,
+        required: true,
+    },
 })
 
-// Create a model for the product schema
-export const ProductModel = mongoose.model('Product', productSchema)
+const Product = mongoose.model<IProduct>('Product', productSchema)
+
+export { IProduct, Product }
