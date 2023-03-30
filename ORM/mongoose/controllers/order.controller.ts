@@ -12,7 +12,7 @@ order.save()
   })
   .catch((error: any) => {
     console.error(`Error saving order: ${error}`);
-  });
+  })
 
 const createOrder = async (order: IOrder): Promise<IOrder> => {
     const newOrder = new Order(order)

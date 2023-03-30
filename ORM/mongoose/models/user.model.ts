@@ -22,30 +22,11 @@ const userSchema: Schema = new mongoose.Schema({
         required: true
     }
 })
+
+/**  const User = mongoose.model<IUser>('User', userSchema)
+ * mongoose.model: provided by the Mongoose library that creates a new model based on a schema definition.
+ * <User>: generic type parameter that specifies the type of the model.
+ * 'User': name of the collection in the MongoDB. */
 const User = mongoose.model<IUser>('User', userSchema)
 
-// CRUD operations for User schema
-const createUser = async (user: IUser): Promise<IUser> => {
-    const newUser = new User(user)
-    return await newUser.save()
-}
-
-const readUser = async (id: string): Promise<IUser | null> => {
-    return await User.findById(id).exec()
-}
-
-const updateUser = async (id: string, user: Partial<IUser>): Promise<IUser | null> => {
-    return await User.findByIdAndUpdate(id, user, { new: true }).exec()
-}
-
-const deleteUser = async (id: string): Promise<void> => {
-    await User.findByIdAndDelete(id).exec()
-}
-
-export {
-    IUser,
-    createUser,
-    readUser,
-    updateUser,
-    deleteUser
-}
+export { IUser, User } // interface, model 

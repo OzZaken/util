@@ -1,6 +1,25 @@
 # typescript
 
 [typescript play](https://www.typescriptlang.org/play)
+## Data Type
+| Keyword/Data Type | Description                                                    |
+|-------------------|----------------------------------------------------------------|
+| `any`             | A type that can represent any type                             |
+| `boolean`         | A type that represents a logical value (`true` or `false`)     |
+| `number`          | A type that represents a numeric value                          |
+| `object`          | A type that represents any non-primitive type                   |
+| `string`          | A type that represents a sequence of characters                 |
+| `void`            | A type that represents the absence of a value                   |
+| `null`            | A type that represents the `null` value                          |
+| `undefined`       | A type that represents the `undefined` value                     |
+| `never`           | A type that represents a value that can never occur             |
+| `enum`            | A way to define a set of named constant values                  |
+| `interface`       | A way to define a custom type with properties and methods       |
+| `class`           | A way to define a blueprint for creating objects                |
+| `public`          | An access modifier that allows a member to be accessed from outside the class |
+| `private`         | An access modifier that allows a member to be accessed only from within the class |
+| `protected`       | An access modifier that allows a member to be accessed within the class and its subclasses |
+| `static`          | A keyword that specifies that a member is associated with the class itself, rather than with an instance of the class |
 
 ## description
 TypeScript is a superset of JavaScript that provides optional static typing and other features that help improve code quality and maintainability.
@@ -29,6 +48,7 @@ npm install -g typescript
 ```
 
 ## Compiling TypeScript
+
 This will create a new file called "app.js" that contains the compiled JavaScript code.
 
 ```bash

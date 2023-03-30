@@ -1,9 +1,5 @@
 import mongoose, { Schema, Document } from 'mongoose'
-/**
- * Defines an IOrder interface that extends Document from Mongoose,
- * represents the schema for an order in your MongoDB database.
- * Defines three fields: service, customer, and price.
- */
+
 // Define IOrder interface
 interface IOrder extends Document {
     service: string;

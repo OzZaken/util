@@ -1,4 +1,5 @@
-import { IUser, createUser, readUser, updateUser, deleteUser, IOrder, createOrder, readOrder, updateOrder, deleteOrder, IEntity, createEntity, readEntity, updateEntity, deleteEntity } from './models.mongoose'
+import { IUser,User } from './models/user.model'
+import { createUser, readUser, updateUser, deleteUser } from './controllers/user.controller'
 
 // ------------------------------ CREATE ------------------------------ 
 
