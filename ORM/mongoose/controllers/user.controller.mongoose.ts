@@ -1,6 +1,6 @@
 
 import mongoose, { Schema, Document } from 'mongoose'
-import { IUser, User } from '../models/user.model'
+import { IUser, User } from '../models/user.model.mongoose'
 
 // CRUD operations for User schema
 const createUser = async (user: IUser): Promise<IUser> => {

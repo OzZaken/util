@@ -1,4 +1,4 @@
-import { Order, IOrder } from '../models/order.model'
+import { Order, IOrder } from '../models/order.model.mongoose'
 
 const order: IOrder = new Order({
   service: 'Cleaning',

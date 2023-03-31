@@ -1,4 +1,4 @@
-import { Product, IProduct } from '../models/product.model'
+import { Product, IProduct } from '../models/product.model.mongoose'
 
 const createProduct = async (product: IProduct): Promise<IProduct> => {
     const newProduct = new Product(product)

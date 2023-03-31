@@ -26,13 +26,15 @@ async function traverseFolder(folderPath, prefix = '', isLastItem = true) {
     const fileName = path.basename(folderPath)
     const filePath = path.relative(process.cwd(), folderPath)
     const link = `${GITHUB_URL}/${filePath}`
-    return `${prefix}${isLastItem ? '└── ' : '├── '}<a href="${link}" target="_blank">${fileName}</a>\n`
+    const isMdFile = path.extname(fileName) === '.md'
+    const fileNameTag = isMdFile ? `<em>${fileName}</em>` : fileName
+    return `${prefix}${isLastItem ? '└── ' : '├── '}<a href="${link}" target="_blank">${fileNameTag}</a>\n`
   }
 
   const folderName = path.basename(folderPath)
-
+  const folderNameTag = `<strong>${folderName}</strong>`
   const contents = await fs.readdir(folderPath)
-  let folderStructure = `${prefix}${isLastItem ? '└── ' : '├── '}${folderName}/\n`
+  let folderStructure = `${prefix}${isLastItem ? '└── ' : '├── '}${folderNameTag}\n`
 
   for (let i = 0; i < contents.length; i++) {
     const name = contents[i]
@@ -50,6 +52,7 @@ async function traverseFolder(folderPath, prefix = '', isLastItem = true) {
   return folderStructure
 }
 
+
 async function generateFileStructure() {
   const structureFilePath = './structure.md'
 
@@ -63,7 +66,7 @@ async function generateFileStructure() {
   const folderName = path.basename(folderPath)
   const folderStructure = await traverseFolder(folderPath)
 
-  await fs.writeFile(structureFilePath, `# ${folderName} Structure/\n\n<pre>\n${folderStructure}</pre>\n`)
+  await fs.writeFile(structureFilePath, `# ${folderName} Tree Structure:\n\n<pre>\n${folderStructure}</pre>\n`)
   console.log(`Structure file generated successfully at ${structureFilePath}.`)
 }
 

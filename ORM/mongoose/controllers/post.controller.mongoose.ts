@@ -1,4 +1,4 @@
-import { Post, IPost } from '../models/post.model'
+import { Post, IPost } from '../models/post.model.mongoose'
 
 const createPost = async (post: IPost): Promise<IPost> => {
     const newPost = new Post(post)
