@@ -1,4 +1,24 @@
+//------------------------------------------------------------------------------------------
+const strArrDuck = ['foo', 'poo', 'moo']
+const strArr: Array<string> = ['foo', 'poo', 'moo']
+
+const numArrDuck = [1, 2, 3]
+const numArr: Array<number> = [1, 2, 3]
+
+const prmStrDuck = Promise.resolve('hello!')
+const prmStr: Promise<string> = Promise.resolve('hello!')
+
+const prmNumDuck = Promise.resolve(3.14)
+const prmNum: Promise<number> = Promise.resolve(3.14);
+
+(async () => {
+    const x = await prmStr
+    const y = await prmNum
+})();
 // -------------------- The Identity -------------------------------------------------
+function mix<T1, T2>(arg1: T1, arg2: T2): T2 {
+    return arg2
+}
 
 // Accept only Strings
 // function identity(arg: string): string {
@@ -25,9 +45,6 @@ var ss = identity('Samba')
 var f = identity({ foo: () => console.log('ffffooo!') })
 // var d = identity(new Date());
 
-function mix<T1, T2>(arg1: T1, arg2: T2): T2 {
-    return arg2
-}
 
 const rex = mix(7, 'Bamia')
 
@@ -35,8 +52,8 @@ const rex = mix(7, 'Bamia')
 // // txt = 'aasdasd'
 // const txt = 'asd'
 
-/** In this example, two instances of the Box class are created:
- *  box1 with a number value and box2 with a Date object.  */
+//------------------------------------------------------------------------------------------
+/* In this example, two instances of the Box class are created:*  box1 with a number value and box2 with a Date object.  */
 class Box<T> {
 
     // TS Constructor Shortcut: 

@@ -64,7 +64,41 @@ tsc app.ts --watch
 TypeScript up and running in 5 minutes
 ```bash
 npm install -g typescript
-echo console.log('Hello!'); > test.ts
+echo console.log('Hello!') > test.ts
 tsc test.ts --watch
 node test.js
 ```
+
+## Generics types
+feature that allow you to create reusable components that can work with a variety of types. In TypeScript, a generic type is a type that can take one or more type parameters.
+For example, consider a function that takes an array of values and returns the first value:
+
+```javascript
+function getFirstValue<T>(arr: T[]): T {
+  return arr[0]
+}
+```
+In this example, the <T> syntax specifies that the function takes a type parameter named T.
+The arr parameter is an array of type T[], and the return type is T.
+
+You can use this function with any type of array, like this:
+```javascript
+const arr1 = [1, 2, 3]
+const arr2 = ['a', 'b', 'c']
+
+const firstNumber = getFirstValue(arr1) // type: number
+const firstLetter = getFirstValue(arr2) // type: string
+```
+The getFirstValue function works with arrays of any type, because the type parameter T can be replaced with any type when the function is called.
+
+Generics are also commonly used with classes and interfaces.
+For example, you can define an interface for a generic repository:
+````javascript
+interface Repository<T> {
+  getById(id: number): T
+  getAll(): T[]
+  add(entity: T): void
+  update(entity: T): void
+  delete(entity: T): void
+}
+````
