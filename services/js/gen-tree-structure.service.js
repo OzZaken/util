@@ -53,7 +53,7 @@ async function generateFileStructure() {
   const folderName = path.basename(folderPath)
   const folderStructure = await traverseFolder(folderPath)
 
-  await fs.writeFile(structureFilePath, `# ${folderName} Structure/\n${folderStructure}`)
+  await fs.writeFile(structureFilePath, `# ${folderName} Structure/\n<pre>\n${folderStructure}</pre>`)
   console.log('Structure file generated successfully.')
 }
 
