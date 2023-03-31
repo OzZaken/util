@@ -1,4 +1,3 @@
-
 var dbConn = null
 
 const MongoClient = require('mongodb').MongoClient

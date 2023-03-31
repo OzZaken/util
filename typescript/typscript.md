@@ -1,4 +1,4 @@
-# Typescript
+# Description
 
 TypeScript is a superset of JavaScript that provides optional static typing and other features that help improve code quality and maintainability.
 - A free and open source programming language
@@ -40,14 +40,14 @@ probably is a duck
 – Two objects that has the same set of properties are
 considered to be of the same type.
 – So I can pass in a new User() or just a user object {}
-## Install TypeScript
+# Install TypeScript
 o get started with TypeScript, you'll need to install it on your machine. You can do this using a package manager like npm or yarn.
 
 ```bash
 npm install -g typescript
 ```
 
-## Compiling TypeScript
+# Compiling TypeScript
 
 This will create a new file called "app.js" that contains the compiled JavaScript code.
 
@@ -102,3 +102,15 @@ interface Repository<T> {
   delete(entity: T): void
 }
 ````
+
+# Use TypeScript on Node
+To use ts-node, you can install it globally using npm:
+
+```bash
+npm install -g ts-node
+```
+
+Then, you can run your TypeScript code using ts-node:
+```bash
+ts-node your-file.ts
+```

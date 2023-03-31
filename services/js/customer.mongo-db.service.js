@@ -1,4 +1,4 @@
-const dbService = require('./db.service')
+const dbService = require('./mongo-db.service')
 const { ObjectId } = require('mongodb')
 
 module.exports = {

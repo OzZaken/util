@@ -16,6 +16,12 @@ const prmNum: Promise<number> = Promise.resolve(3.14);
     const y = await prmNum
 })();
 // -------------------- The Identity -------------------------------------------------
+
+// Generic function: T is a TYPE-ARG:
+function identity<T>(arg: T): T {
+    return arg
+}
+
 function mix<T1, T2>(arg1: T1, arg2: T2): T2 {
     return arg2
 }
@@ -32,10 +38,6 @@ function mix<T1, T2>(arg1: T1, arg2: T2): T2 {
 // }
 // const res = identity(34)
 
-// Generic function: T is a TYPE-ARG:
-function identity<T>(arg: T): T {
-    return arg
-}
 
 // Usually, the type param can be inferred:
 var nn = identity(44)
