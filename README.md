@@ -3,7 +3,6 @@ Fullstack utilities repository containing a collection of useful tools and resou
 
 This repository contains a collection of useful utilities, code snippets, and resources that I have accumulated while working as a full-stack developer. Whether you are a beginner or an experienced developer, this repository can help you become more efficient and productive. The utilities cover a wide range of topics including front-end development, back-end development, database management, testing, deployment, and more. Feel free to use these resources to enhance your own development workflow, and don't hesitate to contribute to the repository if you have any useful tools or tips to share!# util Tree Structure:
 # util Tree Structure:
-
 <pre>
 └── <strong>util</strong>
     ├── <strong>algorithms</strong>
@@ -20,6 +19,8 @@ This repository contains a collection of useful utilities, code snippets, and re
     │       └── <strong>proj-simple-node-mongo</strong>
     │           ├── <a href="https://github.com/OzZaken/util/blob/main/DB\mongodb\proj-simple-node-mongo\package.json" target="_blank">package.json</a>
     │           └── <a href="https://github.com/OzZaken/util/blob/main/DB\mongodb\proj-simple-node-mongo\server.js" target="_blank">server.js</a>
+    ├── <strong>docs</strong>
+    │   └── <a href="https://github.com/OzZaken/util/blob/main/docs\XAMPP.md" target="_blank"><em>XAMPP.md</em></a>
     ├── <strong>node</strong>
     │   ├── <strong>ALS</strong>
     │   │   └── <a href="https://github.com/OzZaken/util/blob/main/node\ALS\Async_Local_Storage.md" target="_blank"><em>Async_Local_Storage.md</em></a>
@@ -71,43 +72,60 @@ This repository contains a collection of useful utilities, code snippets, and re
     │       │   └── <a href="https://github.com/OzZaken/util/blob/main/ORM\sequelize\models\user.model.ts" target="_blank">user.model.ts</a>
     │       ├── <strong>operators</strong>
     │       └── <a href="https://github.com/OzZaken/util/blob/main/ORM\sequelize\sequelize.md" target="_blank"><em>sequelize.md</em></a>
+    ├── <strong>PHP</strong>
+    │   ├── <a href="https://github.com/OzZaken/util/blob/main/PHP\Hypertext Preprocessor.md" target="_blank"><em>Hypertext Preprocessor.md</em></a>
+    │   └── <strong>proj-php</strong>
+    │       ├── <a href="https://github.com/OzZaken/util/blob/main/PHP\proj-php\about.php" target="_blank">about.php</a>
+    │       ├── <strong>api</strong>
+    │       │   ├── <a href="https://github.com/OzZaken/util/blob/main/PHP\proj-php\api\car.php" target="_blank">car.php</a>
+    │       │   └── <a href="https://github.com/OzZaken/util/blob/main/PHP\proj-php\api\fruit.php" target="_blank">fruit.php</a>
+    │       ├── <strong>controller</strong>
+    │       │   ├── <a href="https://github.com/OzZaken/util/blob/main/PHP\proj-php\controller\main.js" target="_blank">main.js</a>
+    │       │   └── <a href="https://github.com/OzZaken/util/blob/main/PHP\proj-php\controller\main.php" target="_blank">main.php</a>
+    │       ├── <a href="https://github.com/OzZaken/util/blob/main/PHP\proj-php\fruit-finder.html" target="_blank">fruit-finder.html</a>
+    │       ├── <a href="https://github.com/OzZaken/util/blob/main/PHP\proj-php\handleLogin.php" target="_blank">handleLogin.php</a>
+    │       ├── <a href="https://github.com/OzZaken/util/blob/main/PHP\proj-php\index.php" target="_blank">index.php</a>
+    │       ├── <a href="https://github.com/OzZaken/util/blob/main/PHP\proj-php\intro.php" target="_blank">intro.php</a>
+    │       ├── <a href="https://github.com/OzZaken/util/blob/main/PHP\proj-php\login.php" target="_blank">login.php</a>
+    │       └── <strong>services</strong>
+    │           └── <a href="https://github.com/OzZaken/util/blob/main/PHP\proj-php\services\util-service.php" target="_blank">util-service.php</a>
     ├── <a href="https://github.com/OzZaken/util/blob/main/README.md" target="_blank"><em>README.md</em></a>
     ├── <strong>services</strong>
-    │   ├── <strong>JS</strong>
-    │   │   ├── <a href="https://github.com/OzZaken/util/blob/main/services\JS\async-storage.service.js" target="_blank">async-storage.service.js</a>
-    │   │   ├── <a href="https://github.com/OzZaken/util/blob/main/services\JS\cloudinary.service.js" target="_blank">cloudinary.service.js</a>
-    │   │   ├── <a href="https://github.com/OzZaken/util/blob/main/services\JS\customer.mongo-db.service.js" target="_blank">customer.mongo-db.service.js</a>
-    │   │   ├── <a href="https://github.com/OzZaken/util/blob/main/services\JS\event-bus.service.js" target="_blank">event-bus.service.js</a>
-    │   │   ├── <a href="https://github.com/OzZaken/util/blob/main/services\JS\http.service.js" target="_blank">http.service.js</a>
-    │   │   ├── <a href="https://github.com/OzZaken/util/blob/main/services\JS\i18n.service.js" target="_blank">i18n.service.js</a>
-    │   │   ├── <a href="https://github.com/OzZaken/util/blob/main/services\JS\img.service.js" target="_blank">img.service.js</a>
-    │   │   ├── <a href="https://github.com/OzZaken/util/blob/main/services\JS\logger.service.js" target="_blank">logger.service.js</a>
-    │   │   ├── <a href="https://github.com/OzZaken/util/blob/main/services\JS\map-repo.service.js" target="_blank">map-repo.service.js</a>
-    │   │   ├── <a href="https://github.com/OzZaken/util/blob/main/services\JS\map.service.js" target="_blank">map.service.js</a>
-    │   │   ├── <a href="https://github.com/OzZaken/util/blob/main/services\JS\mongo-db.service.js" target="_blank">mongo-db.service.js</a>
-    │   │   ├── <a href="https://github.com/OzZaken/util/blob/main/services\JS\socket.service.js" target="_blank">socket.service.js</a>
-    │   │   ├── <a href="https://github.com/OzZaken/util/blob/main/services\JS\storage.service.js" target="_blank">storage.service.js</a>
-    │   │   ├── <a href="https://github.com/OzZaken/util/blob/main/services\JS\user.service.js" target="_blank">user.service.js</a>
-    │   │   ├── <a href="https://github.com/OzZaken/util/blob/main/services\JS\util.service.js" target="_blank">util.service.js</a>
-    │   │   └── <a href="https://github.com/OzZaken/util/blob/main/services\JS\weather.service.js" target="_blank">weather.service.js</a>
-    │   ├── <strong>NODE</strong>
-    │   │   ├── <a href="https://github.com/OzZaken/util/blob/main/services\NODE\gen-tree-structure.service.js" target="_blank">gen-tree-structure.service.js</a>
-    │   │   └── <a href="https://github.com/OzZaken/util/blob/main/services\NODE\read-package.service.js" target="_blank">read-package.service.js</a>
-    │   └── <strong>TS</strong>
-    │       ├── <a href="https://github.com/OzZaken/util/blob/main/services\TS\async-storage.service.ts" target="_blank">async-storage.service.ts</a>
-    │       ├── <a href="https://github.com/OzZaken/util/blob/main/services\TS\event-bus.service.ts" target="_blank">event-bus.service.ts</a>
-    │       ├── <a href="https://github.com/OzZaken/util/blob/main/services\TS\gen-tree.-structer.service.ts" target="_blank">gen-tree.-structer.service.ts</a>
-    │       └── <a href="https://github.com/OzZaken/util/blob/main/services\TS\tsconfig.json" target="_blank">tsconfig.json</a>
-    │
-    ├─── <strong>TypeScript</strong>
-    │   ├── <a href="https://github.com/OzZaken/util/blob/main/TypeScript\00-catchinng-JS-mistakes-with-TS.ts" target="_blank">00-catchinng-JS-mistakes-with-TS.ts</a>
-    │   ├── <a href="https://github.com/OzZaken/util/blob/main/TypeScript\01-types.ts" target="_blank">01-types.ts</a>
-    │   ├── <a href="https://github.com/OzZaken/util/blob/main/TypeScript\02-enums.ts" target="_blank">02-enums.ts</a>
-    │   ├── <a href="https://github.com/OzZaken/util/blob/main/TypeScript\03-interfaces.ts" target="_blank">03-interfaces.ts</a>
-    │   ├── <a href="https://github.com/OzZaken/util/blob/main/TypeScript\04-classes.ts" target="_blank">04-classes.ts</a>
-    │   ├── <a href="https://github.com/OzZaken/util/blob/main/TypeScript\05-generics.ts" target="_blank">05-generics.ts</a>
-    │   └── <a href="https://github.com/OzZaken/util/blob/main/TypeScript\typscript.md" target="_blank"><em>typscript.md</em></a>
-    │
+    │   ├── <strong>JS-services</strong>
+    │   │   ├── <a href="https://github.com/OzZaken/util/blob/main/services\JS-services\async-storage.service.js" target="_blank">async-storage.service.js</a>
+    │   │   ├── <a href="https://github.com/OzZaken/util/blob/main/services\JS-services\cloudinary.service.js" target="_blank">cloudinary.service.js</a>
+    │   │   ├── <a href="https://github.com/OzZaken/util/blob/main/services\JS-services\customer.mongo-db.service.js" target="_blank">customer.mongo-db.service.js</a>
+    │   │   ├── <a href="https://github.com/OzZaken/util/blob/main/services\JS-services\event-bus.service.js" target="_blank">event-bus.service.js</a>
+    │   │   ├── <a href="https://github.com/OzZaken/util/blob/main/services\JS-services\http.service.js" target="_blank">http.service.js</a>
+    │   │   ├── <a href="https://github.com/OzZaken/util/blob/main/services\JS-services\i18n.service.js" target="_blank">i18n.service.js</a>
+    │   │   ├── <a href="https://github.com/OzZaken/util/blob/main/services\JS-services\img.service.js" target="_blank">img.service.js</a>
+    │   │   ├── <a href="https://github.com/OzZaken/util/blob/main/services\JS-services\logger.service.js" target="_blank">logger.service.js</a>
+    │   │   ├── <a href="https://github.com/OzZaken/util/blob/main/services\JS-services\map-repo.service.js" target="_blank">map-repo.service.js</a>
+    │   │   ├── <a href="https://github.com/OzZaken/util/blob/main/services\JS-services\map.service.js" target="_blank">map.service.js</a>
+    │   │   ├── <a href="https://github.com/OzZaken/util/blob/main/services\JS-services\mongo-db.service.js" target="_blank">mongo-db.service.js</a>
+    │   │   ├── <a href="https://github.com/OzZaken/util/blob/main/services\JS-services\socket.service.js" target="_blank">socket.service.js</a>
+    │   │   ├── <a href="https://github.com/OzZaken/util/blob/main/services\JS-services\storage.service.js" target="_blank">storage.service.js</a>
+    │   │   ├── <a href="https://github.com/OzZaken/util/blob/main/services\JS-services\user.service.js" target="_blank">user.service.js</a>
+    │   │   ├── <a href="https://github.com/OzZaken/util/blob/main/services\JS-services\util.service.js" target="_blank">util.service.js</a>
+    │   │   └── <a href="https://github.com/OzZaken/util/blob/main/services\JS-services\weather.service.js" target="_blank">weather.service.js</a>
+    │   ├── <strong>NODE-services</strong>
+    │   │   ├── <a href="https://github.com/OzZaken/util/blob/main/services\NODE-services\gen-tree-structure.service.js" target="_blank">gen-tree-structure.service.js</a>
+    │   │   └── <a href="https://github.com/OzZaken/util/blob/main/services\NODE-services\read-package.service.js" target="_blank">read-package.service.js</a>
+    │   ├── <strong>PHP_services</strong>
+    │   │   └── <a href="https://github.com/OzZaken/util/blob/main/services\PHP_services\util-service.php" target="_blank">util-service.php</a>
+    │   └── <strong>TS-services</strong>
+    │       ├── <a href="https://github.com/OzZaken/util/blob/main/services\TS-services\async-storage.service.ts" target="_blank">async-storage.service.ts</a>
+    │       ├── <a href="https://github.com/OzZaken/util/blob/main/services\TS-services\event-bus.service.ts" target="_blank">event-bus.service.ts</a>
+    │       ├── <a href="https://github.com/OzZaken/util/blob/main/services\TS-services\gen-tree.-structer.service.ts" target="_blank">gen-tree.-structer.service.ts</a>
+    │       └── <a href="https://github.com/OzZaken/util/blob/main/services\TS-services\tsconfig.json" target="_blank">tsconfig.json</a>
+    ├── <strong>TypeScript</strong>
+    │    ├── <a href="https://github.com/OzZaken/util/blob/main/TypeScript\00-catchinng-JS-mistakes-with-TS.ts" target="_blank">00-catchinng-JS-mistakes-with-TS.ts</a>
+    │    ├── <a href="https://github.com/OzZaken/util/blob/main/TypeScript\01-types.ts" target="_blank">01-types.ts</a>
+    │    ├── <a href="https://github.com/OzZaken/util/blob/main/TypeScript\02-enums.ts" target="_blank">02-enums.ts</a>
+    │    ├── <a href="https://github.com/OzZaken/util/blob/main/TypeScript\03-interfaces.ts" target="_blank">03-interfaces.ts</a>
+    │    ├── <a href="https://github.com/OzZaken/util/blob/main/TypeScript\04-classes.ts" target="_blank">04-classes.ts</a>
+    │    ├── <a href="https://github.com/OzZaken/util/blob/main/TypeScript\05-generics.ts" target="_blank">05-generics.ts</a>
+    │    └── <a href="https://github.com/OzZaken/util/blob/main/TypeScript\typscript.md" target="_blank"><em>typscript.md</em></a>
     ├── <strong>Javascript</strong>
     └──────────── <strong>exercises</strong>
             ├── <a href="https://github.com/OzZaken/util/blob/main/Javascript\exercises\Exercise 01 - Hello Javascript.js" target="_blank">Exercise 01 - Hello Javascript.js</a>
