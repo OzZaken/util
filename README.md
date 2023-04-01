@@ -21,7 +21,6 @@ This repository contains a collection of useful utilities, code snippets, and re
     │           ├── <a href="https://github.com/OzZaken/util/blob/main/DB\mongodb\proj-simple-node-mongo\package.json" target="_blank">package.json</a>
     │           └── <a href="https://github.com/OzZaken/util/blob/main/DB\mongodb\proj-simple-node-mongo\server.js" target="_blank">server.js</a>
     ├── <a href="https://github.com/OzZaken/util/blob/main/gen-link-tree-structure.service.js" target="_blank">gen-link-tree-structure.service.js</a>
-    ├── <strong>Javascript</strong>
     ├── <strong>node</strong>
     │   ├── <strong>ALS</strong>
     │   │   └── <a href="https://github.com/OzZaken/util/blob/main/node\ALS\Async_Local_Storage.md" target="_blank"><em>Async_Local_Storage.md</em></a>
@@ -83,6 +82,7 @@ This repository contains a collection of useful utilities, code snippets, and re
     │   │   ├── <a href="https://github.com/OzZaken/util/blob/main/services\JS\http.service.js" target="_blank">http.service.js</a>
     │   │   ├── <a href="https://github.com/OzZaken/util/blob/main/services\JS\i18n.service.js" target="_blank">i18n.service.js</a>
     │   │   ├── <a href="https://github.com/OzZaken/util/blob/main/services\JS\img.service.js" target="_blank">img.service.js</a>
+    │   │   ├── <a href="https://github.com/OzZaken/util/blob/main/services\JS\logger.service.js" target="_blank">logger.service.js</a>
     │   │   ├── <a href="https://github.com/OzZaken/util/blob/main/services\JS\map-repo.service.js" target="_blank">map-repo.service.js</a>
     │   │   ├── <a href="https://github.com/OzZaken/util/blob/main/services\JS\map.service.js" target="_blank">map.service.js</a>
     │   │   ├── <a href="https://github.com/OzZaken/util/blob/main/services\JS\mongo-db.service.js" target="_blank">mongo-db.service.js</a>
@@ -99,7 +99,7 @@ This repository contains a collection of useful utilities, code snippets, and re
     │       ├── <a href="https://github.com/OzZaken/util/blob/main/services\TS\event-bus.service.ts" target="_blank">event-bus.service.ts</a>
     │       ├── <a href="https://github.com/OzZaken/util/blob/main/services\TS\gen-tree.-structer.service.ts" target="_blank">gen-tree.-structer.service.ts</a>
     │       └── <a href="https://github.com/OzZaken/util/blob/main/services\TS\tsconfig.json" target="_blank">tsconfig.json</a>
-    │── <strong>TypeScript</strong>
+    ├─── <strong>TypeScript</strong>
     │   ├── <a href="https://github.com/OzZaken/util/blob/main/TypeScript\00-catchinng-JS-mistakes-with-TS.ts" target="_blank">00-catchinng-JS-mistakes-with-TS.ts</a>
     │   ├── <a href="https://github.com/OzZaken/util/blob/main/TypeScript\01-types.ts" target="_blank">01-types.ts</a>
     │   ├── <a href="https://github.com/OzZaken/util/blob/main/TypeScript\02-enums.ts" target="_blank">02-enums.ts</a>
@@ -108,65 +108,66 @@ This repository contains a collection of useful utilities, code snippets, and re
     │   ├── <a href="https://github.com/OzZaken/util/blob/main/TypeScript\05-generics.ts" target="_blank">05-generics.ts</a>
     │   └── <a href="https://github.com/OzZaken/util/blob/main/TypeScript\typscript.md" target="_blank"><em>typscript.md</em></a>
     │
-    │       <strong>exercises</strong>
-    │       ├── <a href="https://github.com/OzZaken/util/blob/main/Javascript\exercises\01.js" target="_blank">01.js</a>
-    │       ├── <a href="https://github.com/OzZaken/util/blob/main/Javascript\exercises\02.js" target="_blank">02.js</a>
-    │       ├── <a href="https://github.com/OzZaken/util/blob/main/Javascript\exercises\03.js" target="_blank">03.js</a>
-    │       ├── <a href="https://github.com/OzZaken/util/blob/main/Javascript\exercises\04.js" target="_blank">04.js</a>
-    │       ├── <a href="https://github.com/OzZaken/util/blob/main/Javascript\exercises\05.js" target="_blank">05.js</a>
-    │       ├── <a href="https://github.com/OzZaken/util/blob/main/Javascript\exercises\06.js" target="_blank">06.js</a>
-    │       ├── <a href="https://github.com/OzZaken/util/blob/main/Javascript\exercises\07.js" target="_blank">07.js</a>
-    │       ├── <a href="https://github.com/OzZaken/util/blob/main/Javascript\exercises\08.js" target="_blank">08.js</a>
-    │       ├── <a href="https://github.com/OzZaken/util/blob/main/Javascript\exercises\09.js" target="_blank">09.js</a>
-    │       ├── <a href="https://github.com/OzZaken/util/blob/main/Javascript\exercises\10.js" target="_blank">10.js</a>
-    │       ├── <a href="https://github.com/OzZaken/util/blob/main/Javascript\exercises\11.js" target="_blank">11.js</a>
-    │       ├── <a href="https://github.com/OzZaken/util/blob/main/Javascript\exercises\12.js" target="_blank">12.js</a>
-    │       ├── <a href="https://github.com/OzZaken/util/blob/main/Javascript\exercises\13.js" target="_blank">13.js</a>
-    │       ├── <a href="https://github.com/OzZaken/util/blob/main/Javascript\exercises\14.js" target="_blank">14.js</a>
-    │       ├── <a href="https://github.com/OzZaken/util/blob/main/Javascript\exercises\15.js" target="_blank">15.js</a>
-    │       ├── <a href="https://github.com/OzZaken/util/blob/main/Javascript\exercises\16.js" target="_blank">16.js</a>
-    │       ├── <a href="https://github.com/OzZaken/util/blob/main/Javascript\exercises\17.js" target="_blank">17.js</a>
-    │       ├── <a href="https://github.com/OzZaken/util/blob/main/Javascript\exercises\18.js" target="_blank">18.js</a>
-    │       ├── <a href="https://github.com/OzZaken/util/blob/main/Javascript\exercises\19.js" target="_blank">19.js</a>
-    │       ├── <a href="https://github.com/OzZaken/util/blob/main/Javascript\exercises\20.js" target="_blank">20.js</a>
-    │       ├── <a href="https://github.com/OzZaken/util/blob/main/Javascript\exercises\21.js" target="_blank">21.js</a>
-    │       ├── <a href="https://github.com/OzZaken/util/blob/main/Javascript\exercises\22.js" target="_blank">22.js</a>
-    │       ├── <a href="https://github.com/OzZaken/util/blob/main/Javascript\exercises\23.js" target="_blank">23.js</a>
-    │       ├── <a href="https://github.com/OzZaken/util/blob/main/Javascript\exercises\24.js" target="_blank">24.js</a>
-    │       ├── <a href="https://github.com/OzZaken/util/blob/main/Javascript\exercises\25.js" target="_blank">25.js</a>
-    │       ├── <a href="https://github.com/OzZaken/util/blob/main/Javascript\exercises\26.js" target="_blank">26.js</a>
-    │       ├── <a href="https://github.com/OzZaken/util/blob/main/Javascript\exercises\27.js" target="_blank">27.js</a>
-    │       ├── <a href="https://github.com/OzZaken/util/blob/main/Javascript\exercises\28.js" target="_blank">28.js</a>
-    │       ├── <a href="https://github.com/OzZaken/util/blob/main/Javascript\exercises\29.js" target="_blank">29.js</a>
-    │       ├── <a href="https://github.com/OzZaken/util/blob/main/Javascript\exercises\30.js" target="_blank">30.js</a>
-    │       ├── <a href="https://github.com/OzZaken/util/blob/main/Javascript\exercises\31.js" target="_blank">31.js</a>
-    │       ├── <a href="https://github.com/OzZaken/util/blob/main/Javascript\exercises\32.js" target="_blank">32.js</a>
-    │       ├── <a href="https://github.com/OzZaken/util/blob/main/Javascript\exercises\33.js" target="_blank">33.js</a>
-    │       ├── <a href="https://github.com/OzZaken/util/blob/main/Javascript\exercises\34.js" target="_blank">34.js</a>
-    │       ├── <a href="https://github.com/OzZaken/util/blob/main/Javascript\exercises\35.js" target="_blank">35.js</a>
-    │       ├── <a href="https://github.com/OzZaken/util/blob/main/Javascript\exercises\36.js" target="_blank">36.js</a>
-    │       ├── <a href="https://github.com/OzZaken/util/blob/main/Javascript\exercises\37.js" target="_blank">37.js</a>
-    │       ├── <a href="https://github.com/OzZaken/util/blob/main/Javascript\exercises\38.js" target="_blank">38.js</a>
-    │       ├── <a href="https://github.com/OzZaken/util/blob/main/Javascript\exercises\39.js" target="_blank">39.js</a>
-    │       ├── <a href="https://github.com/OzZaken/util/blob/main/Javascript\exercises\40.js" target="_blank">40.js</a>
-    │       ├── <a href="https://github.com/OzZaken/util/blob/main/Javascript\exercises\41.js" target="_blank">41.js</a>
-    │       ├── <a href="https://github.com/OzZaken/util/blob/main/Javascript\exercises\42.js" target="_blank">42.js</a>
-    │       ├── <a href="https://github.com/OzZaken/util/blob/main/Javascript\exercises\43.js" target="_blank">43.js</a>
-    │       ├── <a href="https://github.com/OzZaken/util/blob/main/Javascript\exercises\44.js" target="_blank">44.js</a>
-    │       ├── <a href="https://github.com/OzZaken/util/blob/main/Javascript\exercises\45.js" target="_blank">45.js</a>
-    │       ├── <a href="https://github.com/OzZaken/util/blob/main/Javascript\exercises\46.js" target="_blank">46.js</a>
-    │       ├── <a href="https://github.com/OzZaken/util/blob/main/Javascript\exercises\47.js" target="_blank">47.js</a>
-    │       ├── <a href="https://github.com/OzZaken/util/blob/main/Javascript\exercises\48.js" target="_blank">48.js</a>
-    │       ├── <a href="https://github.com/OzZaken/util/blob/main/Javascript\exercises\49.js" target="_blank">49.js</a>
-    │       ├── <a href="https://github.com/OzZaken/util/blob/main/Javascript\exercises\50.js" target="_blank">50.js</a>
-    │       ├── <a href="https://github.com/OzZaken/util/blob/main/Javascript\exercises\51.js" target="_blank">51.js</a>
-    │       ├── <a href="https://github.com/OzZaken/util/blob/main/Javascript\exercises\52.js" target="_blank">52.js</a>
-    │       ├── <a href="https://github.com/OzZaken/util/blob/main/Javascript\exercises\53.js" target="_blank">53.js</a>
-    │       ├── <a href="https://github.com/OzZaken/util/blob/main/Javascript\exercises\54.js" target="_blank">54.js</a>
-    │       ├── <a href="https://github.com/OzZaken/util/blob/main/Javascript\exercises\55.js" target="_blank">55.js</a>
-    │       ├── <a href="https://github.com/OzZaken/util/blob/main/Javascript\exercises\56.js" target="_blank">56.js</a>
-    │       ├── <a href="https://github.com/OzZaken/util/blob/main/Javascript\exercises\57.js" target="_blank">57.js</a>
-    │       ├── <a href="https://github.com/OzZaken/util/blob/main/Javascript\exercises\58.js" target="_blank">58.js</a>
-    │       ├── <a href="https://github.com/OzZaken/util/blob/main/Javascript\exercises\59.js" target="_blank">59.js</a>
-    │       └── <a href="https://github.com/OzZaken/util/blob/main/Javascript\exercises\60.js" target="_blank">60.js</a>
+    ├── <strong>Javascript</strong>
+    └──────────── <strong>exercises</strong>
+            ├── <a href="https://github.com/OzZaken/util/blob/main/Javascript\exercises\Exercise 1 - Hello Javascript.js" target="_blank">Exercise 1 - Hello Javascript.js</a>
+            ├── <a href="https://github.com/OzZaken/util/blob/main/Javascript\exercises\Exercise 10 - Facebook Friends.js" target="_blank">Exercise 10 - Facebook Friends.js</a>
+            ├── <a href="https://github.com/OzZaken/util/blob/main/Javascript\exercises\Exercise 11 - Bank System.js" target="_blank">Exercise 11 - Bank System.js</a>
+            ├── <a href="https://github.com/OzZaken/util/blob/main/Javascript\exercises\Exercise 12 - Guess Who.js" target="_blank">Exercise 12 - Guess Who.js</a>
+            ├── <a href="https://github.com/OzZaken/util/blob/main/Javascript\exercises\Exercise 13 - The Elevator.js" target="_blank">Exercise 13 - The Elevator.js</a>
+            ├── <a href="https://github.com/OzZaken/util/blob/main/Javascript\exercises\Exercise 14 - Greet Function.js" target="_blank">Exercise 14 - Greet Function.js</a>
+            ├── <a href="https://github.com/OzZaken/util/blob/main/Javascript\exercises\Exercise 15 - Sum of two Numbers.js" target="_blank">Exercise 15 - Sum of two Numbers.js</a>
+            ├── <a href="https://github.com/OzZaken/util/blob/main/Javascript\exercises\Exercise 16 - Even and Odd.js" target="_blank">Exercise 16 - Even and Odd.js</a>
+            ├── <a href="https://github.com/OzZaken/util/blob/main/Javascript\exercises\Exercise 17 - Get the Bigger Num.js" target="_blank">Exercise 17 - Get the Bigger Num.js</a>
+            ├── <a href="https://github.com/OzZaken/util/blob/main/Javascript\exercises\Exercise 18 - Age Check.js" target="_blank">Exercise 18 - Age Check.js</a>
+            ├── <a href="https://github.com/OzZaken/util/blob/main/Javascript\exercises\Exercise 19 - Even and Odd Numbers.js" target="_blank">Exercise 19 - Even and Odd Numbers.js</a>
+            ├── <a href="https://github.com/OzZaken/util/blob/main/Javascript\exercises\Exercise 2 - Basic math operations.js" target="_blank">Exercise 2 - Basic math operations.js</a>
+            ├── <a href="https://github.com/OzZaken/util/blob/main/Javascript\exercises\Exercise 20 - Min, Max and Avg..js" target="_blank">Exercise 20 - Min, Max and Avg..js</a>
+            ├── <a href="https://github.com/OzZaken/util/blob/main/Javascript\exercises\Exercise 21 - Divisible by 3.js" target="_blank">Exercise 21 - Divisible by 3.js</a>
+            ├── <a href="https://github.com/OzZaken/util/blob/main/Javascript\exercises\Exercise 22 - myPow().js" target="_blank">Exercise 22 - myPow().js</a>
+            ├── <a href="https://github.com/OzZaken/util/blob/main/Javascript\exercises\Exercise 23 - Factorial!.js" target="_blank">Exercise 23 - Factorial!.js</a>
+            ├── <a href="https://github.com/OzZaken/util/blob/main/Javascript\exercises\Exercise 24 - myAbs().js" target="_blank">Exercise 24 - myAbs().js</a>
+            ├── <a href="https://github.com/OzZaken/util/blob/main/Javascript\exercises\Exercise 25 - getRandomInt().js" target="_blank">Exercise 25 - getRandomInt().js</a>
+            ├── <a href="https://github.com/OzZaken/util/blob/main/Javascript\exercises\Exercise 26 - Ascending Random Numbers.js" target="_blank">Exercise 26 - Ascending Random Numbers.js</a>
+            ├── <a href="https://github.com/OzZaken/util/blob/main/Javascript\exercises\Exercise 27 - Asterisks!.js" target="_blank">Exercise 27 - Asterisks!.js</a>
+            ├── <a href="https://github.com/OzZaken/util/blob/main/Javascript\exercises\Exercise 28 - Greatest Common Devisor.js" target="_blank">Exercise 28 - Greatest Common Devisor.js</a>
+            ├── <a href="https://github.com/OzZaken/util/blob/main/Javascript\exercises\Exercise 29 - Digit Manipulation.js" target="_blank">Exercise 29 - Digit Manipulation.js</a>
+            ├── <a href="https://github.com/OzZaken/util/blob/main/Javascript\exercises\Exercise 3 - Temperature converting.js" target="_blank">Exercise 3 - Temperature converting.js</a>
+            ├── <a href="https://github.com/OzZaken/util/blob/main/Javascript\exercises\Exercise 31 - Basic String Manipulation.js" target="_blank">Exercise 31 - Basic String Manipulation.js</a>
+            ├── <a href="https://github.com/OzZaken/util/blob/main/Javascript\exercises\Exercise 32 - Reverse a String.js" target="_blank">Exercise 32 - Reverse a String.js</a>
+            ├── <a href="https://github.com/OzZaken/util/blob/main/Javascript\exercises\Exercise 33 - Vowels (a, e, i, o, u).js" target="_blank">Exercise 33 - Vowels (a, e, i, o, u).js</a>
+            ├── <a href="https://github.com/OzZaken/util/blob/main/Javascript\exercises\Exercise 34 - myIndexOf().js" target="_blank">Exercise 34 - myIndexOf().js</a>
+            ├── <a href="https://github.com/OzZaken/util/blob/main/Javascript\exercises\Exercise 35 - Encrypt.js" target="_blank">Exercise 35 - Encrypt.js</a>
+            ├── <a href="https://github.com/OzZaken/util/blob/main/Javascript\exercises\Exercise 36 - Longest and Shortest Names.js" target="_blank">Exercise 36 - Longest and Shortest Names.js</a>
+            ├── <a href="https://github.com/OzZaken/util/blob/main/Javascript\exercises\Exercise 37 - Generate Password.js" target="_blank">Exercise 37 - Generate Password.js</a>
+            ├── <a href="https://github.com/OzZaken/util/blob/main/Javascript\exercises\Exercise 38 - Bigger than 100.js" target="_blank">Exercise 38 - Bigger than 100.js</a>
+            ├── <a href="https://github.com/OzZaken/util/blob/main/Javascript\exercises\Exercise 39 - Count Votes.js" target="_blank">Exercise 39 - Count Votes.js</a>
+            ├── <a href="https://github.com/OzZaken/util/blob/main/Javascript\exercises\Exercise 4 - Calculate Time.js" target="_blank">Exercise 4 - Calculate Time.js</a>
+            ├── <a href="https://github.com/OzZaken/util/blob/main/Javascript\exercises\Exercise 40 - Lorem Ipsum.js" target="_blank">Exercise 40 - Lorem Ipsum.js</a>
+            ├── <a href="https://github.com/OzZaken/util/blob/main/Javascript\exercises\Exercise 41 - Digits to Words.js" target="_blank">Exercise 41 - Digits to Words.js</a>
+            ├── <a href="https://github.com/OzZaken/util/blob/main/Javascript\exercises\Exercise 42 - Starts with.js" target="_blank">Exercise 42 - Starts with.js</a>
+            ├── <a href="https://github.com/OzZaken/util/blob/main/Javascript\exercises\Exercise 43 - Sum Arrays.js" target="_blank">Exercise 43 - Sum Arrays.js</a>
+            ├── <a href="https://github.com/OzZaken/util/blob/main/Javascript\exercises\Exercise 44 - NumCount().js" target="_blank">Exercise 44 - NumCount().js</a>
+            ├── <a href="https://github.com/OzZaken/util/blob/main/Javascript\exercises\Exercise 45 - Remove Duplicates.js" target="_blank">Exercise 45 - Remove Duplicates.js</a>
+            ├── <a href="https://github.com/OzZaken/util/blob/main/Javascript\exercises\Exercise 46 - Multiply Nums.js" target="_blank">Exercise 46 - Multiply Nums.js</a>
+            ├── <a href="https://github.com/OzZaken/util/blob/main/Javascript\exercises\exercise 47 - mySplit().js" target="_blank">exercise 47 - mySplit().js</a>
+            ├── <a href="https://github.com/OzZaken/util/blob/main/Javascript\exercises\Exercise 48 - sortNums().js" target="_blank">Exercise 48 - sortNums().js</a>
+            ├── <a href="https://github.com/OzZaken/util/blob/main/Javascript\exercises\Exercise 49 - getNthLargest().js" target="_blank">Exercise 49 - getNthLargest().js</a>
+            ├── <a href="https://github.com/OzZaken/util/blob/main/Javascript\exercises\Exercise 5 - Number from Digits.js" target="_blank">Exercise 5 - Number from Digits.js</a>
+            ├── <a href="https://github.com/OzZaken/util/blob/main/Javascript\exercises\Exercise 50 - Making Water.js" target="_blank">Exercise 50 - Making Water.js</a>
+            ├── <a href="https://github.com/OzZaken/util/blob/main/Javascript\exercises\Exercise 51 - Object Map.js" target="_blank">Exercise 51 - Object Map.js</a>
+            ├── <a href="https://github.com/OzZaken/util/blob/main/Javascript\exercises\Exercise 52 - Monsters.js" target="_blank">Exercise 52 - Monsters.js</a>
+            ├── <a href="https://github.com/OzZaken/util/blob/main/Javascript\exercises\Exercise 53 - Students.js" target="_blank">Exercise 53 - Students.js</a>
+            ├── <a href="https://github.com/OzZaken/util/blob/main/Javascript\exercises\Exercise 54 - Airline.js" target="_blank">Exercise 54 - Airline.js</a>
+            ├── <a href="https://github.com/OzZaken/util/blob/main/Javascript\exercises\Exercise 55 - Matrix Operations.js" target="_blank">Exercise 55 - Matrix Operations.js</a>
+            ├── <a href="https://github.com/OzZaken/util/blob/main/Javascript\exercises\Exercise 56 - Symmetric Matrices.js" target="_blank">Exercise 56 - Symmetric Matrices.js</a>
+            ├── <a href="https://github.com/OzZaken/util/blob/main/Javascript\exercises\Exercise 57 - find the matrix mode.js" target="_blank">Exercise 57 - find the matrix mode.js</a>
+            ├── <a href="https://github.com/OzZaken/util/blob/main/Javascript\exercises\Exercise 58 - Magic Square.js" target="_blank">Exercise 58 - Magic Square.js</a>
+            ├── <a href="https://github.com/OzZaken/util/blob/main/Javascript\exercises\Exercise 59 - BINGO.js" target="_blank">Exercise 59 - BINGO.js</a>
+            ├── <a href="https://github.com/OzZaken/util/blob/main/Javascript\exercises\Exercise 6 - Quadratic Equation.js" target="_blank">Exercise 6 - Quadratic Equation.js</a>
+            ├── <a href="https://github.com/OzZaken/util/blob/main/Javascript\exercises\Exercise 60 - Game of Life.js" target="_blank">Exercise 60 - Game of Life.js</a>
+            ├── <a href="https://github.com/OzZaken/util/blob/main/Javascript\exercises\Exercise 7 - Two Numbers Equal the Third.js" target="_blank">Exercise 7 - Two Numbers Equal the Third.js</a>
+            ├── <a href="https://github.com/OzZaken/util/blob/main/Javascript\exercises\Exercise 8 - The Smallest of Three Numbers.js" target="_blank">Exercise 8 - The Smallest of Three Numbers.js</a>
+            └── <a href="https://github.com/OzZaken/util/blob/main/Javascript\exercises\Exercise 9 - Absolute Value.js" target="_blank">Exercise 9 - Absolute Value.js</a>
+
 </pre>
