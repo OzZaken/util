@@ -45,6 +45,7 @@ export const utilService = {
 function delay(ms = 1500) {
     return new Promise(resolve => setTimeout(resolve, ms))
 }
+
 function toggleDarkMode() {
     const elDarkModeSwitch = document.querySelector('#dark-mode-switch')
 
@@ -109,7 +110,6 @@ function getQueryParam(param) {
     const urlParams = new URLSearchParams(window.location.search)
     return urlParams.get(param)
 }
-
 
 //  ---------------------------------   /* array */   ---------------------------------  \\ 
 /** The Fisher-Yates algorithm, also known as the Knuth shuffle,

@@ -1,7 +1,7 @@
 var nums: number[] = _getNums()
-const numLength: number = nums.length
+const len: number = nums.length
 
-console.log(`sorting ${numLength} numbers Array`, nums)
+console.log(`sorting ${len} numbers Array`, nums)
 // methodSort: 7.595ms
 // simpleSort: 62.962ms
 // bubbleSort: 199.59ms
@@ -13,7 +13,6 @@ console.log(`sorting ${numLength} numbers Array`, nums)
 console.time('methodSort')
 methodSort(_getNums())
 console.timeEnd('methodSort')
-
 
 console.time('simpleSort')
 simpleSort(_getNums())
