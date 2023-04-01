@@ -99,6 +99,7 @@ This repository contains a collection of useful utilities, code snippets, and re
     │       ├── <a href="https://github.com/OzZaken/util/blob/main/services\TS\event-bus.service.ts" target="_blank">event-bus.service.ts</a>
     │       ├── <a href="https://github.com/OzZaken/util/blob/main/services\TS\gen-tree.-structer.service.ts" target="_blank">gen-tree.-structer.service.ts</a>
     │       └── <a href="https://github.com/OzZaken/util/blob/main/services\TS\tsconfig.json" target="_blank">tsconfig.json</a>
+    │
     ├─── <strong>TypeScript</strong>
     │   ├── <a href="https://github.com/OzZaken/util/blob/main/TypeScript\00-catchinng-JS-mistakes-with-TS.ts" target="_blank">00-catchinng-JS-mistakes-with-TS.ts</a>
     │   ├── <a href="https://github.com/OzZaken/util/blob/main/TypeScript\01-types.ts" target="_blank">01-types.ts</a>
@@ -110,7 +111,15 @@ This repository contains a collection of useful utilities, code snippets, and re
     │
     ├── <strong>Javascript</strong>
     └──────────── <strong>exercises</strong>
-            ├── <a href="https://github.com/OzZaken/util/blob/main/Javascript\exercises\Exercise 1 - Hello Javascript.js" target="_blank">Exercise 1 - Hello Javascript.js</a>
+            ├── <a href="https://github.com/OzZaken/util/blob/main/Javascript\exercises\Exercise 01 - Hello Javascript.js" target="_blank">Exercise 01 - Hello Javascript.js</a>
+            ├── <a href="https://github.com/OzZaken/util/blob/main/Javascript\exercises\Exercise 02 - Basic math operations.js" target="_blank">Exercise 02 - Basic math operations.js</a>
+            ├── <a href="https://github.com/OzZaken/util/blob/main/Javascript\exercises\Exercise 03 - Temperature converting.js" target="_blank">Exercise 03 - Temperature converting.js</a>
+            ├── <a href="https://github.com/OzZaken/util/blob/main/Javascript\exercises\Exercise 04 - Calculate Time.js" target="_blank">Exercise 04 - Calculate Time.js</a>
+            ├── <a href="https://github.com/OzZaken/util/blob/main/Javascript\exercises\Exercise 05 - Number from Digits.js" target="_blank">Exercise 05 - Number from Digits.js</a>
+            ├── <a href="https://github.com/OzZaken/util/blob/main/Javascript\exercises\Exercise 06 - Quadratic Equation.js" target="_blank">Exercise 06 - Quadratic Equation.js</a>
+            ├── <a href="https://github.com/OzZaken/util/blob/main/Javascript\exercises\Exercise 07 - Two Numbers Equal the Third.js" target="_blank">Exercise 07 - Two Numbers Equal the Third.js</a>
+            ├── <a href="https://github.com/OzZaken/util/blob/main/Javascript\exercises\Exercise 08 - The Smallest of Three Numbers.js" target="_blank">Exercise 08 - The Smallest of Three Numbers.js</a>
+            └── <a href="https://github.com/OzZaken/util/blob/main/Javascript\exercises\Exercise 09 - Absolute Value.js" target="_blank">Exercise 09 - Absolute Value.js</a>
             ├── <a href="https://github.com/OzZaken/util/blob/main/Javascript\exercises\Exercise 10 - Facebook Friends.js" target="_blank">Exercise 10 - Facebook Friends.js</a>
             ├── <a href="https://github.com/OzZaken/util/blob/main/Javascript\exercises\Exercise 11 - Bank System.js" target="_blank">Exercise 11 - Bank System.js</a>
             ├── <a href="https://github.com/OzZaken/util/blob/main/Javascript\exercises\Exercise 12 - Guess Who.js" target="_blank">Exercise 12 - Guess Who.js</a>
@@ -121,7 +130,6 @@ This repository contains a collection of useful utilities, code snippets, and re
             ├── <a href="https://github.com/OzZaken/util/blob/main/Javascript\exercises\Exercise 17 - Get the Bigger Num.js" target="_blank">Exercise 17 - Get the Bigger Num.js</a>
             ├── <a href="https://github.com/OzZaken/util/blob/main/Javascript\exercises\Exercise 18 - Age Check.js" target="_blank">Exercise 18 - Age Check.js</a>
             ├── <a href="https://github.com/OzZaken/util/blob/main/Javascript\exercises\Exercise 19 - Even and Odd Numbers.js" target="_blank">Exercise 19 - Even and Odd Numbers.js</a>
-            ├── <a href="https://github.com/OzZaken/util/blob/main/Javascript\exercises\Exercise 2 - Basic math operations.js" target="_blank">Exercise 2 - Basic math operations.js</a>
             ├── <a href="https://github.com/OzZaken/util/blob/main/Javascript\exercises\Exercise 20 - Min, Max and Avg..js" target="_blank">Exercise 20 - Min, Max and Avg..js</a>
             ├── <a href="https://github.com/OzZaken/util/blob/main/Javascript\exercises\Exercise 21 - Divisible by 3.js" target="_blank">Exercise 21 - Divisible by 3.js</a>
             ├── <a href="https://github.com/OzZaken/util/blob/main/Javascript\exercises\Exercise 22 - myPow().js" target="_blank">Exercise 22 - myPow().js</a>
@@ -132,7 +140,6 @@ This repository contains a collection of useful utilities, code snippets, and re
             ├── <a href="https://github.com/OzZaken/util/blob/main/Javascript\exercises\Exercise 27 - Asterisks!.js" target="_blank">Exercise 27 - Asterisks!.js</a>
             ├── <a href="https://github.com/OzZaken/util/blob/main/Javascript\exercises\Exercise 28 - Greatest Common Devisor.js" target="_blank">Exercise 28 - Greatest Common Devisor.js</a>
             ├── <a href="https://github.com/OzZaken/util/blob/main/Javascript\exercises\Exercise 29 - Digit Manipulation.js" target="_blank">Exercise 29 - Digit Manipulation.js</a>
-            ├── <a href="https://github.com/OzZaken/util/blob/main/Javascript\exercises\Exercise 3 - Temperature converting.js" target="_blank">Exercise 3 - Temperature converting.js</a>
             ├── <a href="https://github.com/OzZaken/util/blob/main/Javascript\exercises\Exercise 31 - Basic String Manipulation.js" target="_blank">Exercise 31 - Basic String Manipulation.js</a>
             ├── <a href="https://github.com/OzZaken/util/blob/main/Javascript\exercises\Exercise 32 - Reverse a String.js" target="_blank">Exercise 32 - Reverse a String.js</a>
             ├── <a href="https://github.com/OzZaken/util/blob/main/Javascript\exercises\Exercise 33 - Vowels (a, e, i, o, u).js" target="_blank">Exercise 33 - Vowels (a, e, i, o, u).js</a>
@@ -142,7 +149,6 @@ This repository contains a collection of useful utilities, code snippets, and re
             ├── <a href="https://github.com/OzZaken/util/blob/main/Javascript\exercises\Exercise 37 - Generate Password.js" target="_blank">Exercise 37 - Generate Password.js</a>
             ├── <a href="https://github.com/OzZaken/util/blob/main/Javascript\exercises\Exercise 38 - Bigger than 100.js" target="_blank">Exercise 38 - Bigger than 100.js</a>
             ├── <a href="https://github.com/OzZaken/util/blob/main/Javascript\exercises\Exercise 39 - Count Votes.js" target="_blank">Exercise 39 - Count Votes.js</a>
-            ├── <a href="https://github.com/OzZaken/util/blob/main/Javascript\exercises\Exercise 4 - Calculate Time.js" target="_blank">Exercise 4 - Calculate Time.js</a>
             ├── <a href="https://github.com/OzZaken/util/blob/main/Javascript\exercises\Exercise 40 - Lorem Ipsum.js" target="_blank">Exercise 40 - Lorem Ipsum.js</a>
             ├── <a href="https://github.com/OzZaken/util/blob/main/Javascript\exercises\Exercise 41 - Digits to Words.js" target="_blank">Exercise 41 - Digits to Words.js</a>
             ├── <a href="https://github.com/OzZaken/util/blob/main/Javascript\exercises\Exercise 42 - Starts with.js" target="_blank">Exercise 42 - Starts with.js</a>
@@ -153,7 +159,6 @@ This repository contains a collection of useful utilities, code snippets, and re
             ├── <a href="https://github.com/OzZaken/util/blob/main/Javascript\exercises\exercise 47 - mySplit().js" target="_blank">exercise 47 - mySplit().js</a>
             ├── <a href="https://github.com/OzZaken/util/blob/main/Javascript\exercises\Exercise 48 - sortNums().js" target="_blank">Exercise 48 - sortNums().js</a>
             ├── <a href="https://github.com/OzZaken/util/blob/main/Javascript\exercises\Exercise 49 - getNthLargest().js" target="_blank">Exercise 49 - getNthLargest().js</a>
-            ├── <a href="https://github.com/OzZaken/util/blob/main/Javascript\exercises\Exercise 5 - Number from Digits.js" target="_blank">Exercise 5 - Number from Digits.js</a>
             ├── <a href="https://github.com/OzZaken/util/blob/main/Javascript\exercises\Exercise 50 - Making Water.js" target="_blank">Exercise 50 - Making Water.js</a>
             ├── <a href="https://github.com/OzZaken/util/blob/main/Javascript\exercises\Exercise 51 - Object Map.js" target="_blank">Exercise 51 - Object Map.js</a>
             ├── <a href="https://github.com/OzZaken/util/blob/main/Javascript\exercises\Exercise 52 - Monsters.js" target="_blank">Exercise 52 - Monsters.js</a>
@@ -164,10 +169,6 @@ This repository contains a collection of useful utilities, code snippets, and re
             ├── <a href="https://github.com/OzZaken/util/blob/main/Javascript\exercises\Exercise 57 - find the matrix mode.js" target="_blank">Exercise 57 - find the matrix mode.js</a>
             ├── <a href="https://github.com/OzZaken/util/blob/main/Javascript\exercises\Exercise 58 - Magic Square.js" target="_blank">Exercise 58 - Magic Square.js</a>
             ├── <a href="https://github.com/OzZaken/util/blob/main/Javascript\exercises\Exercise 59 - BINGO.js" target="_blank">Exercise 59 - BINGO.js</a>
-            ├── <a href="https://github.com/OzZaken/util/blob/main/Javascript\exercises\Exercise 6 - Quadratic Equation.js" target="_blank">Exercise 6 - Quadratic Equation.js</a>
             ├── <a href="https://github.com/OzZaken/util/blob/main/Javascript\exercises\Exercise 60 - Game of Life.js" target="_blank">Exercise 60 - Game of Life.js</a>
-            ├── <a href="https://github.com/OzZaken/util/blob/main/Javascript\exercises\Exercise 7 - Two Numbers Equal the Third.js" target="_blank">Exercise 7 - Two Numbers Equal the Third.js</a>
-            ├── <a href="https://github.com/OzZaken/util/blob/main/Javascript\exercises\Exercise 8 - The Smallest of Three Numbers.js" target="_blank">Exercise 8 - The Smallest of Three Numbers.js</a>
-            └── <a href="https://github.com/OzZaken/util/blob/main/Javascript\exercises\Exercise 9 - Absolute Value.js" target="_blank">Exercise 9 - Absolute Value.js</a>
 
 </pre>
