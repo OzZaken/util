@@ -20,7 +20,6 @@ This repository contains a collection of useful utilities, code snippets, and re
     │       └── <strong>proj-simple-node-mongo</strong>
     │           ├── <a href="https://github.com/OzZaken/util/blob/main/DB\mongodb\proj-simple-node-mongo\package.json" target="_blank">package.json</a>
     │           └── <a href="https://github.com/OzZaken/util/blob/main/DB\mongodb\proj-simple-node-mongo\server.js" target="_blank">server.js</a>
-    ├── <a href="https://github.com/OzZaken/util/blob/main/gen-link-tree-structure.service.js" target="_blank">gen-link-tree-structure.service.js</a>
     ├── <strong>node</strong>
     │   ├── <strong>ALS</strong>
     │   │   └── <a href="https://github.com/OzZaken/util/blob/main/node\ALS\Async_Local_Storage.md" target="_blank"><em>Async_Local_Storage.md</em></a>
