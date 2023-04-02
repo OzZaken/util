@@ -1,4 +1,4 @@
-// Table of Sequelize operators and their descriptions
+// Table of Sequelize operators and their descriptions.
 const SEQUELIZE_OPERATOR_MAP = {}
 
 const sequelizeAggregationMap = {
@@ -72,8 +72,7 @@ sequelizeOperators.forEach((operator) => {
     }
 })
 
-
-function getSequelizeOperators(operator = null) {
+export function getSequelizeOperators(operator = null) {
     if (!operator) return [SEQUELIZE_OPERATOR_MAP, sequelizeAggregationMap]
 
     const arr = []
@@ -87,4 +86,5 @@ function getSequelizeOperators(operator = null) {
     return arr
 }
 
-console.log(getSequelizeOperators('$sum'))
+// console.log(getSequelizeOperators('$sum'))
+// console.log(getSequelizeOperators())
