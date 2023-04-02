@@ -13,14 +13,18 @@ This repository contains a collection of useful utilities, code snippets, and re
     │   │   ├── <a href="https://github.com/OzZaken/util/blob/main/DB\cloudinary\cloudinary.html" target="_blank">cloudinary.html</a>
     │   │   └── <a href="https://github.com/OzZaken/util/blob/main/DB\cloudinary\cloudinary.md" target="_blank"><em>cloudinary.md</em></a>
     │   ├── <a href="https://github.com/OzZaken/util/blob/main/DB\Data_Base.md" target="_blank"><em>Data_Base.md</em></a>
-    │   └── <strong>mongodb</strong>
-    │       ├── <a href="https://github.com/OzZaken/util/blob/main/DB\mongodb\mongo-client.js" target="_blank">mongo-client.js</a>
-    │       ├── <a href="https://github.com/OzZaken/util/blob/main/DB\mongodb\mongoDB.md" target="_blank"><em>mongoDB.md</em></a>
-    │       └── <strong>proj-simple-node-mongo</strong>
-    │           ├── <a href="https://github.com/OzZaken/util/blob/main/DB\mongodb\proj-simple-node-mongo\package.json" target="_blank">package.json</a>
-    │           └── <a href="https://github.com/OzZaken/util/blob/main/DB\mongodb\proj-simple-node-mongo\server.js" target="_blank">server.js</a>
+    │   ├── <strong>mongodb</strong>
+    │   │   ├── <a href="https://github.com/OzZaken/util/blob/main/DB\mongodb\mongo-client.js" target="_blank">mongo-client.js</a>
+    │   │   ├── <a href="https://github.com/OzZaken/util/blob/main/DB\mongodb\mongoDB.md" target="_blank"><em>mongoDB.md</em></a>
+    │   │   └── <strong>proj-simple-node-mongo</strong>
+    │   │       ├── <a href="https://github.com/OzZaken/util/blob/main/DB\mongodb\proj-simple-node-mongo\package.json" target="_blank">package.json</a>
+    │   │       └── <a href="https://github.com/OzZaken/util/blob/main/DB\mongodb\proj-simple-node-mongo\server.js" target="_blank">server.js</a>
+    │   └── <strong>MySQL</strong>
+    │       └── <a href="https://github.com/OzZaken/util/blob/main/DB\MySQL\MySQL.md" target="_blank"><em>MySQL.md</em></a>
     ├── <strong>docs</strong>
+    │   ├── <a href="https://github.com/OzZaken/util/blob/main/docs\snippets.md" target="_blank"><em>snippets.md</em></a>
     │   └── <a href="https://github.com/OzZaken/util/blob/main/docs\XAMPP.md" target="_blank"><em>XAMPP.md</em></a>
+    ├── <strong>Javascript</strong>
     ├── <strong>node</strong>
     │   ├── <strong>ALS</strong>
     │   │   └── <a href="https://github.com/OzZaken/util/blob/main/node\ALS\Async_Local_Storage.md" target="_blank"><em>Async_Local_Storage.md</em></a>
@@ -56,7 +60,6 @@ This repository contains a collection of useful utilities, code snippets, and re
     │   │   │   ├── <a href="https://github.com/OzZaken/util/blob/main/ORM\mongoose\operators\array.operators.ts" target="_blank">array.operators.ts</a>
     │   │   │   ├── <a href="https://github.com/OzZaken/util/blob/main/ORM\mongoose\operators\comparison.operators.ts" target="_blank">comparison.operators.ts</a>
     │   │   │   ├── <a href="https://github.com/OzZaken/util/blob/main/ORM\mongoose\operators\element.operators.ts" target="_blank">element.operators.ts</a>
-    │   │   │   ├── <a href="https://github.com/OzZaken/util/blob/main/ORM\mongoose\operators\get-mongoose-operators.ts" target="_blank">get-mongoose-operators.ts</a>
     │   │   │   ├── <a href="https://github.com/OzZaken/util/blob/main/ORM\mongoose\operators\logical.operators.ts" target="_blank">logical.operators.ts</a>
     │   │   │   ├── <a href="https://github.com/OzZaken/util/blob/main/ORM\mongoose\operators\miscellaneous.operators.ts" target="_blank">miscellaneous.operators.ts</a>
     │   │   │   └── <a href="https://github.com/OzZaken/util/blob/main/ORM\mongoose\operators\regex.operators.ts" target="_blank">regex.operators.ts</a>
@@ -109,14 +112,22 @@ This repository contains a collection of useful utilities, code snippets, and re
     │   │   ├── <a href="https://github.com/OzZaken/util/blob/main/services\JS-services\util.service.js" target="_blank">util.service.js</a>
     │   │   └── <a href="https://github.com/OzZaken/util/blob/main/services\JS-services\weather.service.js" target="_blank">weather.service.js</a>
     │   ├── <strong>NODE-services</strong>
+    │   │   ├── <a href="https://github.com/OzZaken/util/blob/main/services\NODE-services\delete-node-modules.js" target="_blank">delete-node-modules.js</a>
     │   │   ├── <a href="https://github.com/OzZaken/util/blob/main/services\NODE-services\gen-tree-structure.service.js" target="_blank">gen-tree-structure.service.js</a>
+    │   │   ├── <a href="https://github.com/OzZaken/util/blob/main/services\NODE-services\get-sequlize-operators.js" target="_blank">get-sequlize-operators.js</a>
     │   │   └── <a href="https://github.com/OzZaken/util/blob/main/services\NODE-services\read-package.service.js" target="_blank">read-package.service.js</a>
     │   ├── <strong>PHP_services</strong>
     │   │   └── <a href="https://github.com/OzZaken/util/blob/main/services\PHP_services\util-service.php" target="_blank">util-service.php</a>
+    │   ├── <strong>ps1</strong>
+    │   │   ├── <a href="https://github.com/OzZaken/util/blob/main/services\ps1\check-dev-folder.ps1" target="_blank">check-dev-folder.ps1</a>
+    │   │   ├── <a href="https://github.com/OzZaken/util/blob/main/services\ps1\search-string.ps1" target="_blank">search-string.ps1</a>
+    │   │   └── <a href="https://github.com/OzZaken/util/blob/main/services\ps1\work-or-kill-process.ps1" target="_blank">work-or-kill-process.ps1</a>
     │   └── <strong>TS-services</strong>
     │       ├── <a href="https://github.com/OzZaken/util/blob/main/services\TS-services\async-storage.service.ts" target="_blank">async-storage.service.ts</a>
     │       ├── <a href="https://github.com/OzZaken/util/blob/main/services\TS-services\event-bus.service.ts" target="_blank">event-bus.service.ts</a>
     │       ├── <a href="https://github.com/OzZaken/util/blob/main/services\TS-services\gen-tree.-structer.service.ts" target="_blank">gen-tree.-structer.service.ts</a>
+    │       ├── <a href="https://github.com/OzZaken/util/blob/main/services\TS-services\get-mongoose-operators.ts" target="_blank">get-mongoose-operators.ts</a>
+    │       ├── <a href="https://github.com/OzZaken/util/blob/main/services\TS-services\get-sequlize-operators.ts" target="_blank">get-sequlize-operators.ts</a>
     │       └── <a href="https://github.com/OzZaken/util/blob/main/services\TS-services\tsconfig.json" target="_blank">tsconfig.json</a>
     ├── <strong>TypeScript</strong>
     │    ├── <a href="https://github.com/OzZaken/util/blob/main/TypeScript\00-catchinng-JS-mistakes-with-TS.ts" target="_blank">00-catchinng-JS-mistakes-with-TS.ts</a>
@@ -126,6 +137,7 @@ This repository contains a collection of useful utilities, code snippets, and re
     │    ├── <a href="https://github.com/OzZaken/util/blob/main/TypeScript\04-classes.ts" target="_blank">04-classes.ts</a>
     │    ├── <a href="https://github.com/OzZaken/util/blob/main/TypeScript\05-generics.ts" target="_blank">05-generics.ts</a>
     │    └── <a href="https://github.com/OzZaken/util/blob/main/TypeScript\typscript.md" target="_blank"><em>typscript.md</em></a>
+    │
     ├── <strong>Javascript</strong>
     └──────────── <strong>exercises</strong>
             ├── <a href="https://github.com/OzZaken/util/blob/main/Javascript\exercises\Exercise 01 - Hello Javascript.js" target="_blank">Exercise 01 - Hello Javascript.js</a>
@@ -189,4 +201,4 @@ This repository contains a collection of useful utilities, code snippets, and re
             └── <a href="https://github.com/OzZaken/util/blob/main/Javascript\exercises\Exercise 60 - Game of Life.js" target="_blank">Exercise 60 - Game of Life.js</a>
 
 </pre>
-160 files in 34 folders.
+161 files in 35 folders.
