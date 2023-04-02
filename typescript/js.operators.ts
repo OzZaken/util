@@ -12,7 +12,7 @@ const operators: Array<Operator> = [
     { operator: '*', type: 'arithmetic', description: 'Multiplication' },
     { operator: '/', type: 'arithmetic', description: 'Division' },
 
-    { operator: '==', type: 'comparison', description: 'Equality by value' },
+    { operator: '==', type: 'comparison', description: 'Equality by value or by type' },
     { operator: '===', type: 'comparison', description: 'Equality by type and value' },
     { operator: '>', type: 'comparison', description: 'Greater than' },
     { operator: '<', type: 'comparison', description: 'Less than' },
