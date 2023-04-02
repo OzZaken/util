@@ -74,9 +74,77 @@ FROM table1
 LEFT JOIN table2
 ON table1.column_name = table2.column_name;
 ```
-In this example, we are performing a left join between "table1" and "table2". All the rows from "table1" will be included in the result, and any matching rows from "table2" will also be included. If there is no match in "table2", the columns from "table2" will contain NULL values.
+In this example, we are performing a left join between "table1" and "table2".
+All the rows from "table1" will be included in the result, and any matching rows from "table2" will also be included.
+If there is no match in "table2", the columns from "table2" will contain NULL values.
+
+## 03. RIGHT JOIN:
+A right join is similar to a left join, but it returns all the rows from the right table and the matching rows from the left table. If there is no match in the left table, the result will contain NULL values. To perform a right join, you can use the RIGHT JOIN keyword:
+```sql
+SELECT *
+FROM table1
+RIGHT JOIN table2
+ON table1.column_name = table2.column_name;
+```
+In this example, we are performing a right join between "table1" and "table2". All the rows from "table2" will be included in the result, and any matching rows from "table1" will also be included. If there is no match in "table1", the columns from "table1" will contain NULL values.
+
+## FULL OUTER JOIN:
+A full outer join returns all the rows from both tables, regardless of whether there is a match or not.
+If there is no match in one of the tables, the result will contain NULL values.
+To perform a full outer join, you can use the FULL OUTER JOIN or FULL JOIN keyword:
+```sql
+SELECT *
+FROM table1
+FULL OUTER JOIN table2
+ON table1.column_name = table2.column_name;
+```
+In this example, we are performing a full outer join between "table1" and "table2". All the rows from both tables will be included in the result, and any matching rows will be combined. If there is no match in one of the tables, the columns from that table will contain NULL values.
 # Indexing
-Indexes are used to improve the performance of your queries by creating a data structure that allows for faster retrieval of data from a table.
+ Indexing is an important technique to improve the performance of your queries in MySQL.
+ An index is a data structure that allows for faster retrieval of data from a table.
+ It works like an index in a book - instead of scanning the entire table to find the data you're looking for, MySQL can use the index to quickly locate the relevant rows.
+ ## Index Types:
+ MySQL supports several types of indexes, including primary keys, unique keys, and non-unique keys.
+ A `primary key` is a unique index that identifies each row in the table.
+ A `unique key` ensures that no two rows have the same value for a specific column or set of columns.
+ A `non-unique key` can have duplicate values, but it still improves the performance of the queries that use it.
+ ## Index Creation:
+You can create an index on a table using the `CREATE INDEX` statement.
+Here's an example of how to create an index on a column called "column_name" in a table called "table_name":
+```sql
+CREATE INDEX index_name
+ON table_name (column_name);
+```
+In this example, "index_name" is the name of the index, and "column_name" is the name of the column to be indexed.
+## Index Usage:
+MySQL uses indexes automatically when you run a query that includes a search condition that matches the indexed column.
+For example, if you have an index on the "last_name" column of a table called "employees", MySQL can use the index to quickly find all the employees with a last name of "Smith" using the following query:
+```sql
+SELECT *
+FROM employees
+WHERE last_name = 'Smith';
+```
+
+## Index Optimization:
+To optimize the performance of your indexes, you can use the EXPLAIN statement to analyze the execution plan of your queries and identify any potential bottlenecks.
+You can also use tools like the MySQL Query Analyzer to monitor the performance of your queries and identify any slow queries that need optimization.
+
+Let's say you have a table called "customers" with a large number of rows, and you want to search for customers by their last name. You've created an index on the "last_name" column to speed up your queries, but you're still experiencing slow performance. You can use the EXPLAIN statement to analyze the execution plan of your query and identify any potential bottlenecks:
+```sql
+EXPLAIN SELECT * FROM customers WHERE last_name = 'Smith';
+```
+This will show you how MySQL is executing your query, including which indexes it's using and how it's joining the tables. If you see that MySQL is doing a full table scan instead of using your index, you may need to optimize your index by reordering the columns or using a different index type.
+## Index Maintenance:
+Indexes need to be maintained regularly to ensure their optimal performance.
+You can use the `ANALYZE TABLE` statement to update the statistics of the index and the `OPTIMIZE TABLE` statement to rebuild the index and reclaim any unused space.
+
+Over time, your indexes can become fragmented and unused space can accumulate.
+This can slow down your queries and take up unnecessary disk space.
+You can use the `ANALYZE TABLE` and `OPTIMIZE TABLE` statements to maintain your indexes:
+```sql
+ANALYZE TABLE customers;
+```
+
 
 # Stored Procedures:
 Stored procedures are reusable SQL code blocks that can be executed by calling their name instead of writing the entire query each time.
