@@ -19,7 +19,7 @@ const GITHUB_URL = `https://github${VISUAL_CODE_VIEW}.com/${GITHUB_USERNAME}/${R
 
 const IGNORE_REGEX = new RegExp(`^(${IGNORE.join('|')})$`)
 
-async function traverseFolder(folderPath, prefix = '', isLastItem = true) {
+async function traverseFolder(folderPath, prefix = '', isLastItem = true, count = { files: 0, folders: 0 }) {
   const stats = await fs.stat(folderPath)
 
   if (!stats.isDirectory()) {
@@ -28,11 +28,13 @@ async function traverseFolder(folderPath, prefix = '', isLastItem = true) {
     const link = `${GITHUB_URL}/${filePath}`
     const isMdFile = path.extname(fileName) === '.md'
     const fileNameTag = isMdFile ? `<em>${fileName}</em>` : fileName
+    count.files++
     return `${prefix}${isLastItem ? '└── ' : '├── '}<a href="${link}" target="_blank">${fileNameTag}</a>\n`
   }
 
   const folderName = path.basename(folderPath)
   const folderNameTag = `<strong>${folderName}</strong>`
+  count.folders++
   const contents = await fs.readdir(folderPath)
   let folderStructure = `${prefix}${isLastItem ? '└── ' : '├── '}${folderNameTag}\n`
 
@@ -44,14 +46,13 @@ async function traverseFolder(folderPath, prefix = '', isLastItem = true) {
     const childPath = path.join(folderPath, name)
     const isLastChild = i === contents.length - 1
     const childPrefix = `${prefix}${isLastItem ? '    ' : '│   '}`
-    const childStructure = await traverseFolder(childPath, childPrefix, isLastChild)
+    const childStructure = await traverseFolder(childPath, childPrefix, isLastChild, count)
 
     folderStructure += childStructure
   }
 
   return folderStructure
 }
-
 
 async function generateFileStructure() {
   const structureFilePath = './structure.md'
@@ -64,9 +65,13 @@ async function generateFileStructure() {
 
   const folderPath = process.cwd()
   const folderName = path.basename(folderPath)
-  const folderStructure = await traverseFolder(folderPath)
+  const count = { files: 0, folders: 0 }
+  const folderStructure = await traverseFolder(folderPath, '', true, count)
 
-  await fs.writeFile(structureFilePath, `# ${folderName} Tree Structure:\n\n<pre>\n${folderStructure}</pre>\n`)
+  await fs.writeFile(
+    structureFilePath, 
+    `# ${folderName} Tree Structure:\n\n<pre>\n${folderStructure}</pre>\n\n${count.files} files in ${count.folders} folders.`
+  )
   console.log(`Structure file generated successfully at ${structureFilePath}.`)
 }
 

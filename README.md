@@ -186,6 +186,7 @@ This repository contains a collection of useful utilities, code snippets, and re
             ├── <a href="https://github.com/OzZaken/util/blob/main/Javascript\exercises\Exercise 57 - find the matrix mode.js" target="_blank">Exercise 57 - find the matrix mode.js</a>
             ├── <a href="https://github.com/OzZaken/util/blob/main/Javascript\exercises\Exercise 58 - Magic Square.js" target="_blank">Exercise 58 - Magic Square.js</a>
             ├── <a href="https://github.com/OzZaken/util/blob/main/Javascript\exercises\Exercise 59 - BINGO.js" target="_blank">Exercise 59 - BINGO.js</a>
-            ├── <a href="https://github.com/OzZaken/util/blob/main/Javascript\exercises\Exercise 60 - Game of Life.js" target="_blank">Exercise 60 - Game of Life.js</a>
+            └── <a href="https://github.com/OzZaken/util/blob/main/Javascript\exercises\Exercise 60 - Game of Life.js" target="_blank">Exercise 60 - Game of Life.js</a>
 
 </pre>
+160 files in 34 folders.

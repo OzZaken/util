@@ -1,8 +1,8 @@
-type OperatorType = 'comparison' | 'array' | 'regex' | 'element' | 'logical' | 'miscellaneous'
+type mongooseOperatorType = 'comparison' | 'array' | 'regex' | 'element' | 'logical' | 'miscellaneous'
 
 interface mongooseOperator {
     operator: string
-    type: OperatorType
+    type: mongooseOperatorType
     description: string
 }
 
@@ -54,7 +54,7 @@ const mongooseOperators: mongooseOperator[] = [
     { operator: '$polygon', type: 'miscellaneous', description: 'Specifies a polygon for use with $geoIntersects and $geoWithin.' },
 ]
 
-function getOperators<T extends OperatorType>(type?: T): Array<mongooseOperator> {
+export function getMongooseOperators<T extends mongooseOperatorType>(type?: T): Array<mongooseOperator> {
     const filteredOperators = type ? 
     mongooseOperators.filter(operator => operator.type === type) : mongooseOperators
 
@@ -64,6 +64,3 @@ function getOperators<T extends OperatorType>(type?: T): Array<mongooseOperator>
         description: operator.description
     }))
 }
-
-const comparisonOperators = getOperators('comparison')
-console.log(comparisonOperators)
