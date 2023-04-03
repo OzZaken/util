@@ -1,4 +1,4 @@
-import { User } from "../models/user.model"
+import { User } from "../api/user/user.model.mongoose"
 
 // $all: matches arrays that contain all elements specified in the query.
 const findUsersWithFriendsIn = async (friends: string[]) => {

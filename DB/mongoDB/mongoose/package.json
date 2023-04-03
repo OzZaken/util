@@ -1,0 +1,13 @@
+{
+  "name": "simple-node-mongo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.mongoose.js",
+  "scripts": {
+    "start": "nodemon server.mongoose.js"
+  },
+  "author": "Oz",
+  "dependencies": {
+    "mongodb": "^3.6.8"
+  }
+}

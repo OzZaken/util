@@ -4,10 +4,9 @@ export const imgService = {
     loadImgsPrm,
 }
 
-/**Uploads an image to Cloudinary,
- * returns a promise that resolves with the response data. */
+/* Uploads an image to Cloudinary, * returns a promise that resolves with the response data. */
 async function uploadImg(ev) {
-    const CLOUD_NAME = 'pukicloud'
+    const CLOUD_NAME = process.CLOUD_NAME||'pukicloud'
     const UPLOAD_PRESET = 'CHECK'
     const UPLOAD_URL = `https://api.cloudinary.com/v1_1/${CLOUD_NAME}/image/upload`
 
@@ -25,8 +24,7 @@ async function uploadImg(ev) {
     }
 }
 
-/**Loads multiple images using dynamic imports,
- * returns a promise resolves with an object containing the loaded images. */
+/* Loads multiple images using dynamic imports,  returns a promise resolves with an object containing the loaded images. */
 async function loadImgs(names, type) {
     const imgMap = {}
 
@@ -43,8 +41,7 @@ async function loadImgs(names, type) {
     }
 }
 
-/** more suitable for loading a large number of images.
- *  similar to `loadImgs`, but it uses promises.  */
+/*uses promises. */
 async function loadImgsPrm(names, type) {
     const promises = []
     const imgMap = {}
