@@ -74,7 +74,7 @@ SELECT severity, count(*)
 FROM bug 
 GROUP BY severity
 
--- CRUDL:
+-- CRUD:
 
 SELECT * FROM bug WHERE _id = 1;
 -- DELETE FROM bug;
@@ -99,9 +99,6 @@ SELECT b.*, u.full_name
 FROM bug b, user u
 WHERE b.assigned_user_id = u._id
 ORDER BY severity
-
-
-
 
 -- JOIN 2 tables:
 SELECT product._id, product.name, product.price, dept.name as deptName

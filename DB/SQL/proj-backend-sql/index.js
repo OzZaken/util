@@ -1,8 +1,7 @@
-
-const storeService = require('./bug-service')
+const bugService = require('./bug-service')
 
 (async () =>{
     const name = 'play'
-    const ads = await storeService.query({name})
-    console.log('Bugs:', ads);
+    const bugs = await bugService.query({name})
+    console.log('Bugs:', bugs)
 })()
