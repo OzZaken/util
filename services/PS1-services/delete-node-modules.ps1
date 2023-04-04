@@ -1,5 +1,5 @@
 ﻿# Prompt the user for a path
-$path = Read-Host "Enter a path to search for node_modules folders (`C:\dev`, `C:\dev\subFolder`) "
+$path = Read-Host "Enter a path to search for node_modules folders (`C:\dev`, `C:\dev\subFolder`,`C:\dev\util`) "
 
 # Check if the path exists
 if (-not (Test-Path $path)) {

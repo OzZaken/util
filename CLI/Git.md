@@ -1,14 +1,14 @@
 <h1> Git </h1>
 Git is a popular version control system that allows developers to track changes to their code and collaborate with others on a project. 
   
-- [Basic Git Commands](#basic-git-commands)
+- [Git Commands](#git-commands)
 - [Branching and Merging](#branching-and-merging)
 - [.gitignore](#gitignore)
   - [Files:](#files)
   - [Folders:](#folders)
 - [.gitattributes](#gitattributes)
 
-## Basic Git Commands
+##  Git Commands
 | Command                            | Description                                                                               |
 | ---------------------------------- | ----------------------------------------------------------------------------------------- |
 | `git init`                         | Initializes a new Git repository in the current directory.                                |
@@ -21,14 +21,21 @@ Git is a popular version control system that allows developers to track changes 
 | `git merge <branch>`               | Merges the specified branch into the current branch.                                      |
 | `git pull`                         | Fetches and merges changes from a remote repository.                                      |
 | `git push`                         | Pushes local changes to a remote repository.                                              |
-| `git clone <url>`                  | Clones a remote repository to the local machine.                                          |
-| `git remote -v`                    | Displays a list of remote repositories and their URLs.                                    |
+| `git push <remote> <branch>` | Pushes the committed changes to the specified remote and branch |
 | `git fetch <remote>`               | Fetches changes from a remote repository without merging them.                            |
 | `git diff`                         | Displays the difference between the working directory and the staging area.               |
 | `git reset <file>`                 | Removes a file from the staging area.                                                     |
 | `git revert <commit>`              | Creates a new commit that undoes the changes made in the specified commit.                |
 | `git rm <file>`                    | Removes a file from the repository.                                                       |
 | `git mv <old path> <new path>`     | Moves or renames a file in the repository.                                                |
+| `git pull <remote> <branch>` | Fetches the latest changes from the specified remote and merges them into the current branch |
+| `git rebase <branch>` | Rebases the current branch onto the specified branch |
+| `git reset --hard HEAD` | Resets the working directory to the last committed state |
+| `git tag <tag-name>` | Tags the current commit with the specified name |
+| `git stash` | Stashes the changes in the working directory |
+| `git cherry-pick <commit>` | Applies the changes introduced by the specified commit to the current branch |
+| `git remote` | Lists all remote repositories |
+| `git remote add <name> <url>` | Adds a new remote repository with the specified name and URL |
 
 ## Branching and Merging
 Branching in Git involves creating a separate copy of the codebase, called a branch, from the main or master branch.

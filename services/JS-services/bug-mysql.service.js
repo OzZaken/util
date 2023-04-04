@@ -10,9 +10,9 @@ function query(criteria={}) {
 async function getById(bugId) {
     var query = `SELECT * FROM bug WHERE bug._id = ${bugId}`
 
-    var bugs = await DBService.runSQL(query);
-    if (bugs.length === 1) return bugs[0];
-    throw new Error(`bug id ${bugId} not found`);
+    var bugs = await DBService.runSQL(query)
+    if (bugs.length === 1) return bugs[0]
+    throw new Error(`bug id ${bugId} not found`)
 }
 
 function add(bug) {
@@ -20,7 +20,7 @@ function add(bug) {
                 VALUES ("${bug.name}",
                         "${bug.description}",
                         "${bug.severity}",
-                        "${bug.creator}")`;
+                        "${bug.creator}")`
     
     return DBService.runSQL(sqlCmd)
 }
@@ -29,11 +29,11 @@ async function update(bug) {
     var query = `UPDATE bug set name = "${bug.name}",
                                 description = "${bug.description}",
                                 severity = ${bug.severity}
-                WHERE bug._id = ${bug._id}`;
+                WHERE bug._id = ${bug._id}`
 
-    var okPacket = await DBService.runSQL(query);
-    if (okPacket.affectedRows !== 0) return okPacket;
-    throw new Error(`No bug updated - bug id ${bug._id}`);
+    var okPacket = await DBService.runSQL(query)
+    if (okPacket.affectedRows !== 0) return okPacket
+    throw new Error(`No bug updated - bug id ${bug._id}`)
 }
 
 function remove(bugId) {
