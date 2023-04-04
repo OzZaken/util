@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Set variables
-commit_message="Push from push-service"
+commit_message="Push git-push.sh"
 branch_name="main"
 
 # Prompt for confirmation before running the script
