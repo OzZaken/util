@@ -1,11 +1,17 @@
 <h1>util</h1>
 Fullstack utilities repository containing a collection of useful tools and resources for efficient development workflow.
 
-This repository contains a collection of useful utilities, code snippets, and resources that I have accumulated while working as a full-stack developer. Whether you are a beginner or an experienced developer, this repository can help you become more efficient and productive. The utilities cover a wide range of topics including front-end development, back-end development, database management, testing, deployment, and more. Feel free to use these resources to enhance your own development workflow, and don't hesitate to contribute to the repository if you have any useful tools or tips to share!# util Tree Structure:
+This repository contains a collection of useful `utilities`, `code snippets`, and `resources` that I have accumulated while working as a full-stack developer.
+
+Whether you are a beginner or an experienced developer, this repository can help you become more efficient and productive.
+
+The utilities cover a wide range of topics including front-end development, back-end development, database management, testing, deployment, and more.
+
+Feel free to use these resources to enhance your own development workflow, and don't hesitate to contribute to the repository if you have any useful tools or tips to share!
 
 # util Tree Structure:
 <pre>
-└── <strong>util</strong> 170 files in 40 folders.
+└── <strong>util</strong>191 files in 42 folders.
     ├── <strong>algorithms</strong>
     │   ├── <a href="https://github.com/OzZaken/util/blob/main/algorithms\shuffle.ts" target="_blank">shuffle.ts</a>
     │   └── <a href="https://github.com/OzZaken/util/blob/main/algorithms\sort.ts" target="_blank">sort.ts</a>
@@ -65,36 +71,35 @@ This repository contains a collection of useful utilities, code snippets, and re
     │       └── <a href="https://github.com/OzZaken/util/blob/main/DB\SQL\SQL-Samples.sql" target="_blank">SQL-Samples.sql</a>
     ├── <strong>Docs</strong>
     │   ├── <a href="https://github.com/OzZaken/util/blob/main/Docs\API.md" target="_blank"><em>API.md</em></a>
-    │   ├── <a href="https://github.com/OzZaken/util/blob/main/Docs\character-entities.md" target="_blank"><em>character-entities.md</em></a>
     │   ├── <strong>CLI</strong>
     │   │   ├── <a href="https://github.com/OzZaken/util/blob/main/Docs\CLI\Git-Bash.md" target="_blank"><em>Git-Bash.md</em></a>
     │   │   └── <a href="https://github.com/OzZaken/util/blob/main/Docs\CLI\Git.md" target="_blank"><em>Git.md</em></a>
-    │   ├── <a href="https://github.com/OzZaken/util/blob/main/Docs\OOP.md" target="_blank"><em>OOP.md</em></a>
+    │   ├── <strong>HTML</strong>
+    │   │   ├── <a href="https://github.com/OzZaken/util/blob/main/Docs\HTML\HTML-entites.md" target="_blank"><em>HTML-entites.md</em></a>
+    │   │   ├── <a href="https://github.com/OzZaken/util/blob/main/Docs\HTML\HTML-snippet.json.md" target="_blank"><em>HTML-snippet.json.md</em></a>
+    │   │   └── <a href="https://github.com/OzZaken/util/blob/main/Docs\HTML\HTML.md" target="_blank"><em>HTML.md</em></a>
+    │   ├── <strong>index</strong>
+    │   │   ├── <a href="https://github.com/OzZaken/util/blob/main/Docs\index\index.ejs" target="_blank">index.ejs</a>
+    │   │   ├── <a href="https://github.com/OzZaken/util/blob/main/Docs\index\index.handlebars" target="_blank">index.handlebars</a>
+    │   │   ├── <a href="https://github.com/OzZaken/util/blob/main/Docs\index\index.hbs" target="_blank">index.hbs</a>
+    │   │   ├── <a href="https://github.com/OzZaken/util/blob/main/Docs\index\index.html" target="_blank">index.html</a>
+    │   │   ├── <a href="https://github.com/OzZaken/util/blob/main/Docs\index\index.md" target="_blank"><em>index.md</em></a>
+    │   │   ├── <a href="https://github.com/OzZaken/util/blob/main/Docs\index\index.mustache" target="_blank">index.mustache</a>
+    │   │   └── <a href="https://github.com/OzZaken/util/blob/main/Docs\index\index.pug" target="_blank">index.pug</a>
+    │   ├── <strong>node</strong>
+    │   │   ├── <a href="https://github.com/OzZaken/util/blob/main/Docs\node\node-ALS.md" target="_blank"><em>node-ALS.md</em></a>
+    │   │   ├── <a href="https://github.com/OzZaken/util/blob/main/Docs\node\node-express.md" target="_blank"><em>node-express.md</em></a>
+    │   │   ├── <a href="https://github.com/OzZaken/util/blob/main/Docs\node\node-express.middleware.md" target="_blank"><em>node-express.middleware.md</em></a>
+    │   │   ├── <a href="https://github.com/OzZaken/util/blob/main/Docs\node\node-express.templating.md" target="_blank"><em>node-express.templating.md</em></a>
+    │   │   └── <a href="https://github.com/OzZaken/util/blob/main/Docs\node\node.md" target="_blank"><em>node.md</em></a>
     │   ├── <a href="https://github.com/OzZaken/util/blob/main/Docs\ORM.md" target="_blank"><em>ORM.md</em></a>
-    │   ├── <a href="https://github.com/OzZaken/util/blob/main/Docs\paradigmas.md" target="_blank"><em>paradigmas.md</em></a>
-    │   ├── <a href="https://github.com/OzZaken/util/blob/main/Docs\snippets.md" target="_blank"><em>snippets.md</em></a>
+    │   ├── <strong>programming-paradigms</strong>
+    │   │   ├── <a href="https://github.com/OzZaken/util/blob/main/Docs\programming-paradigms\OOP.md" target="_blank"><em>OOP.md</em></a>
+    │   │   └── <a href="https://github.com/OzZaken/util/blob/main/Docs\programming-paradigms\programming-paradigms.md" target="_blank"><em>programming-paradigms.md</em></a>
     │   └── <a href="https://github.com/OzZaken/util/blob/main/Docs\XAMPP.md" target="_blank"><em>XAMPP.md</em></a>
-    ├── <strong>HTML</strong>
-    │   ├── <a href="https://github.com/OzZaken/util/blob/main/HTML\entites.md" target="_blank"><em>entites.md</em></a>
-    │   └── <a href="https://github.com/OzZaken/util/blob/main/HTML\Hypertext-Markup-Language.md" target="_blank"><em>Hypertext-Markup-Language.md</em></a>
     ├── <strong>Javascript</strong>
     │   └── <a href="https://github.com/OzZaken/util/blob/main/Javascript\js.operators.ts" target="_blank">js.operators.ts</a>
     ├── <strong>node</strong>
-    │   ├── <strong>ALS</strong>
-    │   │   └── <a href="https://github.com/OzZaken/util/blob/main/node\ALS\Async_Local_Storage.md" target="_blank"><em>Async_Local_Storage.md</em></a>
-    │   ├── <strong>Express</strong>
-    │   │   ├── <a href="https://github.com/OzZaken/util/blob/main/node\Express\express.md" target="_blank"><em>express.md</em></a>
-    │   │   ├── <a href="https://github.com/OzZaken/util/blob/main/node\Express\index.ejs" target="_blank">index.ejs</a>
-    │   │   ├── <a href="https://github.com/OzZaken/util/blob/main/node\Express\index.handlebars" target="_blank">index.handlebars</a>
-    │   │   ├── <a href="https://github.com/OzZaken/util/blob/main/node\Express\index.hbs" target="_blank">index.hbs</a>
-    │   │   ├── <a href="https://github.com/OzZaken/util/blob/main/node\Express\index.mustache" target="_blank">index.mustache</a>
-    │   │   ├── <a href="https://github.com/OzZaken/util/blob/main/node\Express\index.pug" target="_blank">index.pug</a>
-    │   │   ├── <a href="https://github.com/OzZaken/util/blob/main/node\Express\middleware.express.md" target="_blank"><em>middleware.express.md</em></a>
-    │   │   ├── <a href="https://github.com/OzZaken/util/blob/main/node\Express\requireAuth.middleware.ts" target="_blank">requireAuth.middleware.ts</a>
-    │   │   ├── <a href="https://github.com/OzZaken/util/blob/main/node\Express\routes.ts" target="_blank">routes.ts</a>
-    │   │   ├── <a href="https://github.com/OzZaken/util/blob/main/node\Express\templating.express.md" target="_blank"><em>templating.express.md</em></a>
-    │   │   └── <a href="https://github.com/OzZaken/util/blob/main/node\Express\user.routes.ts" target="_blank">user.routes.ts</a>
-    │   └── <a href="https://github.com/OzZaken/util/blob/main/node\node.md" target="_blank"><em>node.md</em></a>
     ├── <strong>PHP</strong>
     │   ├── <a href="https://github.com/OzZaken/util/blob/main/PHP\Hypertext Preprocessor.md" target="_blank"><em>Hypertext Preprocessor.md</em></a>
     │   └── <strong>proj-php</strong>
