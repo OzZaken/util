@@ -5,14 +5,10 @@ This repository contains a collection of useful utilities, code snippets, and re
 
 # util Tree Structure:
 <pre>
-└── <strong>util</strong> 183 files in 42 folders.
+└── <strong>util</strong> 170 files in 40 folders.
     ├── <strong>algorithms</strong>
     │   ├── <a href="https://github.com/OzZaken/util/blob/main/algorithms\shuffle.ts" target="_blank">shuffle.ts</a>
     │   └── <a href="https://github.com/OzZaken/util/blob/main/algorithms\sort.ts" target="_blank">sort.ts</a>
-    ├── <strong>API</strong>
-    ├── <strong>CLI</strong>
-    │   ├── <a href="https://github.com/OzZaken/util/blob/main/CLI\Git-Bash.md" target="_blank"><em>Git-Bash.md</em></a>
-    │   └── <a href="https://github.com/OzZaken/util/blob/main/CLI\Git.md" target="_blank"><em>Git.md</em></a>
     ├── <strong>DB</strong>
     │   ├── <strong>cloudinary</strong>
     │   │   ├── <a href="https://github.com/OzZaken/util/blob/main/DB\cloudinary\cloudinary.html" target="_blank">cloudinary.html</a>
@@ -20,7 +16,7 @@ This repository contains a collection of useful utilities, code snippets, and re
     │   ├── <a href="https://github.com/OzZaken/util/blob/main/DB\Data_Base.md" target="_blank"><em>Data_Base.md</em></a>
     │   ├── <strong>mongodb</strong>
     │   │   ├── <a href="https://github.com/OzZaken/util/blob/main/DB\mongodb\mongo-client.js" target="_blank">mongo-client.js</a>
-    │   │   ├── <a href="https://github.com/OzZaken/util/blob/main/DB\mongodb\mongoDB.md" target="_blank"><em>mongoDB.md</em></a>****
+    │   │   ├── <a href="https://github.com/OzZaken/util/blob/main/DB\mongodb\mongoDB.md" target="_blank"><em>mongoDB.md</em></a>
     │   │   ├── <strong>mongoose</strong>
     │   │   │   ├── <strong>api</strong>
     │   │   │   │   ├── <strong>order</strong>
@@ -57,6 +53,7 @@ This repository contains a collection of useful utilities, code snippets, and re
     │       ├── <a href="https://github.com/OzZaken/util/blob/main/DB\SQL\MySQL.md" target="_blank"><em>MySQL.md</em></a>
     │       ├── <strong>proj-backend-sql</strong>
     │       │   ├── <a href="https://github.com/OzZaken/util/blob/main/DB\SQL\proj-backend-sql\index.js" target="_blank">index.js</a>
+    │       │   ├── <a href="https://github.com/OzZaken/util/blob/main/DB\SQL\proj-backend-sql\package-lock.json" target="_blank">package-lock.json</a>
     │       │   └── <a href="https://github.com/OzZaken/util/blob/main/DB\SQL\proj-backend-sql\package.json" target="_blank">package.json</a>
     │       ├── <strong>sequelize</strong>
     │       │   ├── <strong>api</strong>
@@ -67,28 +64,36 @@ This repository contains a collection of useful utilities, code snippets, and re
     │       ├── <a href="https://github.com/OzZaken/util/blob/main/DB\SQL\shop_db.sql" target="_blank">shop_db.sql</a>
     │       └── <a href="https://github.com/OzZaken/util/blob/main/DB\SQL\SQL-Samples.sql" target="_blank">SQL-Samples.sql</a>
     ├── <strong>Docs</strong>
+    │   ├── <a href="https://github.com/OzZaken/util/blob/main/Docs\API.md" target="_blank"><em>API.md</em></a>
     │   ├── <a href="https://github.com/OzZaken/util/blob/main/Docs\character-entities.md" target="_blank"><em>character-entities.md</em></a>
+    │   ├── <strong>CLI</strong>
+    │   │   ├── <a href="https://github.com/OzZaken/util/blob/main/Docs\CLI\Git-Bash.md" target="_blank"><em>Git-Bash.md</em></a>
+    │   │   └── <a href="https://github.com/OzZaken/util/blob/main/Docs\CLI\Git.md" target="_blank"><em>Git.md</em></a>
+    │   ├── <a href="https://github.com/OzZaken/util/blob/main/Docs\OOP.md" target="_blank"><em>OOP.md</em></a>
     │   ├── <a href="https://github.com/OzZaken/util/blob/main/Docs\ORM.md" target="_blank"><em>ORM.md</em></a>
+    │   ├── <a href="https://github.com/OzZaken/util/blob/main/Docs\paradigmas.md" target="_blank"><em>paradigmas.md</em></a>
     │   ├── <a href="https://github.com/OzZaken/util/blob/main/Docs\snippets.md" target="_blank"><em>snippets.md</em></a>
     │   └── <a href="https://github.com/OzZaken/util/blob/main/Docs\XAMPP.md" target="_blank"><em>XAMPP.md</em></a>
     ├── <strong>HTML</strong>
+    │   ├── <a href="https://github.com/OzZaken/util/blob/main/HTML\entites.md" target="_blank"><em>entites.md</em></a>
+    │   └── <a href="https://github.com/OzZaken/util/blob/main/HTML\Hypertext-Markup-Language.md" target="_blank"><em>Hypertext-Markup-Language.md</em></a>
     ├── <strong>Javascript</strong>
     │   └── <a href="https://github.com/OzZaken/util/blob/main/Javascript\js.operators.ts" target="_blank">js.operators.ts</a>
     ├── <strong>node</strong>
     │   ├── <strong>ALS</strong>
     │   │   └── <a href="https://github.com/OzZaken/util/blob/main/node\ALS\Async_Local_Storage.md" target="_blank"><em>Async_Local_Storage.md</em></a>
-    │   ├── <strong>express</strong>
-    │   │   ├── <a href="https://github.com/OzZaken/util/blob/main/node\express\express.md" target="_blank"><em>express.md</em></a>
-    │   │   ├── <a href="https://github.com/OzZaken/util/blob/main/node\express\index.ejs" target="_blank">index.ejs</a>
-    │   │   ├── <a href="https://github.com/OzZaken/util/blob/main/node\express\index.handlebars" target="_blank">index.handlebars</a>
-    │   │   ├── <a href="https://github.com/OzZaken/util/blob/main/node\express\index.hbs" target="_blank">index.hbs</a>
-    │   │   ├── <a href="https://github.com/OzZaken/util/blob/main/node\express\index.mustache" target="_blank">index.mustache</a>
-    │   │   ├── <a href="https://github.com/OzZaken/util/blob/main/node\express\index.pug" target="_blank">index.pug</a>
-    │   │   ├── <a href="https://github.com/OzZaken/util/blob/main/node\express\middleware.express.md" target="_blank"><em>middleware.express.md</em></a>
-    │   │   ├── <a href="https://github.com/OzZaken/util/blob/main/node\express\requireAuth.middleware.ts" target="_blank">requireAuth.middleware.ts</a>
-    │   │   ├── <a href="https://github.com/OzZaken/util/blob/main/node\express\routes.ts" target="_blank">routes.ts</a>
-    │   │   ├── <a href="https://github.com/OzZaken/util/blob/main/node\express\templating.express.md" target="_blank"><em>templating.express.md</em></a>
-    │   │   └── <a href="https://github.com/OzZaken/util/blob/main/node\express\user.routes.ts" target="_blank">user.routes.ts</a>
+    │   ├── <strong>Express</strong>
+    │   │   ├── <a href="https://github.com/OzZaken/util/blob/main/node\Express\express.md" target="_blank"><em>express.md</em></a>
+    │   │   ├── <a href="https://github.com/OzZaken/util/blob/main/node\Express\index.ejs" target="_blank">index.ejs</a>
+    │   │   ├── <a href="https://github.com/OzZaken/util/blob/main/node\Express\index.handlebars" target="_blank">index.handlebars</a>
+    │   │   ├── <a href="https://github.com/OzZaken/util/blob/main/node\Express\index.hbs" target="_blank">index.hbs</a>
+    │   │   ├── <a href="https://github.com/OzZaken/util/blob/main/node\Express\index.mustache" target="_blank">index.mustache</a>
+    │   │   ├── <a href="https://github.com/OzZaken/util/blob/main/node\Express\index.pug" target="_blank">index.pug</a>
+    │   │   ├── <a href="https://github.com/OzZaken/util/blob/main/node\Express\middleware.express.md" target="_blank"><em>middleware.express.md</em></a>
+    │   │   ├── <a href="https://github.com/OzZaken/util/blob/main/node\Express\requireAuth.middleware.ts" target="_blank">requireAuth.middleware.ts</a>
+    │   │   ├── <a href="https://github.com/OzZaken/util/blob/main/node\Express\routes.ts" target="_blank">routes.ts</a>
+    │   │   ├── <a href="https://github.com/OzZaken/util/blob/main/node\Express\templating.express.md" target="_blank"><em>templating.express.md</em></a>
+    │   │   └── <a href="https://github.com/OzZaken/util/blob/main/node\Express\user.routes.ts" target="_blank">user.routes.ts</a>
     │   └── <a href="https://github.com/OzZaken/util/blob/main/node\node.md" target="_blank"><em>node.md</em></a>
     ├── <strong>PHP</strong>
     │   ├── <a href="https://github.com/OzZaken/util/blob/main/PHP\Hypertext Preprocessor.md" target="_blank"><em>Hypertext Preprocessor.md</em></a>
@@ -117,6 +122,7 @@ This repository contains a collection of useful utilities, code snippets, and re
     │   │   ├── <a href="https://github.com/OzZaken/util/blob/main/services\JS-services\db-cloudinary.service.js" target="_blank">db-cloudinary.service.js</a>
     │   │   ├── <a href="https://github.com/OzZaken/util/blob/main/services\JS-services\db-mongodb.service.js" target="_blank">db-mongodb.service.js</a>
     │   │   ├── <a href="https://github.com/OzZaken/util/blob/main/services\JS-services\db-mysql.service.js" target="_blank">db-mysql.service.js</a>
+    │   │   ├── <a href="https://github.com/OzZaken/util/blob/main/services\JS-services\delete-node-modules.js" target="_blank">delete-node-modules.js</a>
     │   │   ├── <a href="https://github.com/OzZaken/util/blob/main/services\JS-services\event-bus.service.js" target="_blank">event-bus.service.js</a>
     │   │   ├── <a href="https://github.com/OzZaken/util/blob/main/services\JS-services\github-username.service.js" target="_blank">github-username.service.js</a>
     │   │   ├── <a href="https://github.com/OzZaken/util/blob/main/services\JS-services\http.service.js" target="_blank">http.service.js</a>
@@ -133,7 +139,6 @@ This repository contains a collection of useful utilities, code snippets, and re
     │   │   ├── <a href="https://github.com/OzZaken/util/blob/main/services\JS-services\weather.service.js" target="_blank">weather.service.js</a>
     │   │   └── <a href="https://github.com/OzZaken/util/blob/main/services\JS-services\yes-no-service.js" target="_blank">yes-no-service.js</a>
     │   ├── <strong>NODE-services</strong>
-    │   │   ├── <a href="https://github.com/OzZaken/util/blob/main/services\NODE-services\delete-node-modules.js" target="_blank">delete-node-modules.js</a>
     │   │   ├── <a href="https://github.com/OzZaken/util/blob/main/services\NODE-services\gen-tree-structure.service.js" target="_blank">gen-tree-structure.service.js</a>
     │   │   ├── <a href="https://github.com/OzZaken/util/blob/main/services\NODE-services\get-sequlize-operators.js" target="_blank">get-sequlize-operators.js</a>
     │   │   └── <a href="https://github.com/OzZaken/util/blob/main/services\NODE-services\read-package.service.js" target="_blank">read-package.service.js</a>
@@ -145,7 +150,8 @@ This repository contains a collection of useful utilities, code snippets, and re
     │   │   ├── <a href="https://github.com/OzZaken/util/blob/main/services\PS1-services\search-string.ps1" target="_blank">search-string.ps1</a>
     │   │   └── <a href="https://github.com/OzZaken/util/blob/main/services\PS1-services\work-or-kill-process.ps1" target="_blank">work-or-kill-process.ps1</a>
     │   ├── <strong>Py-services</strong>
-    │   │   └── <a href="https://github.com/OzZaken/util/blob/main/services\Py-services\analyze-github-user.py" target="_blank">analyze-github-user.py</a>
+    │   │   ├── <a href="https://github.com/OzZaken/util/blob/main/services\Py-services\analyze-github-user.py" target="_blank">analyze-github-user.py</a>
+    │   │   └── <a href="https://github.com/OzZaken/util/blob/main/services\Py-services\pandaa.md" target="_blank"><em>pandaa.md</em></a>
     │   ├── <strong>scripts</strong>
     │   │   ├── <a href="https://github.com/OzZaken/util/blob/main/services\scripts\bash-scripts.md" target="_blank"><em>bash-scripts.md</em></a>
     │   │   ├── <a href="https://github.com/OzZaken/util/blob/main/services\scripts\git-push.sh" target="_blank">git-push.sh</a>

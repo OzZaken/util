@@ -25,7 +25,12 @@ Each of these paradigms has its strengths and weaknesses, and the choice of para
   
    - **Weaknesses**: Functional programming can be difficult to learn for programmers coming from an imperative background. It may also be less efficient than other paradigms for certain tasks, particularly those involving mutable data.
 
-## Event-Driven Programming: (JavaScript, Python with an event-driven framework like Twisted or Tornado, C# with the .NET Framework's Windows Forms or WPF) 
+## Event-Driven Programming:
+Event-driven programming can be used in conjunction with object-oriented programming, but it is not necessarily an exclusive programming paradigm.
+The same is true for many other programming paradigms; they can be used in conjunction with object-oriented programming or with other paradigms.
+ - JavaScript
+ - Python (with an event-driven framework like Twisted or Tornado)
+ - C# (with the .NET Framework's Windows Forms or WPF) 
    - **Strengths**: Highly responsive to user input or system events, making it a good choice for user interfaces and real-time systems. It can also be modular and flexible, allowing for easy customization and reuse.
  
    - **Weaknesses**: Difficult to debug and reason about due to the asynchronous nature of events. It may also be less efficient than other paradigms for certain tasks, particularly those involving long-running computations.
