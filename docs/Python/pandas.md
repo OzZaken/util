@@ -1,10 +1,16 @@
-Pandas is a popular open-source data manipulation and analysis library for the Python programming language. It provides a powerful and flexible set of tools for working with structured data, including support for reading and writing data in various file formats, cleaning and transforming data, filtering and selecting data, and computing statistics and aggregations.
+Pandas is a popular open-source data manipulation and analysis library for the Python programming language.
 
-Pandas is built around two primary data structures: the Series and the DataFrame. A Series is essentially a one-dimensional array of data, while a DataFrame is a two-dimensional table with labeled rows and columns. Both Series and DataFrame objects can be created from various data sources, including CSV files, Excel spreadsheets, SQL databases, and JSON or XML data.
+It provides a powerful and flexible set of tools for working with structured data, including support for reading and writing data in various file formats, cleaning and transforming data, filtering and selecting data, and computing statistics and aggregations.
 
-One of the main benefits of using Pandas is its ability to handle missing or incomplete data, using methods such as filling in missing values or dropping rows or columns with missing data. Pandas also provides many functions for filtering and selecting data based on various criteria, such as by row or column label, by data type, or by specific values.
+Pandas is built around two primary data structures: the Series and the DataFrame. A Series is essentially a one-dimensional array of data, while a DataFrame is a two-dimensional table with labeled rows and columns. Both Series and DataFrame objects can be created from various data sources, including `CSV` files, `Excel spreadsheets`, `SQL` databases, and `JSON` or `XML` data.
 
-Pandas also includes powerful features for data manipulation and aggregation, including groupby operations, pivot tables, and merging and joining data from multiple sources. It also has built-in visualization capabilities, allowing users to quickly generate charts and graphs from their data.
+One of the main benefits of using Pandas is its ability to handle missing or incomplete data, using methods such as filling in missing values or dropping rows or columns with missing data.
+
+Pandas also provides many functions for filtering and selecting data based on various criteria, such as by row or column label, by data type, or by specific values.
+
+Pandas also includes powerful features for data manipulation and aggregation, including `groupby` operations, `pivot tables`, and merging and joining data from multiple sources.
+
+It also has built-in visualization capabilities, allowing users to quickly generate charts and graphs from their data.
 
 
 Let's say you have a CSV file containing data about sales for a company, with columns for the date of the sale, the name of the salesperson, the product sold, and the amount of the sale. Here's how you could use Pandas to read in the data, filter it to only show sales from a specific date range, and compute some basic statistics:

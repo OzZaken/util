@@ -11,18 +11,15 @@ Feel free to use these resources to enhance your own development workflow, and d
 
 # util Tree Structure:
 <pre>
-└── <strong>util</strong>191 files in 42 folders.
-    ├── <strong>algorithms</strong>
-    │   ├── <a href="https://github.com/OzZaken/util/blob/main/algorithms\shuffle.ts" target="_blank">shuffle.ts</a>
-    │   └── <a href="https://github.com/OzZaken/util/blob/main/algorithms\sort.ts" target="_blank">sort.ts</a>
+└── <strong>util</strong>197 files in 44 folders.
+    ├── <strong>Algorithms</strong>
+    │   ├── <a href="https://github.com/OzZaken/util/blob/main/Algorithms\shuffle.ts" target="_blank">shuffle.ts</a>
+    │   └── <a href="https://github.com/OzZaken/util/blob/main/Algorithms\sort.ts" target="_blank">sort.ts</a>
     ├── <strong>DB</strong>
     │   ├── <strong>cloudinary</strong>
-    │   │   ├── <a href="https://github.com/OzZaken/util/blob/main/DB\cloudinary\cloudinary.html" target="_blank">cloudinary.html</a>
-    │   │   └── <a href="https://github.com/OzZaken/util/blob/main/DB\cloudinary\cloudinary.md" target="_blank"><em>cloudinary.md</em></a>
-    │   ├── <a href="https://github.com/OzZaken/util/blob/main/DB\Data_Base.md" target="_blank"><em>Data_Base.md</em></a>
+    │   │   └── <a href="https://github.com/OzZaken/util/blob/main/DB\cloudinary\cloudinary.html" target="_blank">cloudinary.html</a>
     │   ├── <strong>mongodb</strong>
     │   │   ├── <a href="https://github.com/OzZaken/util/blob/main/DB\mongodb\mongo-client.js" target="_blank">mongo-client.js</a>
-    │   │   ├── <a href="https://github.com/OzZaken/util/blob/main/DB\mongodb\mongoDB.md" target="_blank"><em>mongoDB.md</em></a>
     │   │   ├── <strong>mongoose</strong>
     │   │   │   ├── <strong>api</strong>
     │   │   │   │   ├── <strong>order</strong>
@@ -41,7 +38,6 @@ Feel free to use these resources to enhance your own development workflow, and d
     │   │   │   │       ├── <a href="https://github.com/OzZaken/util/blob/main/DB\mongodb\mongoose\api\user\user.controller.mongoose.ts" target="_blank">user.controller.mongoose.ts</a>
     │   │   │   │       ├── <a href="https://github.com/OzZaken/util/blob/main/DB\mongodb\mongoose\api\user\user.model.mongoose.ts" target="_blank">user.model.mongoose.ts</a>
     │   │   │   │       └── <a href="https://github.com/OzZaken/util/blob/main/DB\mongodb\mongoose\api\user\user.routes.ts" target="_blank">user.routes.ts</a>
-    │   │   │   ├── <a href="https://github.com/OzZaken/util/blob/main/DB\mongodb\mongoose\mongoose.md" target="_blank"><em>mongoose.md</em></a>
     │   │   │   ├── <strong>operators</strong>
     │   │   │   │   ├── <a href="https://github.com/OzZaken/util/blob/main/DB\mongodb\mongoose\operators\array.operators.ts" target="_blank">array.operators.ts</a>
     │   │   │   │   ├── <a href="https://github.com/OzZaken/util/blob/main/DB\mongodb\mongoose\operators\comparison.operators.ts" target="_blank">comparison.operators.ts</a>
@@ -49,31 +45,43 @@ Feel free to use these resources to enhance your own development workflow, and d
     │   │   │   │   ├── <a href="https://github.com/OzZaken/util/blob/main/DB\mongodb\mongoose\operators\logical.operators.ts" target="_blank">logical.operators.ts</a>
     │   │   │   │   ├── <a href="https://github.com/OzZaken/util/blob/main/DB\mongodb\mongoose\operators\miscellaneous.operators.ts" target="_blank">miscellaneous.operators.ts</a>
     │   │   │   │   └── <a href="https://github.com/OzZaken/util/blob/main/DB\mongodb\mongoose\operators\regex.operators.ts" target="_blank">regex.operators.ts</a>
-    │   │   │   ├── <a href="https://github.com/OzZaken/util/blob/main/DB\mongodb\mongoose\package-lock.json" target="_blank">package-lock.json</a>
     │   │   │   ├── <a href="https://github.com/OzZaken/util/blob/main/DB\mongodb\mongoose\package.json" target="_blank">package.json</a>
     │   │   │   └── <a href="https://github.com/OzZaken/util/blob/main/DB\mongodb\mongoose\server.mongoose.ts" target="_blank">server.mongoose.ts</a>
     │   │   └── <strong>proj-simple-mongo</strong>
     │   │       ├── <a href="https://github.com/OzZaken/util/blob/main/DB\mongodb\proj-simple-mongo\package.json" target="_blank">package.json</a>
     │   │       └── <a href="https://github.com/OzZaken/util/blob/main/DB\mongodb\proj-simple-mongo\server.js" target="_blank">server.js</a>
     │   └── <strong>SQL</strong>
-    │       ├── <a href="https://github.com/OzZaken/util/blob/main/DB\SQL\MySQL.md" target="_blank"><em>MySQL.md</em></a>
-    │       ├── <strong>proj-backend-sql</strong>
-    │       │   ├── <a href="https://github.com/OzZaken/util/blob/main/DB\SQL\proj-backend-sql\index.js" target="_blank">index.js</a>
-    │       │   ├── <a href="https://github.com/OzZaken/util/blob/main/DB\SQL\proj-backend-sql\package-lock.json" target="_blank">package-lock.json</a>
-    │       │   └── <a href="https://github.com/OzZaken/util/blob/main/DB\SQL\proj-backend-sql\package.json" target="_blank">package.json</a>
-    │       ├── <strong>sequelize</strong>
-    │       │   ├── <strong>api</strong>
-    │       │   ├── <strong>models</strong>
-    │       │   │   └── <a href="https://github.com/OzZaken/util/blob/main/DB\SQL\sequelize\models\user.model.ts" target="_blank">user.model.ts</a>
-    │       │   ├── <strong>operators</strong>
-    │       │   └── <a href="https://github.com/OzZaken/util/blob/main/DB\SQL\sequelize\sequelize.md" target="_blank"><em>sequelize.md</em></a>
-    │       ├── <a href="https://github.com/OzZaken/util/blob/main/DB\SQL\shop_db.sql" target="_blank">shop_db.sql</a>
-    │       └── <a href="https://github.com/OzZaken/util/blob/main/DB\SQL\SQL-Samples.sql" target="_blank">SQL-Samples.sql</a>
+    │       ├── <strong>backend-sql</strong>
+    │       │   ├── <a href="https://github.com/OzZaken/util/blob/main/DB\SQL\backend-sql\index.js" target="_blank">index.js</a>
+    │       │   ├── <a href="https://github.com/OzZaken/util/blob/main/DB\SQL\backend-sql\package-lock.json" target="_blank">package-lock.json</a>
+    │       │   └── <a href="https://github.com/OzZaken/util/blob/main/DB\SQL\backend-sql\package.json" target="_blank">package.json</a>
+    │       ├── <strong>mysql-sample-db-master</strong>
+    │       │   ├── <a href="https://github.com/OzZaken/util/blob/main/DB\SQL\mysql-sample-db-master\mysql-sample-db" target="_blank">mysql-sample-db</a>
+    │       │   ├── <a href="https://github.com/OzZaken/util/blob/main/DB\SQL\mysql-sample-db-master\mysqlsampledatabase.sql" target="_blank">mysqlsampledatabase.sql</a>
+    │       │   └── <a href="https://github.com/OzZaken/util/blob/main/DB\SQL\mysql-sample-db-master\README.md" target="_blank"><em>README.md</em></a>
+    │       ├── <strong>mysql-step-by-step</strong>
+    │       │   ├── <a href="https://github.com/OzZaken/util/blob/main/DB\SQL\mysql-step-by-step\MySQL-Sample-Database-Diagram-PDF-A4.pdf" target="_blank">MySQL-Sample-Database-Diagram-PDF-A4.pdf</a>
+    │       │   ├── <a href="https://github.com/OzZaken/util/blob/main/DB\SQL\mysql-step-by-step\mysql-step-by-step.md" target="_blank"><em>mysql-step-by-step.md</em></a>
+    │       │   └── <a href="https://github.com/OzZaken/util/blob/main/DB\SQL\mysql-step-by-step\mysqlsampledatabase.sql" target="_blank">mysqlsampledatabase.sql</a>
+    │       └── <strong>sequelize</strong>
+    │           ├── <strong>api</strong>
+    │           ├── <strong>db</strong>
+    │           │   ├── <a href="https://github.com/OzZaken/util/blob/main/DB\SQL\sequelize\db\shop_db.sql" target="_blank">shop_db.sql</a>
+    │           │   └── <a href="https://github.com/OzZaken/util/blob/main/DB\SQL\sequelize\db\SQL-Samples.sql" target="_blank">SQL-Samples.sql</a>
+    │           └── <strong>models</strong>
+    │               └── <a href="https://github.com/OzZaken/util/blob/main/DB\SQL\sequelize\models\user.model.ts" target="_blank">user.model.ts</a>
     ├── <strong>Docs</strong>
     │   ├── <a href="https://github.com/OzZaken/util/blob/main/Docs\API.md" target="_blank"><em>API.md</em></a>
     │   ├── <strong>CLI</strong>
     │   │   ├── <a href="https://github.com/OzZaken/util/blob/main/Docs\CLI\Git-Bash.md" target="_blank"><em>Git-Bash.md</em></a>
     │   │   └── <a href="https://github.com/OzZaken/util/blob/main/Docs\CLI\Git.md" target="_blank"><em>Git.md</em></a>
+    │   ├── <strong>DB</strong>
+    │   │   ├── <a href="https://github.com/OzZaken/util/blob/main/Docs\DB\cloudinary.md" target="_blank"><em>cloudinary.md</em></a>
+    │   │   ├── <a href="https://github.com/OzZaken/util/blob/main/Docs\DB\DB.md" target="_blank"><em>DB.md</em></a>
+    │   │   ├── <a href="https://github.com/OzZaken/util/blob/main/Docs\DB\mongodb.md" target="_blank"><em>mongodb.md</em></a>
+    │   │   ├── <a href="https://github.com/OzZaken/util/blob/main/Docs\DB\mongoose.md" target="_blank"><em>mongoose.md</em></a>
+    │   │   ├── <a href="https://github.com/OzZaken/util/blob/main/Docs\DB\MySQL.md" target="_blank"><em>MySQL.md</em></a>
+    │   │   └── <a href="https://github.com/OzZaken/util/blob/main/Docs\DB\sequelize.md" target="_blank"><em>sequelize.md</em></a>
     │   ├── <strong>HTML</strong>
     │   │   ├── <a href="https://github.com/OzZaken/util/blob/main/Docs\HTML\HTML-entites.md" target="_blank"><em>HTML-entites.md</em></a>
     │   │   ├── <a href="https://github.com/OzZaken/util/blob/main/Docs\HTML\HTML-snippet.json.md" target="_blank"><em>HTML-snippet.json.md</em></a>
@@ -83,7 +91,7 @@ Feel free to use these resources to enhance your own development workflow, and d
     │   │   ├── <a href="https://github.com/OzZaken/util/blob/main/Docs\index\index.handlebars" target="_blank">index.handlebars</a>
     │   │   ├── <a href="https://github.com/OzZaken/util/blob/main/Docs\index\index.hbs" target="_blank">index.hbs</a>
     │   │   ├── <a href="https://github.com/OzZaken/util/blob/main/Docs\index\index.html" target="_blank">index.html</a>
-    │   │   ├── <a href="https://github.com/OzZaken/util/blob/main/Docs\index\index.md" target="_blank"><em>index.md</em></a>
+    │   │   ├── <a href="https://github.com/OzZaken/util/blob/main/Docs\index\Index.md" target="_blank"><em>Index.md</em></a>
     │   │   ├── <a href="https://github.com/OzZaken/util/blob/main/Docs\index\index.mustache" target="_blank">index.mustache</a>
     │   │   └── <a href="https://github.com/OzZaken/util/blob/main/Docs\index\index.pug" target="_blank">index.pug</a>
     │   ├── <strong>node</strong>
@@ -93,30 +101,31 @@ Feel free to use these resources to enhance your own development workflow, and d
     │   │   ├── <a href="https://github.com/OzZaken/util/blob/main/Docs\node\node-express.templating.md" target="_blank"><em>node-express.templating.md</em></a>
     │   │   └── <a href="https://github.com/OzZaken/util/blob/main/Docs\node\node.md" target="_blank"><em>node.md</em></a>
     │   ├── <a href="https://github.com/OzZaken/util/blob/main/Docs\ORM.md" target="_blank"><em>ORM.md</em></a>
+    │   ├── <a href="https://github.com/OzZaken/util/blob/main/Docs\PHP.md" target="_blank"><em>PHP.md</em></a>
     │   ├── <strong>programming-paradigms</strong>
     │   │   ├── <a href="https://github.com/OzZaken/util/blob/main/Docs\programming-paradigms\OOP.md" target="_blank"><em>OOP.md</em></a>
     │   │   └── <a href="https://github.com/OzZaken/util/blob/main/Docs\programming-paradigms\programming-paradigms.md" target="_blank"><em>programming-paradigms.md</em></a>
+    │   ├── <strong>Python</strong>
+    │   │   ├── <a href="https://github.com/OzZaken/util/blob/main/Docs\Python\numpy.md" target="_blank"><em>numpy.md</em></a>
+    │   │   └── <a href="https://github.com/OzZaken/util/blob/main/Docs\Python\pandas.md" target="_blank"><em>pandas.md</em></a>
+    │   ├── <a href="https://github.com/OzZaken/util/blob/main/Docs\Typscript.md" target="_blank"><em>Typscript.md</em></a>
     │   └── <a href="https://github.com/OzZaken/util/blob/main/Docs\XAMPP.md" target="_blank"><em>XAMPP.md</em></a>
     ├── <strong>Javascript</strong>
-    │   └── <a href="https://github.com/OzZaken/util/blob/main/Javascript\js.operators.ts" target="_blank">js.operators.ts</a>
-    ├── <strong>node</strong>
     ├── <strong>PHP</strong>
-    │   ├── <a href="https://github.com/OzZaken/util/blob/main/PHP\Hypertext Preprocessor.md" target="_blank"><em>Hypertext Preprocessor.md</em></a>
-    │   └── <strong>proj-php</strong>
-    │       ├── <a href="https://github.com/OzZaken/util/blob/main/PHP\proj-php\about.php" target="_blank">about.php</a>
-    │       ├── <strong>api</strong>
-    │       │   ├── <a href="https://github.com/OzZaken/util/blob/main/PHP\proj-php\api\car.php" target="_blank">car.php</a>
-    │       │   └── <a href="https://github.com/OzZaken/util/blob/main/PHP\proj-php\api\fruit.php" target="_blank">fruit.php</a>
-    │       ├── <strong>controller</strong>
-    │       │   ├── <a href="https://github.com/OzZaken/util/blob/main/PHP\proj-php\controller\main.js" target="_blank">main.js</a>
-    │       │   └── <a href="https://github.com/OzZaken/util/blob/main/PHP\proj-php\controller\main.php" target="_blank">main.php</a>
-    │       ├── <a href="https://github.com/OzZaken/util/blob/main/PHP\proj-php\fruit-finder.html" target="_blank">fruit-finder.html</a>
-    │       ├── <a href="https://github.com/OzZaken/util/blob/main/PHP\proj-php\handleLogin.php" target="_blank">handleLogin.php</a>
-    │       ├── <a href="https://github.com/OzZaken/util/blob/main/PHP\proj-php\index.php" target="_blank">index.php</a>
-    │       ├── <a href="https://github.com/OzZaken/util/blob/main/PHP\proj-php\intro.php" target="_blank">intro.php</a>
-    │       ├── <a href="https://github.com/OzZaken/util/blob/main/PHP\proj-php\login.php" target="_blank">login.php</a>
-    │       └── <strong>services</strong>
-    │           └── <a href="https://github.com/OzZaken/util/blob/main/PHP\proj-php\services\util-service.php" target="_blank">util-service.php</a>
+    │   ├── <a href="https://github.com/OzZaken/util/blob/main/PHP\about.php" target="_blank">about.php</a>
+    │   ├── <strong>api</strong>
+    │   │   ├── <a href="https://github.com/OzZaken/util/blob/main/PHP\api\car.php" target="_blank">car.php</a>
+    │   │   └── <a href="https://github.com/OzZaken/util/blob/main/PHP\api\fruit.php" target="_blank">fruit.php</a>
+    │   ├── <strong>controller</strong>
+    │   │   ├── <a href="https://github.com/OzZaken/util/blob/main/PHP\controller\main.js" target="_blank">main.js</a>
+    │   │   └── <a href="https://github.com/OzZaken/util/blob/main/PHP\controller\main.php" target="_blank">main.php</a>
+    │   ├── <a href="https://github.com/OzZaken/util/blob/main/PHP\fruit-finder.html" target="_blank">fruit-finder.html</a>
+    │   ├── <a href="https://github.com/OzZaken/util/blob/main/PHP\handleLogin.php" target="_blank">handleLogin.php</a>
+    │   ├── <a href="https://github.com/OzZaken/util/blob/main/PHP\index.php" target="_blank">index.php</a>
+    │   ├── <a href="https://github.com/OzZaken/util/blob/main/PHP\intro.php" target="_blank">intro.php</a>
+    │   ├── <a href="https://github.com/OzZaken/util/blob/main/PHP\login.php" target="_blank">login.php</a>
+    │   └── <strong>services</strong>
+    │       └── <a href="https://github.com/OzZaken/util/blob/main/PHP\services\util-service.php" target="_blank">util-service.php</a>
     ├── <a href="https://github.com/OzZaken/util/blob/main/README.md" target="_blank"><em>README.md</em></a>
     ├── <strong>services</strong>
     │   ├── <strong>JS-services</strong>
@@ -155,8 +164,7 @@ Feel free to use these resources to enhance your own development workflow, and d
     │   │   ├── <a href="https://github.com/OzZaken/util/blob/main/services\PS1-services\search-string.ps1" target="_blank">search-string.ps1</a>
     │   │   └── <a href="https://github.com/OzZaken/util/blob/main/services\PS1-services\work-or-kill-process.ps1" target="_blank">work-or-kill-process.ps1</a>
     │   ├── <strong>Py-services</strong>
-    │   │   ├── <a href="https://github.com/OzZaken/util/blob/main/services\Py-services\analyze-github-user.py" target="_blank">analyze-github-user.py</a>
-    │   │   └── <a href="https://github.com/OzZaken/util/blob/main/services\Py-services\pandaa.md" target="_blank"><em>pandaa.md</em></a>
+    │   │   └── <a href="https://github.com/OzZaken/util/blob/main/services\Py-services\analyze-github-user.py" target="_blank">analyze-github-user.py</a>
     │   ├── <strong>scripts</strong>
     │   │   ├── <a href="https://github.com/OzZaken/util/blob/main/services\scripts\bash-scripts.md" target="_blank"><em>bash-scripts.md</em></a>
     │   │   ├── <a href="https://github.com/OzZaken/util/blob/main/services\scripts\git-push.sh" target="_blank">git-push.sh</a>
@@ -169,9 +177,9 @@ Feel free to use these resources to enhance your own development workflow, and d
     │       ├── <a href="https://github.com/OzZaken/util/blob/main/services\TS-services\event-bus.service.ts" target="_blank">event-bus.service.ts</a>
     │       ├── <a href="https://github.com/OzZaken/util/blob/main/services\TS-services\filltext.service.ts" target="_blank">filltext.service.ts</a>
     │       ├── <a href="https://github.com/OzZaken/util/blob/main/services\TS-services\gen-tree.-structer.service.ts" target="_blank">gen-tree.-structer.service.ts</a>
+    │       ├── <a href="https://github.com/OzZaken/util/blob/main/services\TS-services\get-js-operators.ts" target="_blank">get-js-operators.ts</a>
     │       ├── <a href="https://github.com/OzZaken/util/blob/main/services\TS-services\get-mongoose-operators.ts" target="_blank">get-mongoose-operators.ts</a>
-    │       ├── <a href="https://github.com/OzZaken/util/blob/main/services\TS-services\get-sequlize-operators.ts" target="_blank">get-sequlize-operators.ts</a>
-    │       └── <a href="https://github.com/OzZaken/util/blob/main/services\TS-services\tsconfig.json" target="_blank">tsconfig.json</a>
+    │       └── <a href="https://github.com/OzZaken/util/blob/main/services\TS-services\get-sequlize-operators.ts" target="_blank">get-sequlize-operators.ts</a>
     └── <strong>TypeScript</strong>
     │    ├── <a href="https://github.com/OzZaken/util/blob/main/TypeScript\00-catchinng-JS-mistakes-with-TS.ts" target="_blank">00-catchinng-JS-mistakes-with-TS.ts</a>
     │    ├── <a href="https://github.com/OzZaken/util/blob/main/TypeScript\01-types.ts" target="_blank">01-types.ts</a>
@@ -180,7 +188,6 @@ Feel free to use these resources to enhance your own development workflow, and d
     │    ├── <a href="https://github.com/OzZaken/util/blob/main/TypeScript\04-classes.ts" target="_blank">04-classes.ts</a>
     │    ├── <a href="https://github.com/OzZaken/util/blob/main/TypeScript\05-generics.ts" target="_blank">05-generics.ts</a>
     │    └── <a href="https://github.com/OzZaken/util/blob/main/TypeScript\typscript.md" target="_blank"><em>typscript.md</em></a>
-    │
     │
     ├── <strong>Javascript</strong>
     └──────────── <strong>exercises</strong>
