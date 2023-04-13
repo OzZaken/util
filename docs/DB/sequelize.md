@@ -3,7 +3,7 @@ Sequelize is an Object-Relational Mapping (ORM) library for Node.js.
 It provides a simple and powerful way to interact with relational databases such as MySQL, PostgreSQL, and SQLite.
 Sequelize uses models to represent tables in your database.
 
-### Tip for reading the [Doc](https://sequelize.org/)
+# Tip read the [Doc](https://sequelize.org/)
 You are encouraged to run code examples locally while reading the Sequelize docs. This will help you learn faster. The easiest way to do this is using the SQLite dialect:
 ```javascript
 const { Sequelize, Op, Model, DataTypes } = require("sequelize")
@@ -61,8 +61,9 @@ $ npm install --save oracledb # Oracle Database
 
 To connect to the database, you must create a Sequelize instance.
 This can be done by either passing the connection parameters separately to the Sequelize constructor or by passing a single connection URI:
+
 ```javascript
-const { Sequelize } = require('sequelize')
+const { Sequelize } = require('sequelize');
 
 // Option 1: Passing a connection URI
 const sequelize = new Sequelize('sqlite::memory:') // Example for sqlite
@@ -78,12 +79,13 @@ const sequelize = new Sequelize({
 const sequelize = new Sequelize('database', 'username', 'password', {
   host: 'localhost',
   dialect: /* one of 'mysql' | 'postgres' | 'sqlite' | 'mariadb' | 'mssql' | 'db2' | 'snowflake' | 'oracle' */
-})
+});
 ```
 
-## Testing connection: <a href="#tip-for-reading-the-doc" style="float:right;">↑</a>
+# Testing connection: <a href="#tip-for-reading-the-doc" style="float:right;">↑</a>
 
 You can use the `.authenticate()` function to test if the connection is OK:
+
 ```javascript
 try {
   await sequelize.authenticate();
@@ -93,15 +95,12 @@ try {
 }
 ```
 
-## Closing the connection <a href="#tip-for-reading-the-doc" style="float:right;">↑</a>
+# Closing the connection <a href="#tip-for-reading-the-doc" style="float:right;">↑</a>
 
 Sequelize will keep the connection open by default, and use the same connection for all queries.
+
 If you need to close the connection, call `sequelize.close()` (which is asynchronous and returns a Promise).
-> **&excl; NOTE:**
-> 
->  Once `sequelize.close()` has been called, it's impossible to open a new connection. You will need to create a new Sequelize instance to access your database again.
-> 
-> ---
+> **&excl;** Once `sequelize.close()` has been called, it's impossible to open a new connection. You will need to create a new Sequelize instance to access your database again.
 
 
 # PERSIST AND QUERY: <a href="#tip-for-reading-the-doc" style="float:right;">↑</a>
@@ -146,6 +145,7 @@ sequelize.sync()
     console.log('Database synced')
   })
 ```
+
 # Associations: <a href="#tip-for-reading-the-doc" style="float:right;">↑</a>
 
 Sequelize supports several types of associations between models, such as one-to-one, one-to-many, and many-to-many. Associations are defined using the hasMany, belongsTo, and belongsToMany methods.
@@ -162,6 +162,7 @@ const wish = await wishlist.createWish({
 
 await wishlist.removeWish(wish);
 ```
+
 # Soft deletion <a href="#tip-for-reading-the-doc" style="float:right;">↑</a>
 
 Mark data as deleted instead of removing it once and for all from the database.
@@ -181,6 +182,7 @@ await User.findAll({ paranoid: false }); // all
 # Migrations <a href="#tip-for-reading-the-doc" style="float:right;">↑</a>
 
 Sequelize provides a mechanism for managing database schema changes using migrations. Migrations are JavaScript files that define changes to the database schema, such as creating or modifying tables and columns. Sequelize provides methods for running and reverting migrations.
+
 # Queries <a href="#tip-for-reading-the-doc" style="float:right;">↑</a>
 
 Sequelize provides a set of methods for querying the database, such as findAll, findOne, create, update, and destroy. These methods allow you to perform CRUD operations on the database using JavaScript syntax.
@@ -192,6 +194,7 @@ const jane = await User.create({
 
 const users = await User.findAll();
 ```
+
 # Transactions <a href="#tip-for-reading-the-doc" style="float:right;">↑</a>
 
 Sequelize supports transactions, which allow you to group multiple database operations into a single transaction that can be rolled back if any of the operations fail.

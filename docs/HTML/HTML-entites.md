@@ -1,9 +1,3 @@
-<style>
-  .right {
-  float: right;
-  clear: both;
-}
-</style>
 <h1>HTML entities</h1>
 
 Unicode characters, are a standard way of representing characters from all of the world's writing systems using a single encoding scheme.
@@ -12,6 +6,18 @@ The table includes rows that describe Unicode characters using numeric character
 
 [Trademarks](#trademarks)| [Degrees](#degrees)| [Currency](#currency-↑)| [branches and nodes in a tree](#branches-and-nodes-in-a-tree-↑)
 
+# commons
+| Entity                 | Unicode characters          | Preview |
+| ---------------------- | --------------------------- | ------- |
+| empty space            | `&nbsp;`,                   |         |
+| Smiling face           | `&#x1F642;`, `&#x263A;`     | 🙂       |
+| Heart suit             | `&#x2665;`, `&hearts;`      | ♥       |
+| Check mark             | `&#x2713;`, `&check;`       | ✓       |
+| Cross mark             | `&#x2717;`, `&cross;`       | ✗       |
+| exclamation mark       | `&#x21;`                    | !       |
+| heavy exclamation mark | `&#x2757;` , `&excl;circle` | ❗       |
+| dot                    | `U+00B7`                    | ·       |
+
 # Trademarks 
 | Entity                      | Unicode characters    | Preview |
 | --------------------------- | --------------------- | ------- |
@@ -19,7 +25,7 @@ The table includes rows that describe Unicode characters using numeric character
 | Trademark symbol            | `&#x2122;`, `&trade;` | ™       |
 | Copyright symbol            | `&#xA9;`, `&copy;`    | ©       |
 
-# Degrees 
+# Temperature 
 | Entity                   | Unicode characters   | Preview |
 | ------------------------ | -------------------- | ------- |
 | Degree                   | `&#xB0;` ,`&deg;`    | °       |
@@ -40,29 +46,6 @@ The table includes rows that describe Unicode characters using numeric character
 | Indian Rupee currency symbol      | `&#x20B9;`                       | ₹       |
 | South Korean Won currency symbol  | `&#x20A9;`                       | ₩       |
 | Russian Ruble currency symbol     | `&#x20BD;`                       | ₽       |
-
-# branches and nodes in a tree <a href="#top" class="right">↑</a>
-| Entity | Unicode value | Preview |
-| ------ | ------------- | ------- |
-| `─`    | `U+2500`      | ─       |
-| `┬`    | `U+252C`      | ┬       |
-| `┴`    | `U+2534`      | ┴       |
-| `├`    | `U+251C`      | ├       |
-| `┤`    | `U+2524`      | ┤       |
-| `┌`    | `U+250C`      | ┌       |
-| `┐`    | `U+2510`      | ┐       |
-| `└`    | `U+2514`      | └       |
-| `┘`    | `U+2518`      | ┘       |
-| `│`    | `U+2502`      | │       |
-| `·`    | `U+00B7`      | ·       |
-
-# checked / mark <a href="#top" class="right">↑</a>
-| Entity                 | Unicode characters          | Preview |
-| ---------------------- | --------------------------- | ------- |
-| Check mark             | `&#x2713;`, `&check;`       | ✓       |
-| Cross mark             | `&#x2717;`, `&cross;`       | ✗       |
-| exclamation mark       | `&#x21;`                    | !       |
-| heavy exclamation mark | `&#x2757;` , `&excl;circle` | ❗       |
 
 # Directional Arrows <a href="#top" class="right">↑</a>
 | Entity                         | Unicode value | Preview |
@@ -90,9 +73,16 @@ The table includes rows that describe Unicode characters using numeric character
 | Down arrow with tip leftwards  | `&#x21B2;`    | ↲       |
 | Down arrow with tip rightwards | `&#x21B3;`    | ↳       |
 
-# Miscellaneous <a href="#top" class="right">↑</a>
-| Entity       | Unicode characters      | Preview |
-| ------------ | ----------------------- | ------- |
-| Smiling face | `&#x1F642;`, `&#x263A;` | 🙂       |
-| Heart suit   | `&#x2665;`, `&hearts;`  | ♥       |
-
+# branches and nodes in a tree <a href="#top" class="right">↑</a>
+| Entity | Unicode value | Preview |
+| ------ | ------------- | ------- |
+| `─`    | `U+2500`      | ─       |
+| `┬`    | `U+252C`      | ┬       |
+| `┴`    | `U+2534`      | ┴       |
+| `├`    | `U+251C`      | ├       |
+| `┤`    | `U+2524`      | ┤       |
+| `┌`    | `U+250C`      | ┌       |
+| `┐`    | `U+2510`      | ┐       |
+| `└`    | `U+2514`      | └       |
+| `┘`    | `U+2518`      | ┘       |
+| `│`    | `U+2502`      | │       |
