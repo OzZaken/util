@@ -1,4 +1,5 @@
 <h1>Application Programming Interface.</h1>
+
 It is a set of protocols, tools, and routines for building software applications.
 An API specifies how different software components should interact with each other, allowing different applications to communicate with each other.
 
