@@ -8,44 +8,42 @@ Whether you are a beginner or an experienced developer, this repository can help
 The utilities cover a wide range of topics including front-end development, back-end development, database management, testing, deployment, and more.
 
 Feel free to use these resources to enhance your own development workflow, and don't hesitate to contribute to the repository if you have any useful tools or tips to share!
-
 # util Tree Structure:
 
 <pre>
-└── <strong>util</strong> 210 files in 48 folders.
+└── <strong>util</strong> 213 files in 50 folders.
     ├── <strong>bin</strong>
     │   ├── <strong>bat</strong>
-    │   │   ├── <a href="https://github.com/OzZaken/util/blob/main/bin\bat\maintenance-windows.bat" target="_blank">maintenance-windows.bat</a>
-    │   │   └── <a href="https://github.com/OzZaken/util/blob/main/bin\bat\vscode-extensions.bat" target="_blank">vscode-extensions.bat</a>
+    │   │   ├── <a href="https://github.com/OzZaken/util/blob/main/bin\bat\get-vscode-extensions.bin.bat" target="_blank">get-vscode-extensions.bin.bat</a>
+    │   │   └── <a href="https://github.com/OzZaken/util/blob/main/bin\bat\maintenance-windows.bin.bat" target="_blank">maintenance-windows.bin.bat</a>
     │   ├── <strong>node</strong>
-    │   │   ├── <a href="https://github.com/OzZaken/util/blob/main/bin\node\gen-tree-structure.service.js" target="_blank">gen-tree-structure.service.js</a>
-    │   │   ├── <a href="https://github.com/OzZaken/util/blob/main/bin\node\get-sequlize-operators.js" target="_blank">get-sequlize-operators.js</a>
-    │   │   └── <a href="https://github.com/OzZaken/util/blob/main/bin\node\read-package.service.js" target="_blank">read-package.service.js</a>
+    │   │   ├── <a href="https://github.com/OzZaken/util/blob/main/bin\node\gen-link-tree.service.bin.js" target="_blank">gen-link-tree.service.bin.js</a>
+    │   │   ├── <a href="https://github.com/OzZaken/util/blob/main/bin\node\gen-tree-structure.bin.js" target="_blank">gen-tree-structure.bin.js</a>
+    │   │   ├── <a href="https://github.com/OzZaken/util/blob/main/bin\node\get-sequlize-operators.bin.js" target="_blank">get-sequlize-operators.bin.js</a>
+    │   │   └── <a href="https://github.com/OzZaken/util/blob/main/bin\node\read-package.bin.js" target="_blank">read-package.bin.js</a>
     │   ├── <strong>ps1</strong>
-    │   │   ├── <a href="https://github.com/OzZaken/util/blob/main/bin\ps1\check-dev.ps1" target="_blank">check-dev.ps1</a>
-    │   │   ├── <a href="https://github.com/OzZaken/util/blob/main/bin\ps1\delete-node-modules.ps1" target="_blank">delete-node-modules.ps1</a>
-    │   │   ├── <a href="https://github.com/OzZaken/util/blob/main/bin\ps1\search-string.ps1" target="_blank">search-string.ps1</a>
-    │   │   └── <a href="https://github.com/OzZaken/util/blob/main/bin\ps1\work-or-kill-process.ps1" target="_blank">work-or-kill-process.ps1</a>
+    │   │   ├── <a href="https://github.com/OzZaken/util/blob/main/bin\ps1\check-dev.bin.ps1" target="_blank">check-dev.bin.ps1</a>
+    │   │   ├── <a href="https://github.com/OzZaken/util/blob/main/bin\ps1\delete-node-modules.bin.ps1" target="_blank">delete-node-modules.bin.ps1</a>
+    │   │   ├── <a href="https://github.com/OzZaken/util/blob/main/bin\ps1\search-string.bin.ps1" target="_blank">search-string.bin.ps1</a>
+    │   │   └── <a href="https://github.com/OzZaken/util/blob/main/bin\ps1\work-or-kill-process.bin.ps1" target="_blank">work-or-kill-process.bin.ps1</a>
     │   ├── <strong>py</strong>
-    │   │   ├── <a href="https://github.com/OzZaken/util/blob/main/bin\py\analyze-github-user.py" target="_blank">analyze-github-user.py</a>
-    │   │   ├── <a href="https://github.com/OzZaken/util/blob/main/bin\py\colors.py" target="_blank">colors.py</a>
-    │   │   └── <a href="https://github.com/OzZaken/util/blob/main/bin\py\gen-link-tree.service.py" target="_blank">gen-link-tree.service.py</a>
+    │   │   ├── <a href="https://github.com/OzZaken/util/blob/main/bin\py\analyze-github-user.bin.py" target="_blank">analyze-github-user.bin.py</a>
+    │   │   ├── <a href="https://github.com/OzZaken/util/blob/main/bin\py\colors.bin.py" target="_blank">colors.bin.py</a>
+    │   │   └── <a href="https://github.com/OzZaken/util/blob/main/bin\py\gen-link-tree.service.bin.py" target="_blank">gen-link-tree.service.bin.py</a>
     │   └── <strong>sh</strong>
-    │       ├── <a href="https://github.com/OzZaken/util/blob/main/bin\sh\git-push.sh" target="_blank">git-push.sh</a>
-    │       └── <a href="https://github.com/OzZaken/util/blob/main/bin\sh\show-wifis.sh" target="_blank">show-wifis.sh</a>
+    │       ├── <a href="https://github.com/OzZaken/util/blob/main/bin\sh\git-push.bin.sh" target="_blank">git-push.bin.sh</a>
+    │       └── <a href="https://github.com/OzZaken/util/blob/main/bin\sh\show-wifis.bin.sh" target="_blank">show-wifis.bin.sh</a>
     ├── <strong>docs</strong>
     │   ├── <strong>API</strong>
     │   │   └── <a href="https://github.com/OzZaken/util/blob/main/docs\API\API.md" target="_blank"><em>API.md</em></a>
-    │   ├── <strong>CLI</strong>
-    │   │   ├── <a href="https://github.com/OzZaken/util/blob/main/docs\CLI\Git-Bash.md" target="_blank"><em>Git-Bash.md</em></a>
-    │   │   └── <a href="https://github.com/OzZaken/util/blob/main/docs\CLI\Git.md" target="_blank"><em>Git.md</em></a>
+    │   ├── <a href="https://github.com/OzZaken/util/blob/main/docs\bin.md" target="_blank"><em>bin.md</em></a>
     │   ├── <strong>DB</strong>
     │   │   ├── <a href="https://github.com/OzZaken/util/blob/main/docs\DB\cloudinary.md" target="_blank"><em>cloudinary.md</em></a>
     │   │   ├── <a href="https://github.com/OzZaken/util/blob/main/docs\DB\DB.md" target="_blank"><em>DB.md</em></a>
+    │   │   ├── <a href="https://github.com/OzZaken/util/blob/main/docs\DB\mongodb-mongoose.md" target="_blank"><em>mongodb-mongoose.md</em></a>
     │   │   ├── <a href="https://github.com/OzZaken/util/blob/main/docs\DB\mongodb.md" target="_blank"><em>mongodb.md</em></a>
-    │   │   ├── <a href="https://github.com/OzZaken/util/blob/main/docs\DB\mongoose.md" target="_blank"><em>mongoose.md</em></a>
-    │   │   ├── <a href="https://github.com/OzZaken/util/blob/main/docs\DB\MySQL.md" target="_blank"><em>MySQL.md</em></a>
-    │   │   └── <a href="https://github.com/OzZaken/util/blob/main/docs\DB\sequelize.md" target="_blank"><em>sequelize.md</em></a>
+    │   │   ├── <a href="https://github.com/OzZaken/util/blob/main/docs\DB\MySQL-sequelize.md" target="_blank"><em>MySQL-sequelize.md</em></a>
+    │   │   └── <a href="https://github.com/OzZaken/util/blob/main/docs\DB\MySQL.md" target="_blank"><em>MySQL.md</em></a>
     │   ├── <strong>HTML</strong>
     │   │   ├── <a href="https://github.com/OzZaken/util/blob/main/docs\HTML\HTML-entites.md" target="_blank"><em>HTML-entites.md</em></a>
     │   │   └── <a href="https://github.com/OzZaken/util/blob/main/docs\HTML\HTML.md" target="_blank"><em>HTML.md</em></a>
@@ -62,6 +60,7 @@ Feel free to use these resources to enhance your own development workflow, and d
     │   │   ├── <a href="https://github.com/OzZaken/util/blob/main/docs\Node\node-express.md" target="_blank"><em>node-express.md</em></a>
     │   │   ├── <a href="https://github.com/OzZaken/util/blob/main/docs\Node\node-express.middleware.md" target="_blank"><em>node-express.middleware.md</em></a>
     │   │   ├── <a href="https://github.com/OzZaken/util/blob/main/docs\Node\node-express.templating.md" target="_blank"><em>node-express.templating.md</em></a>
+    │   │   ├── <a href="https://github.com/OzZaken/util/blob/main/docs\Node\node-package-manager.md" target="_blank"><em>node-package-manager.md</em></a>
     │   │   └── <a href="https://github.com/OzZaken/util/blob/main/docs\Node\node.md" target="_blank"><em>node.md</em></a>
     │   ├── <a href="https://github.com/OzZaken/util/blob/main/docs\ORM.md" target="_blank"><em>ORM.md</em></a>
     │   ├── <a href="https://github.com/OzZaken/util/blob/main/docs\PHP.md" target="_blank"><em>PHP.md</em></a>
@@ -82,11 +81,16 @@ Feel free to use these resources to enhance your own development workflow, and d
     │   │   ├── <a href="https://github.com/OzZaken/util/blob/main/docs\Typescript\Interfaces.png" target="_blank">Interfaces.png</a>
     │   │   ├── <a href="https://github.com/OzZaken/util/blob/main/docs\Typescript\Types.pdf" target="_blank">Types.pdf</a>
     │   │   └── <a href="https://github.com/OzZaken/util/blob/main/docs\Typescript\Typscript.md" target="_blank"><em>Typscript.md</em></a>
-    │   ├── <strong>VsCode</strong>
-    │   │   ├── <a href="https://github.com/OzZaken/util/blob/main/docs\VsCode\vscode-extensions.md" target="_blank"><em>vscode-extensions.md</em></a>
-    │   │   ├── <a href="https://github.com/OzZaken/util/blob/main/docs\VsCode\vscode-snippets-html.md" target="_blank"><em>vscode-snippets-html.md</em></a>
-    │   │   ├── <a href="https://github.com/OzZaken/util/blob/main/docs\VsCode\vscode-snippets-js.md" target="_blank"><em>vscode-snippets-js.md</em></a>
-    │   │   └── <a href="https://github.com/OzZaken/util/blob/main/docs\VsCode\vscode-snippets-md.md" target="_blank"><em>vscode-snippets-md.md</em></a>
+    │   ├── <strong>UI</strong>
+    │   │   ├── <strong>CLI</strong>
+    │   │   │   └── <a href="https://github.com/OzZaken/util/blob/main/docs\UI\CLI\Git.md" target="_blank"><em>Git.md</em></a>
+    │   │   └── <strong>GUI</strong>
+    │   │       ├── <a href="https://github.com/OzZaken/util/blob/main/docs\UI\GUI\GUI.md" target="_blank"><em>GUI.md</em></a>
+    │   │       └── <strong>VsCode</strong>
+    │   │           ├── <a href="https://github.com/OzZaken/util/blob/main/docs\UI\GUI\VsCode\vscode-extensions.md" target="_blank"><em>vscode-extensions.md</em></a>
+    │   │           ├── <a href="https://github.com/OzZaken/util/blob/main/docs\UI\GUI\VsCode\vscode-snippets-html.md" target="_blank"><em>vscode-snippets-html.md</em></a>
+    │   │           ├── <a href="https://github.com/OzZaken/util/blob/main/docs\UI\GUI\VsCode\vscode-snippets-js.md" target="_blank"><em>vscode-snippets-js.md</em></a>
+    │   │           └── <a href="https://github.com/OzZaken/util/blob/main/docs\UI\GUI\VsCode\vscode-snippets-md.md" target="_blank"><em>vscode-snippets-md.md</em></a>
     │   └── <a href="https://github.com/OzZaken/util/blob/main/docs\XAMPP.md" target="_blank"><em>XAMPP.md</em></a>
     ├── <strong>exercises</strong>
     │   ├── <strong>algorithms</strong>
