@@ -1,5 +1,6 @@
 'use strict'
-// vanilla
+
+// ---------------------------------   vanilla   ---------------------------------  
 function ask(cb) {
     const xhr = new XMLHttpRequest()
     console.log('XMLHttpRequest', XMLHttpRequest)
@@ -13,7 +14,8 @@ function ask(cb) {
     xhr.open('GET', 'https://yesno.wtf/api', true)
     xhr.send();
 }
-// fetch
+
+// ---------------------------------   fetch   ---------------------------------  
 function askVerbose() {
     const prm = fetch('https://yesno.wtf/api')
    
@@ -24,13 +26,14 @@ function askVerbose() {
     
     return data
 }
-// JQuery
+
+// ---------------------------------   JQuery   ---------------------------------  
 function jQueryAsk(cb) {
     $.get('https://yesno.wtf/api', cb)
 }
 
 
-// Axios
+// ---------------------------------   axios   ---------------------------------  
 function axiosAsk() {
     return axios.get('https://yesno.wtf/api').then((res) => res.data)
 }

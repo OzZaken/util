@@ -1,4 +1,5 @@
 import express, { Router } from 'express'
+
 import { getUser, getUsers, deleteUser, updateUser } from './user.controller'
 
 const router: Router = express.Router()
