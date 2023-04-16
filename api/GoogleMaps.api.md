@@ -1,7 +1,11 @@
 [Doc](https://developers.google.com/maps/documentation/javascript/overview#Dynamic)
+
 [Dashboard](https://console.cloud.google.com/home/dashboard?project=bionic-flux-358320)
+
 [APIs & Services](https://console.cloud.google.com/apis/credentials?project=bionic-flux-358320)
+
 [required_parameters](https://developers.google.com/maps/documentation/javascript/url-params#required_parameters)
+
 [Restrict Key](https://developers.google.com/maps/api-security-best-practices#restricting-api-keys)
 
 Maps API guidelines: https://console.developers.google.com/cloud-resource-manager?pli=1
