@@ -1,13 +1,14 @@
-[Doc](https://developers.google.com/maps/documentation/javascript/overview#Dynamic)
+# Using Google Maps API
+Google Maps API allows you to embed maps into your website, and customize them according to your needs.
+You can also add markers, overlays, and other features to your maps.
+In this tutorial, we will walk you through the steps to create a Google Maps API key and embed a map on your website.
 
-[Dashboard](https://console.cloud.google.com/home/dashboard?project=bionic-flux-358320)
 
-[APIs & Services](https://console.cloud.google.com/apis/credentials?project=bionic-flux-358320)
-
-[required_parameters](https://developers.google.com/maps/documentation/javascript/url-params#required_parameters)
-
-[Restrict Key](https://developers.google.com/maps/api-security-best-practices#restricting-api-keys)
-
+[Doc](https://developers.google.com/maps/documentation/javascript/overview#Dynamic)|
+[Dashboard](https://console.cloud.google.com/home/dashboard?project=bionic-flux-358320)|
+[APIs & Services](https://console.cloud.google.com/apis/credentials?project=bionic-flux-358320)|
+[required_parameters](https://developers.google.com/maps/documentation/javascript/url-params#required_parameters)|
+[Restrict Key](https://developers.google.com/maps/api-security-best-practices#restricting-api-keys)|
 [Maps API guidelines](https://console.developers.google.com/cloud-resource-manager?pli=1)
 
 1. Maps API (add your map):
