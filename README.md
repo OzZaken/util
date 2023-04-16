@@ -2,7 +2,7 @@
 
 Fullstack utilities repository containing a collection of useful tools and resources for efficient development workflow.
 
-This repository contains a collection of useful `utilities`, `code snippets`, and `resources` that I have accumulated while working as a full-stack developer.
+This repository contains a collection of useful `utilities`, `code snippets`, `scripts` and `resources` that I have accumulated while working as a full-stack developer.
 
 Whether you are a beginner or an experienced developer, this repository can help you become more efficient and productive.
 
@@ -13,7 +13,8 @@ Feel free to use these resources to enhance your own development workflow, and d
 # util Tree Structure:
 
 <pre>
-└── <strong>util</strong> 260 files in 46 folders.
+└── <strong>util</strong> 262 files in 45 folders.
+    ├── <a href="https://github.com/OzZaken/util/blob/main/.env" target="_blank">.env</a>
     ├── <strong>api</strong>
     │   ├── <a href="https://github.com/OzZaken/util/blob/main/api\API.md" target="_blank"><em>API.md</em></a>
     │   ├── <a href="https://github.com/OzZaken/util/blob/main/api\DogImages.api.md" target="_blank"><em>DogImages.api.md</em></a>
@@ -24,59 +25,10 @@ Feel free to use these resources to enhance your own development workflow, and d
     │   ├── <a href="https://github.com/OzZaken/util/blob/main/api\unsplash.md" target="_blank"><em>unsplash.md</em></a>
     │   ├── <a href="https://github.com/OzZaken/util/blob/main/api\weather.api.md" target="_blank"><em>weather.api.md</em></a>
     │   └── <a href="https://github.com/OzZaken/util/blob/main/api\YesNo.api.md" target="_blank"><em>YesNo.api.md</em></a>
-    ├── <strong>bin</strong>
-    │   ├── <strong>bat</strong>
-    │   │   ├── <a href="https://github.com/OzZaken/util/blob/main/bin\bat\get-vscode-extensions.bin.bat" target="_blank">get-vscode-extensions.bin.bat</a>
-    │   │   ├── <a href="https://github.com/OzZaken/util/blob/main/bin\bat\maintenance-windows.bin.bat" target="_blank">maintenance-windows.bin.bat</a>
-    │   │   └── <a href="https://github.com/OzZaken/util/blob/main/bin\bat\wifi-pass-reveal.bat" target="_blank">wifi-pass-reveal.bat</a>
-    │   ├── <a href="https://github.com/OzZaken/util/blob/main/bin\BIN.md" target="_blank"><em>BIN.md</em></a>
-    │   ├── <strong>node</strong>
-    │   │   ├── <a href="https://github.com/OzZaken/util/blob/main/bin\node\delete-node-modules.bin.js" target="_blank">delete-node-modules.bin.js</a>
-    │   │   ├── <a href="https://github.com/OzZaken/util/blob/main/bin\node\gen-link-tree.service.bin.js" target="_blank">gen-link-tree.service.bin.js</a>
-    │   │   ├── <a href="https://github.com/OzZaken/util/blob/main/bin\node\gen-tree-structure.bin.js" target="_blank">gen-tree-structure.bin.js</a>
-    │   │   ├── <a href="https://github.com/OzZaken/util/blob/main/bin\node\get-sequlize-operators.bin.js" target="_blank">get-sequlize-operators.bin.js</a>
-    │   │   ├── <a href="https://github.com/OzZaken/util/blob/main/bin\node\node-ALS.md" target="_blank"><em>node-ALS.md</em></a>
-    │   │   ├── <a href="https://github.com/OzZaken/util/blob/main/bin\node\node-express.md" target="_blank"><em>node-express.md</em></a>
-    │   │   ├── <a href="https://github.com/OzZaken/util/blob/main/bin\node\node-express.middleware.md" target="_blank"><em>node-express.middleware.md</em></a>
-    │   │   ├── <a href="https://github.com/OzZaken/util/blob/main/bin\node\node-express.templating.md" target="_blank"><em>node-express.templating.md</em></a>
-    │   │   ├── <a href="https://github.com/OzZaken/util/blob/main/bin\node\node-npx.md" target="_blank"><em>node-npx.md</em></a>
-    │   │   ├── <strong>node-package</strong>
-    │   │   │   ├── <a href="https://github.com/OzZaken/util/blob/main/bin\node\node-package\bcrypt.md" target="_blank"><em>bcrypt.md</em></a>
-    │   │   │   ├── <a href="https://github.com/OzZaken/util/blob/main/bin\node\node-package\cookie-parser.md" target="_blank"><em>cookie-parser.md</em></a>
-    │   │   │   ├── <a href="https://github.com/OzZaken/util/blob/main/bin\node\node-package\cors.md" target="_blank"><em>cors.md</em></a>
-    │   │   │   ├── <a href="https://github.com/OzZaken/util/blob/main/bin\node\node-package\cryptr.md" target="_blank"><em>cryptr.md</em></a>
-    │   │   │   ├── <a href="https://github.com/OzZaken/util/blob/main/bin\node\node-package\express-useragent.md" target="_blank"><em>express-useragent.md</em></a>
-    │   │   │   ├── <a href="https://github.com/OzZaken/util/blob/main/bin\node\node-package\express.md" target="_blank"><em>express.md</em></a>
-    │   │   │   ├── <a href="https://github.com/OzZaken/util/blob/main/bin\node\node-package\formik.md" target="_blank"><em>formik.md</em></a>
-    │   │   │   ├── <a href="https://github.com/OzZaken/util/blob/main/bin\node\node-package\google-map-react.md" target="_blank"><em>google-map-react.md</em></a>
-    │   │   │   ├── <a href="https://github.com/OzZaken/util/blob/main/bin\node\node-package\inquirer.md" target="_blank"><em>inquirer.md</em></a>
-    │   │   │   ├── <a href="https://github.com/OzZaken/util/blob/main/bin\node\node-package\live-server.md" target="_blank"><em>live-server.md</em></a>
-    │   │   │   ├── <a href="https://github.com/OzZaken/util/blob/main/bin\node\node-package\mongodb.md" target="_blank"><em>mongodb.md</em></a>
-    │   │   │   ├── <a href="https://github.com/OzZaken/util/blob/main/bin\node\node-package\node-sass.md" target="_blank"><em>node-sass.md</em></a>
-    │   │   │   ├── <a href="https://github.com/OzZaken/util/blob/main/bin\node\node-package\nodemon.md" target="_blank"><em>nodemon.md</em></a>
-    │   │   │   ├── <a href="https://github.com/OzZaken/util/blob/main/bin\node\node-package\pdfkit.md" target="_blank"><em>pdfkit.md</em></a>
-    │   │   │   ├── <a href="https://github.com/OzZaken/util/blob/main/bin\node\node-package\prop-types.md" target="_blank"><em>prop-types.md</em></a>
-    │   │   │   └── <a href="https://github.com/OzZaken/util/blob/main/bin\node\node-package\socket.io.md" target="_blank"><em>socket.io.md</em></a>
-    │   │   ├── <a href="https://github.com/OzZaken/util/blob/main/bin\node\node-package-manager.md" target="_blank"><em>node-package-manager.md</em></a>
-    │   │   ├── <a href="https://github.com/OzZaken/util/blob/main/bin\node\node.md" target="_blank"><em>node.md</em></a>
-    │   │   └── <a href="https://github.com/OzZaken/util/blob/main/bin\node\read-package.bin.js" target="_blank">read-package.bin.js</a>
-    │   ├── <strong>powershell</strong>
-    │   │   ├── <a href="https://github.com/OzZaken/util/blob/main/bin\powershell\check-dev.bin.ps1" target="_blank">check-dev.bin.ps1</a>
-    │   │   ├── <a href="https://github.com/OzZaken/util/blob/main/bin\powershell\delete-node-modules.bin.ps1" target="_blank">delete-node-modules.bin.ps1</a>
-    │   │   ├── <a href="https://github.com/OzZaken/util/blob/main/bin\powershell\search-string.bin.ps1" target="_blank">search-string.bin.ps1</a>
-    │   │   ├── <a href="https://github.com/OzZaken/util/blob/main/bin\powershell\system-info.ps1" target="_blank">system-info.ps1</a>
-    │   │   └── <a href="https://github.com/OzZaken/util/blob/main/bin\powershell\work-or-kill-process.bin.ps1" target="_blank">work-or-kill-process.bin.ps1</a>
-    │   ├── <strong>python</strong>
-    │   │   ├── <a href="https://github.com/OzZaken/util/blob/main/bin\python\analyze-github-user.bin.py" target="_blank">analyze-github-user.bin.py</a>
-    │   │   ├── <a href="https://github.com/OzZaken/util/blob/main/bin\python\colors.bin.py" target="_blank">colors.bin.py</a>
-    │   │   ├── <a href="https://github.com/OzZaken/util/blob/main/bin\python\convert-files-empty-space-to-lodash.py" target="_blank">convert-files-empty-space-to-lodash.py</a>
-    │   │   ├── <a href="https://github.com/OzZaken/util/blob/main/bin\python\gen-link-tree.service.bin.py" target="_blank">gen-link-tree.service.bin.py</a>
-    │   │   ├── <a href="https://github.com/OzZaken/util/blob/main/bin\python\numpy.md" target="_blank"><em>numpy.md</em></a>
-    │   │   └── <a href="https://github.com/OzZaken/util/blob/main/bin\python\pandas.md" target="_blank"><em>pandas.md</em></a>
-    │   └── <strong>sh</strong>
-    │       ├── <a href="https://github.com/OzZaken/util/blob/main/bin\sh\bash-scripts.md" target="_blank"><em>bash-scripts.md</em></a>
-    │       ├── <a href="https://github.com/OzZaken/util/blob/main/bin\sh\git-push.bin.sh" target="_blank">git-push.bin.sh</a>
-    │       └── <a href="https://github.com/OzZaken/util/blob/main/bin\sh\show-wifis.bin.sh" target="_blank">show-wifis.bin.sh</a>
+    ├── <strong>bat</strong>
+    │   ├── <a href="https://github.com/OzZaken/util/blob/main/bat\get-vscode-extensions.bin.bat" target="_blank">get-vscode-extensions.bin.bat</a>
+    │   ├── <a href="https://github.com/OzZaken/util/blob/main/bat\maintenance-windows.bin.bat" target="_blank">maintenance-windows.bin.bat</a>
+    │   └── <a href="https://github.com/OzZaken/util/blob/main/bat\wifi-pass-reveal.bat" target="_blank">wifi-pass-reveal.bat</a>
     ├── <strong>db</strong>
     │   ├── <strong>cloudinary</strong>
     │   │   ├── <a href="https://github.com/OzZaken/util/blob/main/db\cloudinary\cloudinary.html" target="_blank">cloudinary.html</a>
@@ -134,13 +86,15 @@ Feel free to use these resources to enhance your own development workflow, and d
     │       ├── <a href="https://github.com/OzZaken/util/blob/main/db\MySQL\shop_db.sql" target="_blank">shop_db.sql</a>
     │       └── <a href="https://github.com/OzZaken/util/blob/main/db\MySQL\SQL-Samples.sql" target="_blank">SQL-Samples.sql</a>
     ├── <strong>doc</strong>
+    │   ├── <a href="https://github.com/OzZaken/util/blob/main/doc\env.md" target="_blank"><em>env.md</em></a>
     │   ├── <a href="https://github.com/OzZaken/util/blob/main/doc\ORM.md" target="_blank"><em>ORM.md</em></a>
     │   ├── <strong>programming-languages</strong>
     │   │   └── <a href="https://github.com/OzZaken/util/blob/main/doc\programming-languages\Docker.md" target="_blank"><em>Docker.md</em></a>
     │   ├── <strong>programming-paradigms</strong>
     │   │   ├── <a href="https://github.com/OzZaken/util/blob/main/doc\programming-paradigms\OOP.md" target="_blank"><em>OOP.md</em></a>
     │   │   └── <a href="https://github.com/OzZaken/util/blob/main/doc\programming-paradigms\programming-paradigms.md" target="_blank"><em>programming-paradigms.md</em></a>
-    │   └── <a href="https://github.com/OzZaken/util/blob/main/doc\url.md" target="_blank"><em>url.md</em></a>
+    │   ├── <a href="https://github.com/OzZaken/util/blob/main/doc\URI-URL.md" target="_blank"><em>URI-URL.md</em></a>
+    │   └── <a href="https://github.com/OzZaken/util/blob/main/doc\URI.md" target="_blank"><em>URI.md</em></a>
     ├── <strong>html</strong>
     │   ├── <a href="https://github.com/OzZaken/util/blob/main/html\HTML-entites-code.md" target="_blank"><em>HTML-entites-code.md</em></a>
     │   ├── <a href="https://github.com/OzZaken/util/blob/main/html\HTML-head.md" target="_blank"><em>HTML-head.md</em></a>
@@ -153,71 +107,101 @@ Feel free to use these resources to enhance your own development workflow, and d
     │   ├── <a href="https://github.com/OzZaken/util/blob/main/index\INDEX.md" target="_blank"><em>INDEX.md</em></a>
     │   ├── <a href="https://github.com/OzZaken/util/blob/main/index\index.mustache" target="_blank">index.mustache</a>
     │   └── <a href="https://github.com/OzZaken/util/blob/main/index\index.pug" target="_blank">index.pug</a>
-    ├── <strong>js</strong>
+    ├── <strong>javascript</strong>
     │   ├── <strong>algorithms</strong>
-    │   │   ├── <a href="https://github.com/OzZaken/util/blob/main/js\algorithms\search.algorithms.js" target="_blank">search.algorithms.js</a>
-    │   │   ├── <a href="https://github.com/OzZaken/util/blob/main/js\algorithms\shuffle.algorithms.js" target="_blank">shuffle.algorithms.js</a>
-    │   │   └── <a href="https://github.com/OzZaken/util/blob/main/js\algorithms\sort.algorithms.js" target="_blank">sort.algorithms.js</a>
+    │   │   ├── <a href="https://github.com/OzZaken/util/blob/main/javascript\algorithms\search.algorithms.js" target="_blank">search.algorithms.js</a>
+    │   │   ├── <a href="https://github.com/OzZaken/util/blob/main/javascript\algorithms\shuffle.algorithms.js" target="_blank">shuffle.algorithms.js</a>
+    │   │   └── <a href="https://github.com/OzZaken/util/blob/main/javascript\algorithms\sort.algorithms.js" target="_blank">sort.algorithms.js</a>
     │   └── <strong>exercise</strong>
-    │       ├── <a href="https://github.com/OzZaken/util/blob/main/js\exercise\Exercise_01_-_Hello_Javascript.js" target="_blank">Exercise_01_-_Hello_Javascript.js</a>
-    │       ├── <a href="https://github.com/OzZaken/util/blob/main/js\exercise\Exercise_02_-_Basic_math_operations.js" target="_blank">Exercise_02_-_Basic_math_operations.js</a>
-    │       ├── <a href="https://github.com/OzZaken/util/blob/main/js\exercise\Exercise_03_-_Temperature_converting.js" target="_blank">Exercise_03_-_Temperature_converting.js</a>
-    │       ├── <a href="https://github.com/OzZaken/util/blob/main/js\exercise\Exercise_04_-_Calculate_Time.js" target="_blank">Exercise_04_-_Calculate_Time.js</a>
-    │       ├── <a href="https://github.com/OzZaken/util/blob/main/js\exercise\Exercise_05_-_Number_from_Digits.js" target="_blank">Exercise_05_-_Number_from_Digits.js</a>
-    │       ├── <a href="https://github.com/OzZaken/util/blob/main/js\exercise\Exercise_06_-_Quadratic_Equation.js" target="_blank">Exercise_06_-_Quadratic_Equation.js</a>
-    │       ├── <a href="https://github.com/OzZaken/util/blob/main/js\exercise\Exercise_07_-_Two_Numbers_Equal_the_Third.js" target="_blank">Exercise_07_-_Two_Numbers_Equal_the_Third.js</a>
-    │       ├── <a href="https://github.com/OzZaken/util/blob/main/js\exercise\Exercise_08_-_The_Smallest_of_Three_Numbers.js" target="_blank">Exercise_08_-_The_Smallest_of_Three_Numbers.js</a>
-    │       ├── <a href="https://github.com/OzZaken/util/blob/main/js\exercise\Exercise_09_-_Absolute_Value.js" target="_blank">Exercise_09_-_Absolute_Value.js</a>
-    │       ├── <a href="https://github.com/OzZaken/util/blob/main/js\exercise\Exercise_10_-_Facebook_Friends.js" target="_blank">Exercise_10_-_Facebook_Friends.js</a>
-    │       ├── <a href="https://github.com/OzZaken/util/blob/main/js\exercise\Exercise_11_-_Bank_System.js" target="_blank">Exercise_11_-_Bank_System.js</a>
-    │       ├── <a href="https://github.com/OzZaken/util/blob/main/js\exercise\Exercise_12_-_Guess_Who.js" target="_blank">Exercise_12_-_Guess_Who.js</a>
-    │       ├── <a href="https://github.com/OzZaken/util/blob/main/js\exercise\Exercise_13_-_The_Elevator.js" target="_blank">Exercise_13_-_The_Elevator.js</a>
-    │       ├── <a href="https://github.com/OzZaken/util/blob/main/js\exercise\Exercise_14_-_Greet_Function.js" target="_blank">Exercise_14_-_Greet_Function.js</a>
-    │       ├── <a href="https://github.com/OzZaken/util/blob/main/js\exercise\Exercise_15_-_Sum_of_two_Numbers.js" target="_blank">Exercise_15_-_Sum_of_two_Numbers.js</a>
-    │       ├── <a href="https://github.com/OzZaken/util/blob/main/js\exercise\Exercise_16_-_Even_and_Odd.js" target="_blank">Exercise_16_-_Even_and_Odd.js</a>
-    │       ├── <a href="https://github.com/OzZaken/util/blob/main/js\exercise\Exercise_17_-_Get_the_Bigger_Num.js" target="_blank">Exercise_17_-_Get_the_Bigger_Num.js</a>
-    │       ├── <a href="https://github.com/OzZaken/util/blob/main/js\exercise\Exercise_18_-_Age_Check.js" target="_blank">Exercise_18_-_Age_Check.js</a>
-    │       ├── <a href="https://github.com/OzZaken/util/blob/main/js\exercise\Exercise_19_-_Even_and_Odd_Numbers.js" target="_blank">Exercise_19_-_Even_and_Odd_Numbers.js</a>
-    │       ├── <a href="https://github.com/OzZaken/util/blob/main/js\exercise\Exercise_20_-_Min,_Max_and_Avg..js" target="_blank">Exercise_20_-_Min,_Max_and_Avg..js</a>
-    │       ├── <a href="https://github.com/OzZaken/util/blob/main/js\exercise\Exercise_21_-_Divisible_by_3.js" target="_blank">Exercise_21_-_Divisible_by_3.js</a>
-    │       ├── <a href="https://github.com/OzZaken/util/blob/main/js\exercise\Exercise_22_-_myPow().js" target="_blank">Exercise_22_-_myPow().js</a>
-    │       ├── <a href="https://github.com/OzZaken/util/blob/main/js\exercise\Exercise_23_-_Factorial!.js" target="_blank">Exercise_23_-_Factorial!.js</a>
-    │       ├── <a href="https://github.com/OzZaken/util/blob/main/js\exercise\Exercise_24_-_myAbs().js" target="_blank">Exercise_24_-_myAbs().js</a>
-    │       ├── <a href="https://github.com/OzZaken/util/blob/main/js\exercise\Exercise_25_-_getRandomInt().js" target="_blank">Exercise_25_-_getRandomInt().js</a>
-    │       ├── <a href="https://github.com/OzZaken/util/blob/main/js\exercise\Exercise_26_-_Ascending_Random_Numbers.js" target="_blank">Exercise_26_-_Ascending_Random_Numbers.js</a>
-    │       ├── <a href="https://github.com/OzZaken/util/blob/main/js\exercise\Exercise_27_-_Asterisks!.js" target="_blank">Exercise_27_-_Asterisks!.js</a>
-    │       ├── <a href="https://github.com/OzZaken/util/blob/main/js\exercise\Exercise_28_-_Greatest_Common_Devisor.js" target="_blank">Exercise_28_-_Greatest_Common_Devisor.js</a>
-    │       ├── <a href="https://github.com/OzZaken/util/blob/main/js\exercise\Exercise_29_-_Digit_Manipulation.js" target="_blank">Exercise_29_-_Digit_Manipulation.js</a>
-    │       ├── <a href="https://github.com/OzZaken/util/blob/main/js\exercise\Exercise_31_-_Basic_String_Manipulation.js" target="_blank">Exercise_31_-_Basic_String_Manipulation.js</a>
-    │       ├── <a href="https://github.com/OzZaken/util/blob/main/js\exercise\Exercise_32_-_Reverse_a_String.js" target="_blank">Exercise_32_-_Reverse_a_String.js</a>
-    │       ├── <a href="https://github.com/OzZaken/util/blob/main/js\exercise\Exercise_33_-_Vowels_(a,_e,_i,_o,_u).js" target="_blank">Exercise_33_-_Vowels_(a,_e,_i,_o,_u).js</a>
-    │       ├── <a href="https://github.com/OzZaken/util/blob/main/js\exercise\Exercise_34_-_myIndexOf().js" target="_blank">Exercise_34_-_myIndexOf().js</a>
-    │       ├── <a href="https://github.com/OzZaken/util/blob/main/js\exercise\Exercise_35_-_Encrypt.js" target="_blank">Exercise_35_-_Encrypt.js</a>
-    │       ├── <a href="https://github.com/OzZaken/util/blob/main/js\exercise\Exercise_36_-_Longest_and_Shortest_Names.js" target="_blank">Exercise_36_-_Longest_and_Shortest_Names.js</a>
-    │       ├── <a href="https://github.com/OzZaken/util/blob/main/js\exercise\Exercise_37_-_Generate_Password.js" target="_blank">Exercise_37_-_Generate_Password.js</a>
-    │       ├── <a href="https://github.com/OzZaken/util/blob/main/js\exercise\Exercise_38_-_Bigger_than_100.js" target="_blank">Exercise_38_-_Bigger_than_100.js</a>
-    │       ├── <a href="https://github.com/OzZaken/util/blob/main/js\exercise\Exercise_39_-_Count_Votes.js" target="_blank">Exercise_39_-_Count_Votes.js</a>
-    │       ├── <a href="https://github.com/OzZaken/util/blob/main/js\exercise\Exercise_40_-_Lorem_Ipsum.js" target="_blank">Exercise_40_-_Lorem_Ipsum.js</a>
-    │       ├── <a href="https://github.com/OzZaken/util/blob/main/js\exercise\Exercise_41_-_Digits_to_Words.js" target="_blank">Exercise_41_-_Digits_to_Words.js</a>
-    │       ├── <a href="https://github.com/OzZaken/util/blob/main/js\exercise\Exercise_42_-_Starts_with.js" target="_blank">Exercise_42_-_Starts_with.js</a>
-    │       ├── <a href="https://github.com/OzZaken/util/blob/main/js\exercise\Exercise_43_-_Sum_Arrays.js" target="_blank">Exercise_43_-_Sum_Arrays.js</a>
-    │       ├── <a href="https://github.com/OzZaken/util/blob/main/js\exercise\Exercise_44_-_NumCount().js" target="_blank">Exercise_44_-_NumCount().js</a>
-    │       ├── <a href="https://github.com/OzZaken/util/blob/main/js\exercise\Exercise_45_-_Remove_Duplicates.js" target="_blank">Exercise_45_-_Remove_Duplicates.js</a>
-    │       ├── <a href="https://github.com/OzZaken/util/blob/main/js\exercise\Exercise_46_-_Multiply_Nums.js" target="_blank">Exercise_46_-_Multiply_Nums.js</a>
-    │       ├── <a href="https://github.com/OzZaken/util/blob/main/js\exercise\exercise_47_-_mySplit().js" target="_blank">exercise_47_-_mySplit().js</a>
-    │       ├── <a href="https://github.com/OzZaken/util/blob/main/js\exercise\Exercise_48_-_sortNums().js" target="_blank">Exercise_48_-_sortNums().js</a>
-    │       ├── <a href="https://github.com/OzZaken/util/blob/main/js\exercise\Exercise_49_-_getNthLargest().js" target="_blank">Exercise_49_-_getNthLargest().js</a>
-    │       ├── <a href="https://github.com/OzZaken/util/blob/main/js\exercise\Exercise_50_-_Making_Water.js" target="_blank">Exercise_50_-_Making_Water.js</a>
-    │       ├── <a href="https://github.com/OzZaken/util/blob/main/js\exercise\Exercise_51_-_Object_Map.js" target="_blank">Exercise_51_-_Object_Map.js</a>
-    │       ├── <a href="https://github.com/OzZaken/util/blob/main/js\exercise\Exercise_52_-_Monsters.js" target="_blank">Exercise_52_-_Monsters.js</a>
-    │       ├── <a href="https://github.com/OzZaken/util/blob/main/js\exercise\Exercise_53_-_Students.js" target="_blank">Exercise_53_-_Students.js</a>
-    │       ├── <a href="https://github.com/OzZaken/util/blob/main/js\exercise\Exercise_54_-_Airline.js" target="_blank">Exercise_54_-_Airline.js</a>
-    │       ├── <a href="https://github.com/OzZaken/util/blob/main/js\exercise\Exercise_55_-_Matrix_Operations.js" target="_blank">Exercise_55_-_Matrix_Operations.js</a>
-    │       ├── <a href="https://github.com/OzZaken/util/blob/main/js\exercise\Exercise_56_-_Symmetric_Matrices.js" target="_blank">Exercise_56_-_Symmetric_Matrices.js</a>
-    │       ├── <a href="https://github.com/OzZaken/util/blob/main/js\exercise\Exercise_57_-_find_the_matrix_mode.js" target="_blank">Exercise_57_-_find_the_matrix_mode.js</a>
-    │       ├── <a href="https://github.com/OzZaken/util/blob/main/js\exercise\Exercise_58_-_Magic_Square.js" target="_blank">Exercise_58_-_Magic_Square.js</a>
-    │       ├── <a href="https://github.com/OzZaken/util/blob/main/js\exercise\Exercise_59_-_BINGO.js" target="_blank">Exercise_59_-_BINGO.js</a>
-    │       └── <a href="https://github.com/OzZaken/util/blob/main/js\exercise\Exercise_60_-_Game_of_Life.js" target="_blank">Exercise_60_-_Game_of_Life.js</a>
+    │       ├── <a href="https://github.com/OzZaken/util/blob/main/javascript\exercise\Exercise_01_-_Hello_Javascript.js" target="_blank">Exercise_01_-_Hello_Javascript.js</a>
+    │       ├── <a href="https://github.com/OzZaken/util/blob/main/javascript\exercise\Exercise_02_-_Basic_math_operations.js" target="_blank">Exercise_02_-_Basic_math_operations.js</a>
+    │       ├── <a href="https://github.com/OzZaken/util/blob/main/javascript\exercise\Exercise_03_-_Temperature_converting.js" target="_blank">Exercise_03_-_Temperature_converting.js</a>
+    │       ├── <a href="https://github.com/OzZaken/util/blob/main/javascript\exercise\Exercise_04_-_Calculate_Time.js" target="_blank">Exercise_04_-_Calculate_Time.js</a>
+    │       ├── <a href="https://github.com/OzZaken/util/blob/main/javascript\exercise\Exercise_05_-_Number_from_Digits.js" target="_blank">Exercise_05_-_Number_from_Digits.js</a>
+    │       ├── <a href="https://github.com/OzZaken/util/blob/main/javascript\exercise\Exercise_06_-_Quadratic_Equation.js" target="_blank">Exercise_06_-_Quadratic_Equation.js</a>
+    │       ├── <a href="https://github.com/OzZaken/util/blob/main/javascript\exercise\Exercise_07_-_Two_Numbers_Equal_the_Third.js" target="_blank">Exercise_07_-_Two_Numbers_Equal_the_Third.js</a>
+    │       ├── <a href="https://github.com/OzZaken/util/blob/main/javascript\exercise\Exercise_08_-_The_Smallest_of_Three_Numbers.js" target="_blank">Exercise_08_-_The_Smallest_of_Three_Numbers.js</a>
+    │       ├── <a href="https://github.com/OzZaken/util/blob/main/javascript\exercise\Exercise_09_-_Absolute_Value.js" target="_blank">Exercise_09_-_Absolute_Value.js</a>
+    │       ├── <a href="https://github.com/OzZaken/util/blob/main/javascript\exercise\Exercise_10_-_Facebook_Friends.js" target="_blank">Exercise_10_-_Facebook_Friends.js</a>
+    │       ├── <a href="https://github.com/OzZaken/util/blob/main/javascript\exercise\Exercise_11_-_Bank_System.js" target="_blank">Exercise_11_-_Bank_System.js</a>
+    │       ├── <a href="https://github.com/OzZaken/util/blob/main/javascript\exercise\Exercise_12_-_Guess_Who.js" target="_blank">Exercise_12_-_Guess_Who.js</a>
+    │       ├── <a href="https://github.com/OzZaken/util/blob/main/javascript\exercise\Exercise_13_-_The_Elevator.js" target="_blank">Exercise_13_-_The_Elevator.js</a>
+    │       ├── <a href="https://github.com/OzZaken/util/blob/main/javascript\exercise\Exercise_14_-_Greet_Function.js" target="_blank">Exercise_14_-_Greet_Function.js</a>
+    │       ├── <a href="https://github.com/OzZaken/util/blob/main/javascript\exercise\Exercise_15_-_Sum_of_two_Numbers.js" target="_blank">Exercise_15_-_Sum_of_two_Numbers.js</a>
+    │       ├── <a href="https://github.com/OzZaken/util/blob/main/javascript\exercise\Exercise_16_-_Even_and_Odd.js" target="_blank">Exercise_16_-_Even_and_Odd.js</a>
+    │       ├── <a href="https://github.com/OzZaken/util/blob/main/javascript\exercise\Exercise_17_-_Get_the_Bigger_Num.js" target="_blank">Exercise_17_-_Get_the_Bigger_Num.js</a>
+    │       ├── <a href="https://github.com/OzZaken/util/blob/main/javascript\exercise\Exercise_18_-_Age_Check.js" target="_blank">Exercise_18_-_Age_Check.js</a>
+    │       ├── <a href="https://github.com/OzZaken/util/blob/main/javascript\exercise\Exercise_19_-_Even_and_Odd_Numbers.js" target="_blank">Exercise_19_-_Even_and_Odd_Numbers.js</a>
+    │       ├── <a href="https://github.com/OzZaken/util/blob/main/javascript\exercise\Exercise_20_-_Min,_Max_and_Avg..js" target="_blank">Exercise_20_-_Min,_Max_and_Avg..js</a>
+    │       ├── <a href="https://github.com/OzZaken/util/blob/main/javascript\exercise\Exercise_21_-_Divisible_by_3.js" target="_blank">Exercise_21_-_Divisible_by_3.js</a>
+    │       ├── <a href="https://github.com/OzZaken/util/blob/main/javascript\exercise\Exercise_22_-_myPow().js" target="_blank">Exercise_22_-_myPow().js</a>
+    │       ├── <a href="https://github.com/OzZaken/util/blob/main/javascript\exercise\Exercise_23_-_Factorial!.js" target="_blank">Exercise_23_-_Factorial!.js</a>
+    │       ├── <a href="https://github.com/OzZaken/util/blob/main/javascript\exercise\Exercise_24_-_myAbs().js" target="_blank">Exercise_24_-_myAbs().js</a>
+    │       ├── <a href="https://github.com/OzZaken/util/blob/main/javascript\exercise\Exercise_25_-_getRandomInt().js" target="_blank">Exercise_25_-_getRandomInt().js</a>
+    │       ├── <a href="https://github.com/OzZaken/util/blob/main/javascript\exercise\Exercise_26_-_Ascending_Random_Numbers.js" target="_blank">Exercise_26_-_Ascending_Random_Numbers.js</a>
+    │       ├── <a href="https://github.com/OzZaken/util/blob/main/javascript\exercise\Exercise_27_-_Asterisks!.js" target="_blank">Exercise_27_-_Asterisks!.js</a>
+    │       ├── <a href="https://github.com/OzZaken/util/blob/main/javascript\exercise\Exercise_28_-_Greatest_Common_Devisor.js" target="_blank">Exercise_28_-_Greatest_Common_Devisor.js</a>
+    │       ├── <a href="https://github.com/OzZaken/util/blob/main/javascript\exercise\Exercise_29_-_Digit_Manipulation.js" target="_blank">Exercise_29_-_Digit_Manipulation.js</a>
+    │       ├── <a href="https://github.com/OzZaken/util/blob/main/javascript\exercise\Exercise_31_-_Basic_String_Manipulation.js" target="_blank">Exercise_31_-_Basic_String_Manipulation.js</a>
+    │       ├── <a href="https://github.com/OzZaken/util/blob/main/javascript\exercise\Exercise_32_-_Reverse_a_String.js" target="_blank">Exercise_32_-_Reverse_a_String.js</a>
+    │       ├── <a href="https://github.com/OzZaken/util/blob/main/javascript\exercise\Exercise_33_-_Vowels_(a,_e,_i,_o,_u).js" target="_blank">Exercise_33_-_Vowels_(a,_e,_i,_o,_u).js</a>
+    │       ├── <a href="https://github.com/OzZaken/util/blob/main/javascript\exercise\Exercise_34_-_myIndexOf().js" target="_blank">Exercise_34_-_myIndexOf().js</a>
+    │       ├── <a href="https://github.com/OzZaken/util/blob/main/javascript\exercise\Exercise_35_-_Encrypt.js" target="_blank">Exercise_35_-_Encrypt.js</a>
+    │       ├── <a href="https://github.com/OzZaken/util/blob/main/javascript\exercise\Exercise_36_-_Longest_and_Shortest_Names.js" target="_blank">Exercise_36_-_Longest_and_Shortest_Names.js</a>
+    │       ├── <a href="https://github.com/OzZaken/util/blob/main/javascript\exercise\Exercise_37_-_Generate_Password.js" target="_blank">Exercise_37_-_Generate_Password.js</a>
+    │       ├── <a href="https://github.com/OzZaken/util/blob/main/javascript\exercise\Exercise_38_-_Bigger_than_100.js" target="_blank">Exercise_38_-_Bigger_than_100.js</a>
+    │       ├── <a href="https://github.com/OzZaken/util/blob/main/javascript\exercise\Exercise_39_-_Count_Votes.js" target="_blank">Exercise_39_-_Count_Votes.js</a>
+    │       ├── <a href="https://github.com/OzZaken/util/blob/main/javascript\exercise\Exercise_40_-_Lorem_Ipsum.js" target="_blank">Exercise_40_-_Lorem_Ipsum.js</a>
+    │       ├── <a href="https://github.com/OzZaken/util/blob/main/javascript\exercise\Exercise_41_-_Digits_to_Words.js" target="_blank">Exercise_41_-_Digits_to_Words.js</a>
+    │       ├── <a href="https://github.com/OzZaken/util/blob/main/javascript\exercise\Exercise_42_-_Starts_with.js" target="_blank">Exercise_42_-_Starts_with.js</a>
+    │       ├── <a href="https://github.com/OzZaken/util/blob/main/javascript\exercise\Exercise_43_-_Sum_Arrays.js" target="_blank">Exercise_43_-_Sum_Arrays.js</a>
+    │       ├── <a href="https://github.com/OzZaken/util/blob/main/javascript\exercise\Exercise_44_-_NumCount().js" target="_blank">Exercise_44_-_NumCount().js</a>
+    │       ├── <a href="https://github.com/OzZaken/util/blob/main/javascript\exercise\Exercise_45_-_Remove_Duplicates.js" target="_blank">Exercise_45_-_Remove_Duplicates.js</a>
+    │       ├── <a href="https://github.com/OzZaken/util/blob/main/javascript\exercise\Exercise_46_-_Multiply_Nums.js" target="_blank">Exercise_46_-_Multiply_Nums.js</a>
+    │       ├── <a href="https://github.com/OzZaken/util/blob/main/javascript\exercise\exercise_47_-_mySplit().js" target="_blank">exercise_47_-_mySplit().js</a>
+    │       ├── <a href="https://github.com/OzZaken/util/blob/main/javascript\exercise\Exercise_48_-_sortNums().js" target="_blank">Exercise_48_-_sortNums().js</a>
+    │       ├── <a href="https://github.com/OzZaken/util/blob/main/javascript\exercise\Exercise_49_-_getNthLargest().js" target="_blank">Exercise_49_-_getNthLargest().js</a>
+    │       ├── <a href="https://github.com/OzZaken/util/blob/main/javascript\exercise\Exercise_50_-_Making_Water.js" target="_blank">Exercise_50_-_Making_Water.js</a>
+    │       ├── <a href="https://github.com/OzZaken/util/blob/main/javascript\exercise\Exercise_51_-_Object_Map.js" target="_blank">Exercise_51_-_Object_Map.js</a>
+    │       ├── <a href="https://github.com/OzZaken/util/blob/main/javascript\exercise\Exercise_52_-_Monsters.js" target="_blank">Exercise_52_-_Monsters.js</a>
+    │       ├── <a href="https://github.com/OzZaken/util/blob/main/javascript\exercise\Exercise_53_-_Students.js" target="_blank">Exercise_53_-_Students.js</a>
+    │       ├── <a href="https://github.com/OzZaken/util/blob/main/javascript\exercise\Exercise_54_-_Airline.js" target="_blank">Exercise_54_-_Airline.js</a>
+    │       ├── <a href="https://github.com/OzZaken/util/blob/main/javascript\exercise\Exercise_55_-_Matrix_Operations.js" target="_blank">Exercise_55_-_Matrix_Operations.js</a>
+    │       ├── <a href="https://github.com/OzZaken/util/blob/main/javascript\exercise\Exercise_56_-_Symmetric_Matrices.js" target="_blank">Exercise_56_-_Symmetric_Matrices.js</a>
+    │       ├── <a href="https://github.com/OzZaken/util/blob/main/javascript\exercise\Exercise_57_-_find_the_matrix_mode.js" target="_blank">Exercise_57_-_find_the_matrix_mode.js</a>
+    │       ├── <a href="https://github.com/OzZaken/util/blob/main/javascript\exercise\Exercise_58_-_Magic_Square.js" target="_blank">Exercise_58_-_Magic_Square.js</a>
+    │       ├── <a href="https://github.com/OzZaken/util/blob/main/javascript\exercise\Exercise_59_-_BINGO.js" target="_blank">Exercise_59_-_BINGO.js</a>
+    │       └── <a href="https://github.com/OzZaken/util/blob/main/javascript\exercise\Exercise_60_-_Game_of_Life.js" target="_blank">Exercise_60_-_Game_of_Life.js</a>
+    ├── <strong>node</strong>
+    │   ├── <a href="https://github.com/OzZaken/util/blob/main/node\delete-node-modules.bin.js" target="_blank">delete-node-modules.bin.js</a>
+    │   ├── <a href="https://github.com/OzZaken/util/blob/main/node\gen-link-tree.bin.js" target="_blank">gen-link-tree.bin.js</a>
+    │   ├── <a href="https://github.com/OzZaken/util/blob/main/node\gen-tree-structure.bin.js" target="_blank">gen-tree-structure.bin.js</a>
+    │   ├── <a href="https://github.com/OzZaken/util/blob/main/node\get-sequlize-operators.bin.js" target="_blank">get-sequlize-operators.bin.js</a>
+    │   ├── <a href="https://github.com/OzZaken/util/blob/main/node\node-ALS.md" target="_blank"><em>node-ALS.md</em></a>
+    │   ├── <a href="https://github.com/OzZaken/util/blob/main/node\node-express.md" target="_blank"><em>node-express.md</em></a>
+    │   ├── <a href="https://github.com/OzZaken/util/blob/main/node\node-express.middleware.md" target="_blank"><em>node-express.middleware.md</em></a>
+    │   ├── <a href="https://github.com/OzZaken/util/blob/main/node\node-express.templating.md" target="_blank"><em>node-express.templating.md</em></a>
+    │   ├── <a href="https://github.com/OzZaken/util/blob/main/node\node-npx.md" target="_blank"><em>node-npx.md</em></a>
+    │   ├── <strong>node-package</strong>
+    │   │   ├── <a href="https://github.com/OzZaken/util/blob/main/node\node-package\bcrypt.md" target="_blank"><em>bcrypt.md</em></a>
+    │   │   ├── <a href="https://github.com/OzZaken/util/blob/main/node\node-package\cookie-parser.md" target="_blank"><em>cookie-parser.md</em></a>
+    │   │   ├── <a href="https://github.com/OzZaken/util/blob/main/node\node-package\cors.md" target="_blank"><em>cors.md</em></a>
+    │   │   ├── <a href="https://github.com/OzZaken/util/blob/main/node\node-package\cryptr.md" target="_blank"><em>cryptr.md</em></a>
+    │   │   ├── <a href="https://github.com/OzZaken/util/blob/main/node\node-package\express-useragent.md" target="_blank"><em>express-useragent.md</em></a>
+    │   │   ├── <a href="https://github.com/OzZaken/util/blob/main/node\node-package\express.md" target="_blank"><em>express.md</em></a>
+    │   │   ├── <a href="https://github.com/OzZaken/util/blob/main/node\node-package\formik.md" target="_blank"><em>formik.md</em></a>
+    │   │   ├── <a href="https://github.com/OzZaken/util/blob/main/node\node-package\google-map-react.md" target="_blank"><em>google-map-react.md</em></a>
+    │   │   ├── <a href="https://github.com/OzZaken/util/blob/main/node\node-package\inquirer.md" target="_blank"><em>inquirer.md</em></a>
+    │   │   ├── <a href="https://github.com/OzZaken/util/blob/main/node\node-package\live-server.md" target="_blank"><em>live-server.md</em></a>
+    │   │   ├── <a href="https://github.com/OzZaken/util/blob/main/node\node-package\mongodb.md" target="_blank"><em>mongodb.md</em></a>
+    │   │   ├── <a href="https://github.com/OzZaken/util/blob/main/node\node-package\node-sass.md" target="_blank"><em>node-sass.md</em></a>
+    │   │   ├── <a href="https://github.com/OzZaken/util/blob/main/node\node-package\nodemon.md" target="_blank"><em>nodemon.md</em></a>
+    │   │   ├── <a href="https://github.com/OzZaken/util/blob/main/node\node-package\pdfkit.md" target="_blank"><em>pdfkit.md</em></a>
+    │   │   ├── <a href="https://github.com/OzZaken/util/blob/main/node\node-package\prop-types.md" target="_blank"><em>prop-types.md</em></a>
+    │   │   └── <a href="https://github.com/OzZaken/util/blob/main/node\node-package\socket.io.md" target="_blank"><em>socket.io.md</em></a>
+    │   ├── <a href="https://github.com/OzZaken/util/blob/main/node\node-package-manager.md" target="_blank"><em>node-package-manager.md</em></a>
+    │   ├── <a href="https://github.com/OzZaken/util/blob/main/node\node.md" target="_blank"><em>node.md</em></a>
+    │   └── <a href="https://github.com/OzZaken/util/blob/main/node\read-package.bin.js" target="_blank">read-package.bin.js</a>
     ├── <strong>php</strong>
     │   ├── <a href="https://github.com/OzZaken/util/blob/main/php\about.php" target="_blank">about.php</a>
     │   ├── <a href="https://github.com/OzZaken/util/blob/main/php\car.php" target="_blank">car.php</a>
@@ -230,6 +214,19 @@ Feel free to use these resources to enhance your own development workflow, and d
     │   ├── <a href="https://github.com/OzZaken/util/blob/main/php\main.js" target="_blank">main.js</a>
     │   ├── <a href="https://github.com/OzZaken/util/blob/main/php\main.php" target="_blank">main.php</a>
     │   └── <a href="https://github.com/OzZaken/util/blob/main/php\PHP.md" target="_blank"><em>PHP.md</em></a>
+    ├── <strong>powershell</strong>
+    │   ├── <a href="https://github.com/OzZaken/util/blob/main/powershell\check-dev.bin.ps1" target="_blank">check-dev.bin.ps1</a>
+    │   ├── <a href="https://github.com/OzZaken/util/blob/main/powershell\delete-node-modules.bin.ps1" target="_blank">delete-node-modules.bin.ps1</a>
+    │   ├── <a href="https://github.com/OzZaken/util/blob/main/powershell\search-string.bin.ps1" target="_blank">search-string.bin.ps1</a>
+    │   ├── <a href="https://github.com/OzZaken/util/blob/main/powershell\system-info.ps1" target="_blank">system-info.ps1</a>
+    │   └── <a href="https://github.com/OzZaken/util/blob/main/powershell\work-or-kill-process.bin.ps1" target="_blank">work-or-kill-process.bin.ps1</a>
+    ├── <strong>python</strong>
+    │   ├── <a href="https://github.com/OzZaken/util/blob/main/python\analyze-github-user.bin.py" target="_blank">analyze-github-user.bin.py</a>
+    │   ├── <a href="https://github.com/OzZaken/util/blob/main/python\colors.bin.py" target="_blank">colors.bin.py</a>
+    │   ├── <a href="https://github.com/OzZaken/util/blob/main/python\convert-files-empty-space-to-lodash.py" target="_blank">convert-files-empty-space-to-lodash.py</a>
+    │   ├── <a href="https://github.com/OzZaken/util/blob/main/python\gen-link-tree.service.bin.py" target="_blank">gen-link-tree.service.bin.py</a>
+    │   ├── <a href="https://github.com/OzZaken/util/blob/main/python\numpy.md" target="_blank"><em>numpy.md</em></a>
+    │   └── <a href="https://github.com/OzZaken/util/blob/main/python\pandas.md" target="_blank"><em>pandas.md</em></a>
     ├── <a href="https://github.com/OzZaken/util/blob/main/README.md" target="_blank"><em>README.md</em></a>
     ├── <strong>services</strong>
     │   ├── <strong>js</strong>
@@ -268,31 +265,35 @@ Feel free to use these resources to enhance your own development workflow, and d
     │       ├── <a href="https://github.com/OzZaken/util/blob/main/services\ts\get-js-operators.ts" target="_blank">get-js-operators.ts</a>
     │       ├── <a href="https://github.com/OzZaken/util/blob/main/services\ts\get-mongoose-operators.ts" target="_blank">get-mongoose-operators.ts</a>
     │       └── <a href="https://github.com/OzZaken/util/blob/main/services\ts\get-sequlize-operators.ts" target="_blank">get-sequlize-operators.ts</a>
-    ├── <strong>ts</strong>
-    │   ├── <strong>algorithms</strong>
-    │   ├── <a href="https://github.com/OzZaken/util/blob/main/ts\Classes.pdf" target="_blank">Classes.pdf</a>
-    │   ├── <a href="https://github.com/OzZaken/util/blob/main/ts\Classes.png" target="_blank">Classes.png</a>
-    │   ├── <a href="https://github.com/OzZaken/util/blob/main/ts\Control Flow Analysis.pdf" target="_blank">Control Flow Analysis.pdf</a>
-    │   ├── <a href="https://github.com/OzZaken/util/blob/main/ts\Control Flow Analysis.png" target="_blank">Control Flow Analysis.png</a>
-    │   ├── <strong>exercise</strong>
-    │   │   ├── <a href="https://github.com/OzZaken/util/blob/main/ts\exercise\countMap.ts" target="_blank">countMap.ts</a>
-    │   │   ├── <a href="https://github.com/OzZaken/util/blob/main/ts\exercise\Exercise_00-catchinng-JS-mistakes-with-TS.ts" target="_blank">Exercise_00-catchinng-JS-mistakes-with-TS.ts</a>
-    │   │   ├── <a href="https://github.com/OzZaken/util/blob/main/ts\exercise\Exercise__01-types.ts" target="_blank">Exercise__01-types.ts</a>
-    │   │   ├── <a href="https://github.com/OzZaken/util/blob/main/ts\exercise\Exercise__02-enums.ts" target="_blank">Exercise__02-enums.ts</a>
-    │   │   ├── <a href="https://github.com/OzZaken/util/blob/main/ts\exercise\Exercise__03-interfaces.ts" target="_blank">Exercise__03-interfaces.ts</a>
-    │   │   ├── <a href="https://github.com/OzZaken/util/blob/main/ts\exercise\Exercise__04-classes.ts" target="_blank">Exercise__04-classes.ts</a>
-    │   │   └── <a href="https://github.com/OzZaken/util/blob/main/ts\exercise\Exercise__05-generics.ts" target="_blank">Exercise__05-generics.ts</a>
-    │   ├── <a href="https://github.com/OzZaken/util/blob/main/ts\Interfaces.pdf" target="_blank">Interfaces.pdf</a>
-    │   ├── <a href="https://github.com/OzZaken/util/blob/main/ts\Interfaces.png" target="_blank">Interfaces.png</a>
-    │   ├── <a href="https://github.com/OzZaken/util/blob/main/ts\requireAuth.middleware.ts" target="_blank">requireAuth.middleware.ts</a>
-    │   ├── <a href="https://github.com/OzZaken/util/blob/main/ts\routes.ts" target="_blank">routes.ts</a>
-    │   ├── <a href="https://github.com/OzZaken/util/blob/main/ts\shuffle.algorithms.ts" target="_blank">shuffle.algorithms.ts</a>
-    │   ├── <a href="https://github.com/OzZaken/util/blob/main/ts\sort.algorithms.ts" target="_blank">sort.algorithms.ts</a>
-    │   ├── <a href="https://github.com/OzZaken/util/blob/main/ts\tsconfig.json" target="_blank">tsconfig.json</a>
-    │   ├── <a href="https://github.com/OzZaken/util/blob/main/ts\Types.pdf" target="_blank">Types.pdf</a>
-    │   ├── <a href="https://github.com/OzZaken/util/blob/main/ts\typscript.md" target="_blank"><em>typscript.md</em></a>
-    │   └── <a href="https://github.com/OzZaken/util/blob/main/ts\user.routes.ts" target="_blank">user.routes.ts</a>
+    ├── <strong>sh</strong>
+    │   ├── <a href="https://github.com/OzZaken/util/blob/main/sh\bash-scripts.md" target="_blank"><em>bash-scripts.md</em></a>
+    │   ├── <a href="https://github.com/OzZaken/util/blob/main/sh\git-push.bin.sh" target="_blank">git-push.bin.sh</a>
+    │   └── <a href="https://github.com/OzZaken/util/blob/main/sh\show-wifis.bin.sh" target="_blank">show-wifis.bin.sh</a>
     ├── <a href="https://github.com/OzZaken/util/blob/main/tsconfig.json" target="_blank">tsconfig.json</a>
+    ├── <strong>typescript</strong>
+    │   ├── <strong>algorithms</strong>
+    │   ├── <a href="https://github.com/OzZaken/util/blob/main/typescript\Classes.pdf" target="_blank">Classes.pdf</a>
+    │   ├── <a href="https://github.com/OzZaken/util/blob/main/typescript\Classes.png" target="_blank">Classes.png</a>
+    │   ├── <a href="https://github.com/OzZaken/util/blob/main/typescript\Control Flow Analysis.pdf" target="_blank">Control Flow Analysis.pdf</a>
+    │   ├── <a href="https://github.com/OzZaken/util/blob/main/typescript\Control Flow Analysis.png" target="_blank">Control Flow Analysis.png</a>
+    │   ├── <strong>exercise</strong>
+    │   │   ├── <a href="https://github.com/OzZaken/util/blob/main/typescript\exercise\countMap.ts" target="_blank">countMap.ts</a>
+    │   │   ├── <a href="https://github.com/OzZaken/util/blob/main/typescript\exercise\Exercise_00-catchinng-JS-mistakes-with-TS.ts" target="_blank">Exercise_00-catchinng-JS-mistakes-with-TS.ts</a>
+    │   │   ├── <a href="https://github.com/OzZaken/util/blob/main/typescript\exercise\Exercise__01-types.ts" target="_blank">Exercise__01-types.ts</a>
+    │   │   ├── <a href="https://github.com/OzZaken/util/blob/main/typescript\exercise\Exercise__02-enums.ts" target="_blank">Exercise__02-enums.ts</a>
+    │   │   ├── <a href="https://github.com/OzZaken/util/blob/main/typescript\exercise\Exercise__03-interfaces.ts" target="_blank">Exercise__03-interfaces.ts</a>
+    │   │   ├── <a href="https://github.com/OzZaken/util/blob/main/typescript\exercise\Exercise__04-classes.ts" target="_blank">Exercise__04-classes.ts</a>
+    │   │   └── <a href="https://github.com/OzZaken/util/blob/main/typescript\exercise\Exercise__05-generics.ts" target="_blank">Exercise__05-generics.ts</a>
+    │   ├── <a href="https://github.com/OzZaken/util/blob/main/typescript\Interfaces.pdf" target="_blank">Interfaces.pdf</a>
+    │   ├── <a href="https://github.com/OzZaken/util/blob/main/typescript\Interfaces.png" target="_blank">Interfaces.png</a>
+    │   ├── <a href="https://github.com/OzZaken/util/blob/main/typescript\requireAuth.middleware.ts" target="_blank">requireAuth.middleware.ts</a>
+    │   ├── <a href="https://github.com/OzZaken/util/blob/main/typescript\routes.ts" target="_blank">routes.ts</a>
+    │   ├── <a href="https://github.com/OzZaken/util/blob/main/typescript\shuffle.algorithms.ts" target="_blank">shuffle.algorithms.ts</a>
+    │   ├── <a href="https://github.com/OzZaken/util/blob/main/typescript\sort.algorithms.ts" target="_blank">sort.algorithms.ts</a>
+    │   ├── <a href="https://github.com/OzZaken/util/blob/main/typescript\tsconfig.json" target="_blank">tsconfig.json</a>
+    │   ├── <a href="https://github.com/OzZaken/util/blob/main/typescript\Types.pdf" target="_blank">Types.pdf</a>
+    │   ├── <a href="https://github.com/OzZaken/util/blob/main/typescript\typscript.md" target="_blank"><em>typscript.md</em></a>
+    │   └── <a href="https://github.com/OzZaken/util/blob/main/typescript\user.routes.ts" target="_blank">user.routes.ts</a>
     └── <strong>UI</strong>
         ├── <strong>CLI</strong>
         │   ├── <a href="https://github.com/OzZaken/util/blob/main/UI\CLI\CMD.md" target="_blank"><em>CMD.md</em></a>
@@ -317,6 +318,6 @@ Feel free to use these resources to enhance your own development workflow, and d
             │   ├── <a href="https://github.com/OzZaken/util/blob/main/UI\GUI\VsCode\vscode-snippets-html.md" target="_blank"><em>vscode-snippets-html.md</em></a>
             │   ├── <a href="https://github.com/OzZaken/util/blob/main/UI\GUI\VsCode\vscode-snippets-js.md" target="_blank"><em>vscode-snippets-js.md</em></a>
             │   └── <a href="https://github.com/OzZaken/util/blob/main/UI\GUI\VsCode\vscode-snippets-md.md" target="_blank"><em>vscode-snippets-md.md</em></a>
-            ├── <a href="https://github.com/OzZaken/util/blob/main/UI\GUI\website.md" target="_blank"><em>website.md</em></a>
+            ├── <a href="https://github.com/OzZaken/util/blob/main/UI\GUI\websites.md" target="_blank"><em>websites.md</em></a>
             └── <a href="https://github.com/OzZaken/util/blob/main/UI\GUI\XAMPP.md" target="_blank"><em>XAMPP.md</em></a>
 </pre>
