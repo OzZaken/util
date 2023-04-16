@@ -8,7 +8,7 @@
 
 [Restrict Key](https://developers.google.com/maps/api-security-best-practices#restricting-api-keys)
 
-Maps API guidelines: https://console.developers.google.com/cloud-resource-manager?pli=1
+[Maps API guidelines](https://console.developers.google.com/cloud-resource-manager?pli=1)
 
 1. Maps API (add your map):
 https://developers.google.com/maps/documentation/javascript/adding-a-google-map
