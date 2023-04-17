@@ -1,2 +1,5 @@
 .env
 .gitignore
+.vscode
+
+socket.io-examples
