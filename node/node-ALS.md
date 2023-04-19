@@ -1,5 +1,7 @@
 # Async Local Storage (ALS)
-allows developers to store data in a context-specific manner. It is an extension of the Node.js async_hooks module, which provides a way to track asynchronous resources across asynchronous boundaries.
+allows developers to store data in a context-specific manner.
+
+It is an extension of the Node.js async_hooks module, which provides a way to track asynchronous resources across asynchronous boundaries.
 
 ALS provides a way to store data in a "local storage" that is specific to a given asynchronous context, such as a particular request in a web application. 
 
@@ -33,4 +35,26 @@ async_hooks.createHook({
 }).enable()
 
 exampleAsyncFunction()
+```
+
+```javascript
+const asyncHooks = require('async_hooks')
+
+const asyncHook = asyncHooks.createHook({
+  init(asyncId, type, triggerAsyncId, resource) {
+    // This callback is called when a new asynchronous resource is created
+  },
+  before(asyncId) {
+    // This callback is called just before an asynchronous resource is executed
+  },
+  after(asyncId) {
+    // This callback is called just after an asynchronous resource is executed
+  },
+  destroy(asyncId) {
+    // This callback is called when an asynchronous resource is destroyed
+  },
+})
+
+asyncHook.enable();
+
 ```

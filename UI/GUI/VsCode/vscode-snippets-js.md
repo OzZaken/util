@@ -1,4 +1,4 @@
-# Javascript
+# Javascript Snippets
 
 ## Basics
 
@@ -54,18 +54,20 @@
 }
 ```
 
-### separator
+## comments
 
-#### Heading 
+### heading 
 ```json
 {
 	"sep-heading": {
 		"prefix": "sepp-heading",
-		"description": "Put separator",
-		"body": ["// ---------------------------------   ${1:Heading}   ---------------------------------  "]
+		"description": "Put separator with heading",
+		"body": ["//* ---------------------------------   ${1:Heading}   ---------------------------------  */"]
 	}
 }
 ```
+
+### NOTE 
 
 ## Timestamp
 When you use this snippet in your code editor and enter a log message, the console will output the message along with the current timestamp, providing a convenient way to track when the log message was generated.

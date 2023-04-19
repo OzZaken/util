@@ -1,9 +1,4 @@
 export const utilService = {
-    // controller
-    toggleDarkMode,
-    delay,
-    debounce,
-    getQueryParam,
     // Array
     shuffleArr,
     shuffleFisher,
@@ -39,55 +34,41 @@ export const utilService = {
     isValidDate,
     isValidTime,
 }
-// ---------------------------------   controller   ---------------------------------
-  
+
+// ---------------------------------   Function   ---------------------------------  
+// ---------------   debounce: 
 function delay(ms = 1500) {
     return new Promise(resolve => setTimeout(resolve, ms))
 }
 
-function toggleDarkMode() {
-    const elDarkModeSwitch = document.querySelector('#dark-mode-switch')
-
-    const currentTheme = document.documentElement.getAttribute('data-theme')
-    const isDarkMode = (currentTheme === 'dark')
-
-    // Switch between `dark` and `light`
-    const switchToTheme = isDarkMode ? 'light' : 'dark'
-    elDarkModeSwitch.checked = !isDarkMode
-    // Set our currenet theme to the new one
-    document.documentElement.setAttribute('data-theme', switchToTheme)
-    saveSettings({ isDarkMode: switchToTheme })
-}
-
+// ---------------   debounce:
 function debounce1(func, wait) {
     let timeout
-
-    // This is the function that is returned and will be executed many times
-    // We spread (...args) to capture any number of parameters we want to pass
+    // spread (...args) to capture any number of parameters we want to pass
     return function executedFunction(...args) {
 
         // The callback function to be executed after 
         // the debounce time has elapsed
         const later = () => {
             // null timeout to indicate the debounce ended
-            timeout = null;
+            timeout = null
 
             // Execute the callback
-            func(...args);
-        };
+            func(...args)
+        }
         // This will reset the waiting every function execution.
         // This is the step that prevents the function from
         // being executed because it will never reach the 
         // inside of the previous setTimeout  
-        clearTimeout(timeout);
+        clearTimeout(timeout)
 
         // Restart the debounce waiting period.
         // setTimeout returns a truthy value (it differs in web vs Node)
-        timeout = setTimeout(later, wait);
-    };
+        timeout = setTimeout(later, wait)
+    }
 }
 
-function debounce(func, wait, immediate) {
+function debounce(func, wait, isImmediate) {
     let timeout
     return function () {
         const context = this
@@ -95,22 +76,58 @@ function debounce(func, wait, immediate) {
 
         const later = function () {
             timeout = null
-            if (!immediate) func.apply(context, args)
+            if (!isImmediate) func.apply(context, args)
         }
 
-        const callNow = immediate && !timeout
+        const callNow = isImmediate && !timeout
         clearTimeout(timeout)
         timeout = setTimeout(later, wait)
         if (callNow) func.apply(context, args)
     }
 }
 
-function getQueryParam(param) {
-    const urlParams = new URLSearchParams(window.location.search)
-    return urlParams.get(param)
+// ---------------   Throttling:
+// is a technique used in web development to limit the rate at which a particular function can be called.
+// The idea is to prevent the function from being called more often than necessary, especially when the function involves expensive operations or network requests.
+// example:
+// search box on our website that sends an API request to fetch search results as the user types in the query.
+// We don't want to overload the API server with too many requests, so we `throttle` the search function to only send a request once every 500 milliseconds.
+//  This way, even if the user types in several characters quickly, only one request will be sent every 500 milliseconds, preventing a flood of requests.
+function throttle1(func, limit) {
+    let timeout
+    return function (...args) {
+        const context = this
+        if (!timeout) {
+            // if the function is not currently being throttled, call it immediately
+            func.apply(context, args)
+            timeout = setTimeout(() => {
+                // after the specified time interval, clear the timeout and allow the function to be called again
+                timeout = null
+            }, limit)
+        }
+    }
 }
 
-//  ---------------------------------   /* array */   ---------------------------------  
+function throttle(func, limit) {
+    let timeoutId
+    let lastExecTime = 0
+    return function (...args) {
+        const currentTime = Date.now()
+        const timeSinceLastExec = currentTime - lastExecTime
+        if (timeSinceLastExec >= limit) {
+            func.apply(this, args)
+            lastExecTime = currentTime
+        } else {
+            clearTimeout(timeoutId)
+            timeoutId = setTimeout(() => {
+                func.apply(this, args)
+                lastExecTime = Date.now()
+            }, limit - timeSinceLastExec)
+        }
+    }
+}
+
+// ---------------------------------   Array   ---------------------------------  
 /** The Fisher-Yates algorithm, also known as the Knuth shuffle,
  *  is an algorithm for generating a random permutation of an array. The algorithm works by iterating through the array from the last element to the first, and swapping each element with a random element that comes before it.
  * @param {Array} arr 
@@ -143,9 +160,17 @@ function getFlatten(arr) {
 function getUniqueValues(arr) {
     return Array.from(new Set(arr))
 }
-//  ---------------------------------   /* object */   ---------------------------------  
+
+// ---------------------------------   Object   ---------------------------------  
 function isObject(value) {
     return value !== null && typeof value === 'object'
+}
+
+function isEmptyObj(obj) {
+    for (let key in obj) {
+        if (obj.hasOwnProperty(key)) return false
+    }
+    return true
 }
 
 function objToQueryString(obj) {
@@ -166,7 +191,54 @@ function shuffleArr(arr) {
     return arr.sort(() => Math.random() - 0.5)
 }
 
-//  ---------------------------------   /* Date & Time */   ---------------------------------  
+// ---------------------------------   Date & Time   ---------------------------------  
+// get the current date in a specific format
+function getCurrentDate(format) {
+    const date = new Date()
+    const year = date.getFullYear()
+    const month = date.getMonth() + 1
+    const day = date.getDate()
+
+    format = format.replace("yyyy", year)
+    format = format.replace("MM", month.toString().padStart(2, "0"))
+    format = format.replace("dd", day.toString().padStart(2, "0"))
+
+    return format
+}
+
+// getCurrentDateEx:
+const getCurrentDateEx = {
+    showToUserUS: getCurrentDate("MM/dd/yyyy"),
+    showToUserHE: getCurrentDate("dd/MM/yyyy"),
+    logToServer: getCurrentDate("yyyy-MM-dd"),
+
+}
+const getCurrentDateEx1 = getCurrentDateEx.logToServer
+const data = { date: getCurrentDateEx1, ...otherData }
+const fileName = `report-${getCurrentDateEx.logToServer}.csv`
+
+// get the current time in a specific format
+function getCurrentTime(format) {
+    const date = new Date()
+    let hours = date.getHours()
+    let minutes = date.getMinutes()
+    let seconds = date.getSeconds()
+
+    if (format.indexOf("hh") !== -1) {
+        const period = hours >= 12 ? "PM" : "AM"
+        hours = hours % 12 || 12
+        format = format.replace("hh", hours.toString().padStart(2, "0"))
+        format = format.replace("mm", minutes.toString().padStart(2, "0"))
+        format = format.replace("ss", seconds.toString().padStart(2, "0"))
+        format = format.replace("tt", period)
+    } else {
+        format = format.replace("HH", hours.toString().padStart(2, "0"))
+        format = format.replace("mm", minutes.toString().padStart(2, "0"))
+        format = format.replace("ss", seconds.toString().padStart(2, "0"))
+    }
+
+    return format
+}
 
 /* human-readable string that represents the time difference in terms of:
   years, months, weeks, days, hours, minutes, or seconds 
@@ -276,7 +348,7 @@ function getRandomFloatInclusive(min, max, decimals) {
 function formatFixedNum(num, toFixed = 2) {
     return +num.toFixed(toFixed)
 }
-/* Random */
+
 function getRandomColor() {
     const letters = '0123456789ABCDEF'
     let color = '#'
@@ -290,15 +362,17 @@ function getRandomColor() {
 function getRandomDate(start = new Date(2020, 0, 1), end = new Date()) {
     return new Date(start.getTime() + Math.random() * (end.getTime() - start.getTime())).getTime()
 }
-//  ---------------------------------   /* Sting */   ---------------------------------  
+
+//  ---------------------------------    Sting & regex    ---------------------------------  
 // Pads a number with zeros to a certain length.
 function padZero(num, size = 2) {
     let s = num + ""
     while (s.length < size) s = "0" + s
     return s
 }
+
 function getCapitalize(str) {
-    return str.charAt(0).toUpperCase() + str.slice(1);
+    return str.charAt(0).toUpperCase() + str.slice(1)
 }
 
 function getNumWithCommas(str) {
@@ -369,10 +443,3 @@ function isNullOrUndefined(value) {
     return value === null || value === undefined;
 }
 
-function isEmptyObj(obj) {
-    for (let key in obj) {
-        if (obj.hasOwnProperty(key))
-            return false;
-    }
-    return true;
-}

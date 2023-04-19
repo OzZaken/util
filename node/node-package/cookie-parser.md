@@ -1,4 +1,5 @@
-cookie-parser is a middleware for the Node.js Express framework that parses incoming cookies and makes them available in the request object. It provides an easy way to handle cookies in a Node.js application, allowing you to read, write, and delete cookies with a simple API.
+`cookie-parser` is a middleware for the Node.js Express framework that parses incoming cookies and makes them available in the request object.
+It provides an easy way to handle cookies in a Node.js application, allowing you to read, write, and delete cookies with a simple API.
 
 It is a third-party library that needs to be installed via npm before use. Once installed, you can use cookie-parser in your Express application by including it as middleware in your app.js file or equivalent:
 ```javascript
