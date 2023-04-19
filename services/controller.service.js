@@ -1,8 +1,3 @@
-const controller = {
-    toggleDarkMode,
-    delay,
-    getQueryParam,
-}
 
 function render(template, data) {
     const regex = /{{\s*([a-zA-Z0-9_.-]+)\s*}}/g
@@ -14,69 +9,7 @@ function render(template, data) {
         return value
     })
 }
-// ---------------------------------   ajax   ---------------------------------  
-async function fetchData1(url) {
-    const response = await fetch(url)
-    const data = await response.json()
-    return data
-}
 
-// XHR
-function fetchDataWithXHR(url, method = 'GET', body = null) {
-    return new Promise((resolve, reject) => {
-        const xhr = new XMLHttpRequest()
-        xhr.open(method, url)
-
-        xhr.setRequestHeader('Content-Type', 'application/json')
-
-        xhr.onload = function () {
-            if (xhr.status === 200) resolve(JSON.parse(xhr.responseText))
-            else reject(Error(xhr.statusText))
-        }
-
-        xhr.onerror = () => reject(Error('Network Error'))
-
-        xhr.send(body ? JSON.stringify(body) : null)
-    })
-}
-
-// fetch
-async function fetchData(url, method = 'GET', body = null) {
-    const options = {
-        method,
-        headers: {
-            'Content-Type': 'application/json'
-        }
-    }
-    if (body) options.body = JSON.stringify(body)
-
-    const response = await fetch(url, options)
-    const data = await response.json()
-    return data
-}
-
-// axios
-async function fetchDataWithAxios(url, method = 'GET', body = null) {
-    const options = {
-        method,
-        url,
-        headers: {
-            'Content-Type': 'application/json'
-        },
-        data: body ? JSON.stringify(body) : null
-    }
-    const response = await axios(options)
-    return response.data
-}
-// takes a HTML form element and returns an object with its form data serialized as key-value pairs.
-function serializeForm(formElement) {
-    const formData = new FormData(formElement)
-    const serialized = {};
-    for (const [key, value] of formData.entries()) {
-        serialized[key] = value
-    }
-    return serialized
-}
 
 async function downloadFile(url, filename) {
     const response = await fetch(url)
@@ -90,6 +23,16 @@ async function downloadFile(url, filename) {
     a.click()
     document.body.removeChild(a)
     urlObject.revokeObjectURL(url)
+}
+
+// takes a HTML form element and returns an object with its form data serialized as key-value pairs.
+function serializeForm(elForm) {
+    const formData = new FormData(elForm)
+    const serialized = {}
+    for (const [key, value] of formData.entries()) {
+        serialized[key] = value
+    }
+    return serialized
 }
 
 // ---------------------------------   Theme   ---------------------------------  
@@ -117,6 +60,7 @@ function getQueryParam(param) {
     const urlParams = new URLSearchParams(window.location.search)
     return urlParams.get(param)
 }
+
 function getQueryParams(url) {
     const queryString = url.split('?')[1]
     const queryParams = {}
@@ -130,7 +74,7 @@ function getQueryParams(url) {
     return queryParams
 }
 
-//  takes a URL and returns an object with its query parameters parsed as key-value pairs.
+// takes a URL and returns an object with its query parameters parsed as key-value pairs.
 function getQueryParams(url) {
 
     const queryString = url.split('?')[1]

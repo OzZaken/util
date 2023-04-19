@@ -3,7 +3,7 @@ import { storageService } from './async-storage.service'
 // import { store } from '../store/store'
 // import { getActionSetWatchedUser } from '../store/review.actions'
 // import { socketService, SOCKET_EVENT_USER_UPDATED, SOCKET_EMIT_USER_WATCH } from './socket.service'
-import { showSuccessMsg } from '../services/event-bus.service'
+import { showSuccessMsg } from './event-bus.service'
 
 const SESSION_KEY = 'loggedInUser'
 

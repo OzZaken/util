@@ -4,12 +4,12 @@
  * It is similar to the Fisher-Yates algorithm, but starts at the first element of the array instead of the last element.
  */
 function shuffleDurstenfeld(arr) {
-    var _a;
+    var _a
     for (var i = arr.length - 1; i > 0; i--) {
-        var j = Math.floor(Math.random() * (i + 1));
-        _a = [arr[j], arr[i]], arr[i] = _a[0], arr[j] = _a[1];
+        var j = Math.floor(Math.random() * (i + 1))
+        _a = [arr[j], arr[i]], arr[i] = _a[0], arr[j] = _a[1]
     }
-    return arr;
+    return arr
 }
 /** The Knuth shuffle algorithm:
  * This is another variation of the Fisher-Yates algorithm that uses a different formula for generating the random index.

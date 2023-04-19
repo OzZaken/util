@@ -1,4 +1,4 @@
-const DBService = require('./db-mysql.service')
+const DBService = require('../../../services/db-mysql.service')
 
 function query(criteria={}) {
     var namePart = criteria.name || ''

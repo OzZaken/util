@@ -1,4 +1,4 @@
-const bugService = require('../../../services/JS-services/bug-mysql.service')
+const bugService = require('./bug-mysql.service')
 
 (async () =>{
     console.log('start')
