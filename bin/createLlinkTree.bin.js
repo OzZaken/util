@@ -5,7 +5,7 @@ var gIsLinkShowAsVsCode = false // update
 
 const GITHUB_USERNAME = 'OzZaken' // update
 
-const IGNORE = ['gen-link-tree.service.js','.git', 'node_modules', 'public', '.gitignore', '.vscode'] // update
+const IGNORE = ['pdf','socket.io-examples','env','demo','.git', 'node_modules', 'public', '.gitignore', '.vscode','.env'] 
 
 const REPO_NAME = path.basename(path.resolve('.'))
 
