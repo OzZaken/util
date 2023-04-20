@@ -1,6 +1,9 @@
 .env
 .gitignore
 .vscode
-pdf
+env
+/**/*.pdf
 socket.io-examples
 logs
+
+personalAssistant
