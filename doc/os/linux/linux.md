@@ -1,4 +1,5 @@
-Linux Mint:
+https://www.linuxlookup.com/linux_iso
+# Linux Mint:
 Pros:
 - User-friendly and easy to install.
 - Comes with many pre-installed applications.
@@ -10,7 +11,7 @@ Cons:
 - Limited support for new hardware.
 - Not as cutting-edge as some other distributions.
 
-Manjaro:
+# Manjaro:
 Pros:
 - Easy to install and use.
 - Rolling release model means you always have access to the latest software.
@@ -23,7 +24,7 @@ Cons:
 - Some packages may be outdated due to the rolling release model.
 - Some users may not like the philosophy of the distribution, which emphasizes being user-friendly rather than adhering strictly to the Arch Linux principles.
 
-Arch Linux:
+# Arch Linux:
 Pros:
 - Highly customizable and flexible.
 - Lightweight and minimal, making it ideal for older hardware.
@@ -35,7 +36,7 @@ Cons:
 - Requires manual installation and configuration of many components, which can be time-consuming and challenging.
 - No official graphical installer or installer wizard, which may deter some users.
 
-Fedora Workstation:
+# Fedora Workstation:
 Pros:
 - Focuses on the latest stable software, making it great for developers and power users.
 - Has a modern desktop environment and is visually appealing.
@@ -59,7 +60,7 @@ Cons:
 - Not as user-friendly as some other distributions.
 - Limited support for cutting-edge hardware.
 
-openSUSE:
+# openSUSE:
 Pros:
 - Stable and flexible, making it great for both desktops and servers.
 - YaST configuration tool makes system administration easy.

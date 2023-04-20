@@ -1,9 +1,20 @@
-.env
+node_modules
 .gitignore
 .vscode
-env
-/**/*.pdf
-socket.io-examples
+
+# folder to execute Tests 
+demo
+
+# demo folder to execute Tests 
 logs
 
+# Enviormets
+# python
+env
+# git
+.env
+
+# Find Yourself ; )
+socket.io-examples
+/**/*.pdf
 personalAssistant
