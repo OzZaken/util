@@ -1,0 +1,1 @@
+EasyPHP is a software package that provides a complete web server environment for Windows operating systems. It includes Apache, MySQL, PHP, and other components commonly used in web development.

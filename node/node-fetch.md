@@ -98,3 +98,5 @@ Axios has its own advantages, including:
 2. **Browser support**: Axios provides support for older browsers that do not support the fetch API, which can be a significant advantage if you need to support legacy systems.
 
 3. **Built-in features**: Axios includes built-in features such as automatic serialization of request and response data and the ability to cancel requests, which can be useful for complex applications.
+
+Different properties are used for a post request to send data to the endpoint - Axios uses the data property, whereas with fetch we use the body property. We need to serialize data into a JSON string to send data. Axios automatically stringifies data when sending JavaScript objects to the API using the POST method.22 Sept 2022
