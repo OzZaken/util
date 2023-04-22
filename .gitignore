@@ -1,33 +1,36 @@
 node_modules
 
-# .*
+# ignore all `.files`
 .*
+
 .git
+**/.git
 .gitignore
 .vscode
 
-# working on 
+assets/**/
+!assets/doc/*
+
+servers/**/
+!servers/*.md
+
+# working directories
+auto/**/
 exercise
 projects
-
-# demo folders tests 
 demo
 demos
+logs
 # frontend test folder
 client
 # backend tests folder 
 server
- 
-# logs 
-logs
 
 # Enviormets
-# python
 env
-# git
 .env
 
-# GitHub
+# GitHub examples
 public-apis
 socket.io-examples
 design-resources-for-developers
@@ -35,7 +38,9 @@ react-redux-universal-hot-example
 react-starter-kit
 Personal-Website
 Protfolio-Website-Flutter-Web
+
 # Find Yourself ; )
+*.pdf
 /**/*.pdf
 private
 personalAssistant
