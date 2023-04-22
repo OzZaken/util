@@ -1,11 +1,23 @@
 node_modules
+
+# .*
+.*
 .gitignore
 .vscode
 
-# folder to execute Tests 
-demo
+# working on 
+exercise
+projects
 
-# demo folder to execute Tests 
+# demo folders tests 
+demo
+demos
+# frontend test folder
+client
+# backend tests folder 
+server
+ 
+# logs 
 logs
 
 # Enviormets
@@ -14,7 +26,15 @@ env
 # git
 .env
 
-# Find Yourself ; )
+# GitHub
+public-apis
 socket.io-examples
+design-resources-for-developers
+react-redux-universal-hot-example
+react-starter-kit
+Personal-Website
+Protfolio-Website-Flutter-Web
+# Find Yourself ; )
 /**/*.pdf
+private
 personalAssistant

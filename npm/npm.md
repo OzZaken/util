@@ -1,0 +1,1 @@
+Clearing the npm cache using the command `npm cache clean --force` will remove all the cached data of the packages installed through npm. This includes downloaded tarballs and metadata for packages. However, it won't remove any installed packages or their dependencies.
