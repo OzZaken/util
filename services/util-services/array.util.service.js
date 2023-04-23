@@ -23,10 +23,7 @@ function getFlatten(arr) {
     return arr.reduce((acc, val) => Array.isArray(val) ? acc.concat(flatten(val)) : acc.concat(val), [])
 }
 
-/** Returns an array of unique values from the input array.
- * @param {Array} arr - Input array
- * @returns {Array} - Array of unique values
- */
+//  Returns an array of unique values from the input array.
 function getUniqueValues(arr) {
     return Array.from(new Set(arr))
 }

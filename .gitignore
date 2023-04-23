@@ -8,6 +8,9 @@ node_modules
 .gitignore
 .vscode
 
+ai/*
+# ai/**
+
 assets/**/
 !assets/doc/*
 
@@ -21,16 +24,27 @@ projects
 demo
 demos
 logs
-# frontend test folder
+
+# working app
+# frontend tests 
 client
-# backend tests folder 
+# backend tests  
 server
 
 # Enviormets
 env
+env/**
 .env
-
+.env.local
+.env.dev.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env.prod.local
 # GitHub examples
+radash
+ts-toolbelt
+utility-types
 public-apis
 socket.io-examples
 design-resources-for-developers

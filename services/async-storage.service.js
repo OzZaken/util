@@ -1,3 +1,6 @@
+//The storageService provides functions to work with localStorage and simulate having a backend.
+// The functions include CRUD + List operation `query`, `get`, `post`, `put`, `remove`, and `postMany` for intently inserting demo data.
+
 export const storageService = {
     query,
     get,
@@ -7,6 +10,7 @@ export const storageService = {
     postMany,
 }
 
+// The get function queries the entities array and returns the entity with the specified ID.
 function query(entityType, delay = 200) {
     try {
         const entities = JSON.parse(localStorage.getItem(entityType))
@@ -18,6 +22,7 @@ function query(entityType, delay = 200) {
     }
 }
 
+// creates an ID for the new entity, adds it to the entities array, and saves it in localStorage
 function post(entityType, newEntity) {
     try {
         newEntity._id = _makeId()
@@ -31,15 +36,7 @@ function post(entityType, newEntity) {
     }
 }
 
-function postMany(entityType, entities) {
-    try {
-        _save(entityType, entities)
-        return Promise.resolve(entities)
-    } catch (error) {
-        return Promise.reject(error)
-    }
-}
-
+// The function 'get' queries for an entity of a given type and returns the entity with the specified ID, or rejects the promise if an error occurs.
 function get(entityType, entityId) {
     try {
         return query(entityType)
@@ -49,6 +46,7 @@ function get(entityType, entityId) {
     }
 }
 
+// updates the entity in the entities array and saves it in localStorage.
 function put(entityType, updatedEntity) {
     try {
         return query(entityType)
@@ -63,6 +61,7 @@ function put(entityType, updatedEntity) {
     }
 }
 
+// removes the entity from the entities array and saves it in localStorage.
 function remove(entityType, entityId) {
     try {
         return query(entityType)
@@ -76,6 +75,17 @@ function remove(entityType, entityId) {
     }
 }
 
+// saves the entities array in localStorage.
+function postMany(entityType, entities) {
+    try {
+        _save(entityType, entities)
+        return Promise.resolve(entities)
+    } catch (error) {
+        return Promise.reject(error)
+    }
+}
+
+// The _save and _makeId functions are private functions used by the other functions.
 function _save(entityType, entities) {
     localStorage.setItem(entityType, JSON.stringify(entities))
 }

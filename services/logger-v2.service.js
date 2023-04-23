@@ -133,7 +133,7 @@ module.exports = Logger
 // const logger = new Logger({
 //     logDirectory: './logs',
 //     logToConsole: true,
-//     logLevel: 'debug'
+    // logLevel: 'debug'
 // })
 
 // logger.debug('This is a debug message.')
