@@ -80,6 +80,7 @@ function askUser() {
         })
     })
 }
+
 function formatFiles(rootDir, isIncludeSubFolders, formatType, isAddParentFolder) {
     const regex = getRegex(formatType)
 
@@ -134,7 +135,6 @@ function formatFileName(fileName, regex) {
         return match.toUpperCase().replace(/[-_ ]/g, '')
     })
 }
-
 
 function addGitIgnoreToIgnoreList() {
     const scriptDir = gRootDir

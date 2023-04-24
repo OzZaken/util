@@ -1,9 +1,0 @@
-{
-  "main": "index.js",
-  "dependencies": {
-    "faker": "^6.6.6"
-  },
-  "devDependencies": {
-    "@faker-js/faker": "^7.6.0"
-  }
-}

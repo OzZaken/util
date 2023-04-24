@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    /* Define a CSS rule to apply the animation */
+    .my-element {
+      animation: slide-in 0.5s ease-out;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="my-element">Hello, world!</div>
+
+  <script>
+    function createStyles(state) {
+      return function() {
+        return {
+          'transform': `translateX(${state.x}px) translateY(${state.y}px)`
+        };
+      }
+    }
+
+    function generateKeyframe(name, options) {
+      const {
+        from = {},
+        to = {},
+        duration = '0.3s',
+        timingFunction = 'ease-out',
+        delay = '0s',
+      } = options
+
+      const fromStyles = createStyles(from)()
+      const toStyles = createStyles(to)()
+
+      let keyframe = `@keyframes ${name} {`
+
+      for (const [key, value] of Object.entries(fromStyles)) {
+        keyframe += `from { ${key}: ${value}; }`
+      }
+
+      for (const [key, value] of Object.entries(toStyles)) {
+        keyframe += `to { ${key}: ${value}; }`
+      }
+
+      keyframe += `}`
+
+      const animation = `${name} ${duration} ${timingFunction} ${delay}`
+
+      return {
+        keyframe,
+        animation,
+      }
+    }
+
+    const { keyframe, animation } = generateKeyframe('slide-in', {
+      from: { x: -100, y: 0 },
+      to: { x: 0, y: 0 },
+      duration: '0.5s',
+      timingFunction: 'ease-out',
+      delay: '0s',
+    })
+
+    // Add the generated keyframe to a <style> element
+    const style = document.createElement('style')
+    style.textContent = keyframe
+    document.head.appendChild(style)
+
+    // Apply the animation to the element
+    const element = document.querySelector('.my-element')
+    element.style.animation = animation
+  </script>
+
+</body>
+</html>

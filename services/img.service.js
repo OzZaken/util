@@ -1,27 +1,6 @@
 export const imgService = {
-    uploadImg,
     loadImgs,
     loadImgsPrm,
-}
-
-/* Uploads an image to Cloudinary, * returns a promise that resolves with the response data. */
-async function uploadImg(ev) {
-    const CLOUD_NAME = process.CLOUD_NAME||'pukicloud'
-    const UPLOAD_PRESET = 'CHECK'
-    const UPLOAD_URL = `https://api.cloudinary.com/v1_1/${CLOUD_NAME}/image/upload`
-
-    const formData = new FormData()
-    formData.append('upload_preset', UPLOAD_PRESET)
-    formData.append('file', ev.target.files[0])
-    try {
-        const res = await fetch(UPLOAD_URL, {
-            method: 'POST',
-            body: formData
-        })
-        return res.json()
-    } catch (error) {
-        console.error(error, 'upload failed')
-    }
 }
 
 /* Loads multiple images using dynamic imports,  returns a promise resolves with an object containing the loaded images. */
@@ -70,9 +49,3 @@ async function loadImgsPrm(names, type) {
         throw error
     }
 }
-
-/** // TODO: proccess env
- *   CLOUD_NAME = 'pukicloud'
-     UPLOAD_PRESET = 'CHECK'
-     UPLOAD_URL = `https://api.cloudinary.com/v1_1/${CLOUD_NAME}/image/upload`
- */

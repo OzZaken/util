@@ -56,6 +56,26 @@ function toggleTheme() {
 }
 
 // ---------------------------------   queryParams   ---------------------------------  
+function queryStringToObject(queryString) {
+    const pairs = queryString.slice(1).split("&");
+    const result = {};
+  
+    pairs.forEach((pair) => {
+      const [key, value] = pair.split("=");
+      result[key] = decodeURIComponent(value || "");
+    });
+  
+    return result;
+  }
+  
+  function objectToQueryString(obj) {
+    return (
+      "?" +
+      Object.keys(obj)
+        .map((key) => `${encodeURIComponent(key)}=${encodeURIComponent(obj[key])}`)
+        .join("&")
+    );
+  }
 function getQueryParam(param) {
     const urlParams = new URLSearchParams(window.location.search)
     return urlParams.get(param)

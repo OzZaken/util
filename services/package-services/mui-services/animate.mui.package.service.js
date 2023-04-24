@@ -1,7 +1,6 @@
 import { createStyles, makeStyles } from '@material-ui/core/styles'
 
-/**
- * Helper function to generate an animation keyframe for a transition effect.
+/** generate an animation keyframe for a transition effect.
  * @param {string} name The name of the animation.
  * @param {object} options The options to customize the animation.
  * @returns {string} The generated keyframe for the animation.
@@ -13,7 +12,7 @@ function generateKeyframe(name, options) {
         duration = '0.3s',
         timingFunction = 'ease-out',
         delay = '0s',
-    } = options;
+    } = options
 
     const fromStyles = createStyles(from)()
     const toStyles = createStyles(to)()
@@ -38,8 +37,7 @@ function generateKeyframe(name, options) {
     }
 }
 
-/**
- * Custom hook to generate CSS styles for a given animation.
+/** Custom hook to generate CSS styles for a given animation.
  * @param {string} name The name of the animation.
  * @param {object} options The options to customize the animation.
  * @returns {object} The generated CSS styles for the animation.
@@ -54,13 +52,12 @@ function useAnimate(name, options) {
         animate: {
             animation,
         },
-    });
+    })
 
-    return useStyles();
+    return useStyles()
 }
 
-/**
- * Helper function to create a fade-in animation.
+/** create a fade-in animation.
  * @param {object} options The options to customize the animation.
  * @returns {object} The generated CSS styles for the animation.
  */
@@ -69,11 +66,10 @@ function fadeIn(options = {}) {
         from: { opacity: 0 },
         to: { opacity: 1 },
         ...options,
-    });
+    })
 }
 
-/**
- * Helper function to create a fade-out animation.
+/** create a fade-out animation.
  * @param {object} options The options to customize the animation.
  * @returns {object} The generated CSS styles for the animation.
  */
@@ -85,8 +81,7 @@ function fadeOut(options = {}) {
     });
 }
 
-/**
- * Helper function to create a slide-in animation.
+/** create a slide-in animation.
  * @param {object} options The options to customize the animation.
  * @returns {object} The generated CSS styles for the animation.
  */
@@ -98,8 +93,7 @@ function slideIn(options = {}) {
     });
 }
 
-/**
- * Helper function to create a slide-out animation.
+/** create a slide-out animation.
  * @param {object} options The options to customize the animation.
  * @returns {object} The generated CSS styles for the animation.
  */
