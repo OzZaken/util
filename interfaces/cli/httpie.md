@@ -1,4 +1,4 @@
-# HTTPie
+# [httpie](https://httpie.io/)
 HTTPie is a command-line tool that allows users to interact with web servers through HTTP requests. It provides a simple and intuitive syntax for sending HTTP requests and displaying the responses in a terminal-friendly format.
 
 ## Installation

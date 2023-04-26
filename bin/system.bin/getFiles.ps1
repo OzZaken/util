@@ -1,0 +1,1 @@
+﻿get-childitem -path C:\ -filter *.pptx -recurse | copy-item -destination d:/

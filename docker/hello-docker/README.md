@@ -1,5 +1,4 @@
-# I install docker
-
+# I install [docker](https://www.docker.com/) 
 1. `docker version`: print version
 2. `docker build -t hello-docker .`: build with tag dir hello-docker with all its content
 3. `docker images` or `docker image ls` : list images

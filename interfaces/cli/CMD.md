@@ -1,11 +1,9 @@
 #  Command Prompt (CMD) 
-
 Command prompt, also known as CMD, 
 is a command-line interpreter in Windows operating systems.
 It allows users to execute commands and perform various tasks on their computer.
 
 ## Shortcuts
-
 | Description                                                         | Shortcuts on Cmd:                               |
 | ------------------------------------------------------------------- | ----------------------------------------------- |
 | show history commands                                               | `F7`                                            |
@@ -33,7 +31,6 @@ It allows users to execute commands and perform various tasks on their computer.
 
 
 ## basic
-
 | Description                              | Commands                              |
 | ---------------------------------------- | ------------------------------------- |
 | pip (like `.then` in Js)                 | `                                     | `     |
@@ -53,7 +50,6 @@ It allows users to execute commands and perform various tasks on their computer.
 
 
 ## ipconfig
-
 | Description                                            | Commands               |
 | ------------------------------------------------------ | ---------------------- |
 | Displays network configuration information.            | `ipconfig`             |
@@ -66,7 +62,6 @@ It allows users to execute commands and perform various tasks on their computer.
 | Clears the DNS cache.                                  | `ipconfig /flushdns`   |
 
 ## Methods
-
 | Description                                            | commands                                 |
 | ------------------------------------------------------ | ---------------------------------------- |
 | deletes the specified file                             | `del [file]`                             |
@@ -76,7 +71,6 @@ It allows users to execute commands and perform various tasks on their computer.
 | copies files and folders, including subdirectories     | `xcopy [source] [destination] [options]` |
 
 ## Display
-
 | Description                                               | commands     |
 | --------------------------------------------------------- | ------------ |
 | displays the contents of the current directory            | `dir`        |
@@ -89,7 +83,6 @@ It allows users to execute commands and perform various tasks on their computer.
 | display MAC address                                       | `getmac`     |
 
 ## Maintenance
-
 | Description                                                                    | **Maintenance**                                                                        |
 | ------------------------------------------------------------------------------ | -------------------------------------------------------------------------------------- |
 | check volumes /perf: maxSpeed  /F:Fix Error  /r: recover readable information. | `chkdsk`                                                                               |
@@ -113,7 +106,6 @@ It allows users to execute commands and perform various tasks on their computer.
 
 
 ## Tasks 
-
 | Description                               | commands                              |
 | ----------------------------------------- | ------------------------------------- |
 | Display all task.                         | `tasklist  -svc`                      |
@@ -124,7 +116,6 @@ It allows users to execute commands and perform various tasks on their computer.
 | Terminate a process or a application      | `taskkill /F /PID [PID]`              |
 
 ## ping 
-
 | Description                                                                                                   | **ping & tracert**                    |
 | ------------------------------------------------------------------------------------------------------------- | ------------------------------------- |
 | Sends an echo request to a specified IP address or hostname and displays the response.                        | `ping [IP address or hostname]`       |
@@ -133,7 +124,6 @@ It allows users to execute commands and perform various tasks on their computer.
 | Traces the path of packets to a specified IP address or hostname and does not resolve addresses to hostnames. | `tracert -d [IP address or hostname]` |
 
 ## netstat
-
 | Description                                                                                                               | **netstat**         |
 | ------------------------------------------------------------------------------------------------------------------------- | ------------------- |
 | Displays network connection information and statistics.                                                                   |                     |
@@ -148,7 +138,6 @@ It allows users to execute commands and perform various tasks on their computer.
 | Display active TCP connections associate with Folder or File.                                                             | `netstat -ano       | findstr /R "[PATH]` |
 
 ## route
-
 | Description                                      | commands                                                 |
 | ------------------------------------------------ | -------------------------------------------------------- |
 | Displays and modifies routing table.             |                                                          |
@@ -159,7 +148,6 @@ It allows users to execute commands and perform various tasks on their computer.
 
 ## nslookup 
 DNS name resolution query tool
-
 | Description                                                                       | commands                                    |
 | --------------------------------------------------------------------------------- | ------------------------------------------- |
 | Queries a DNS server for a specific type of record (e.g. A, MX, NS)               | `nslookup -type=[record type] [hostname]`   |
@@ -173,7 +161,6 @@ DNS name resolution query tool
 | Queries a specific DNS server for information about a specific hostname           | `nslookup [hostname] [DNS server]`          |
 
 ## netsh
-
 | Description                                        | Command                                                                                                        |
 | -------------------------------------------------- | -------------------------------------------------------------------------------------------------------------- |
 | Find Wifi interfaces                               | `netsh interface show address \| findstr "IP_ADDRESS"`                                                         |
