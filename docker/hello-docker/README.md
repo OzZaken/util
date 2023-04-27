@@ -42,6 +42,7 @@
 - `python2 --version`: 
 
 
+
 # VI LINUX structure     
 (in linux everything is a file, even directories just like javascript variables )
 
@@ -117,8 +118,21 @@
 - `mv hello-docker.txt`: rename.     
 - `mv hello-docker.txt /etc`: move to different directory.     
 - `rm file*`: delete all files name file...     
-- `rm -r directory*`: delete directory recursive.     
+- `rm -r directory/`: delete directory recursive.     
+# display files
+- `cat file1.txt` or : display file.
+- `more /etc/adduser.conf`: for more longer files.
+- `apt install less`: opposite of more.
+- `less /etc/adduser.conf`: replace more (up and down arrows | space for next page|q for exit).
+- `head -n 5 /etc/adduser.conf`: display first 5 lines.
+- `tail -n 5 /etc/adduser.conf`: display last 5 lines.
+
+# Redirection
+- `cat file1.txt > file2.txt`: display last 5 lines.
+- `cat file1.txt file2.txt > combine.txt`: combine output.
+- `ls -l /etc > etc.txt`: combine output.
 
 # useful
-on the command line press `ctrl + w` to clear line
+- on the command line press `ctrl + w` to clear line.
+- `ctrl + d` to exit.
 - `docker-compose down --rmi all`:stop and remove the containers, networks, and volumes associated with a Docker Compose project, and it also removes all images created by the project.

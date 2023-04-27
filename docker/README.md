@@ -21,7 +21,20 @@ Docker is an open-source containerization platform that allows you to quickly bu
 | `docker version`                |                                                                                                                                                                           |
 | `docker-compose down --rmi all` | command is used to stop and remove the containers, networks, and volumes associated with a Docker Compose project, and it also removes all images created by the project. |
 
-# Docker Images
+# some Docker Images
+| Docker Image Name                                    | Description                                                                                                       |
+| ---------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------- |
+| [nginx](https://hub.docker.com/_/nginx)              | A popular web server that can be used as a reverse proxy, load balancer, or HTTP cache.                           |
+| [Apache HTTP Server](https://hub.docker.com/_/httpd) | Another popular web server that is widely used and can also be used as a reverse proxy or load balancer.          |
+| [MySQL](https://hub.docker.com/_/mysql)                                                | A popular open-source relational database management system that is widely used in web development.               |
+| PostgreSQL                                           | Another open-source relational database management system that is highly scalable and supports advanced features. |
+| Redis                                                | An open-source in-memory data structure store that can be used as a database, cache, or message broker.           |
+| Elasticsearch                                        | An open-source search engine that can be used to search, analyze, and visualize data.                             |
+| Docker Compose                                       | A tool for defining and running multi-container Docker applications.                                              |
+| phpMyAdmin                                           | A web-based interface for managing MySQL databases.                                                               |
+| Adminer                                              | Another web-based database management tool that supports MySQL, PostgreSQL, SQLite, and more.                     |
+| Portainer                                            | A web-based Docker management interface that allows you to manage your Docker containers, images, and networks.   |
+
 | Docker Image Name | Description                                                              |
 | ----------------- | ------------------------------------------------------------------------ |
 | Nextcloud         | An open-source self-hosted cloud storage platform for file sharing       |
