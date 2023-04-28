@@ -1,0 +1,20 @@
+Qwiklabs:
+
+1. Introduction to AWS Identity and Access Management (IAM)
+2. Performing a Basic Audit of your AWS Environment
+3. Introduction to Amazon EC2
+
+
+
+EBS:
+Introduction to Amazon Elastic Block Store (Amazon EBS)
+
+EFS:
+Introduction to Amazon Elastic File System (EFS)
+
+Introduction to Amazon EC2 Auto Scaling
+
+Introduction to Amazon Simple Storage Service (S3)
+
+ELB:
+Introduction to Elastic Load Balancing
