@@ -1,6 +1,7 @@
 # What is Docker?
 Docker is an open-source containerization platform that allows you to quickly build, test, and deploy applications as portable, self-sufficient containers. It simplifies the process of deploying applications and makes it easier to create, deploy, and run applications.
-
+[.NET application](https://docs.docker.com/language/dotnet/?uuid=0FF37F5E-BE8D-4C11-84F8-16C7C661EA8A)
+[nodeJs application](https://docs.docker.com/language/nodejs/?uuid=0FF37F5E-BE8D-4C11-84F8-16C7C661EA8A)
 # basic commands
 | Command                         | Explanation                                                                                                                                                               |
 | ------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |

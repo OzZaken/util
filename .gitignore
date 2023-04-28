@@ -2,12 +2,13 @@ node_modules
 
 # ignore all `.files`
 .*
-
+*.pptx
+.ppsx
 .git
 **/.git
 .gitignore
 .vscode
-
+.mp4
 ai/*
 # ai/**
 

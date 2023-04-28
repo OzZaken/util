@@ -19,10 +19,8 @@ async function mapRepo() {
 
 async function traverseFolder(folderPath) {
   const stats = await fs.promises.stat(folderPath)
-  if (!stats.isDirectory()) {
     // This is a file, not a folder
-    return path.basename(folderPath)
-  }
+  if (!stats.isDirectory())  return path.basename(folderPath)
 
   // This is a folder, so recursively traverse its contents
   const folderName = path.basename(folderPath)
