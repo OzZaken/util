@@ -8,7 +8,7 @@ node_modules
 **/.git
 .gitignore
 .vscode
-.mp4
+*.mp4
 ai/*
 # ai/**
 
@@ -34,7 +34,6 @@ server
 
 # Enviormets
 env
-env/**
 .env
 .env.local
 .env.dev.local
@@ -42,6 +41,7 @@ env/**
 .env.test.local
 .env.production.local
 .env.prod.local
+
 # GitHub examples
 radash
 ts-toolbelt
