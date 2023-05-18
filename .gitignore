@@ -1,19 +1,22 @@
+.vscode
 node_modules
+desktop.ini
 
 # ignore all `.files`
 .*
-*.pptx
-.ppsx
 .git
-**/.git
 .gitignore
-.vscode
-*.mp4
-ai/*
-# ai/**
+**/.git
 
-assets/**/
-!assets/doc/*
+*.pdf
+/**/*.pdf
+*.pptx
+*.ppsx
+*.mp4
+
+# assets
+assets/**
+!assets/docs/*
 
 servers/**/
 !servers/*.md
@@ -51,9 +54,3 @@ socket.io-examples
 design-resources-for-developers
 react-redux-universal-hot-example
 react-starter-kit
-
-# Find Yourself ; )
-*.pdf
-/**/*.pdf
-private
-personalAssistant

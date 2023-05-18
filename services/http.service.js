@@ -44,12 +44,6 @@ async function ajax(endpoint, method = 'GET', data = null) {
 
 
 // ---------------------------------   ajax   ---------------------------------  
-async function fetchData1(url) {
-    const response = await fetch(url)
-    const data = await response.json()
-    return data
-}
-
 // XHR
 function fetchDataWithXHR(url, method = 'GET', body = null) {
     return new Promise((resolve, reject) => {
@@ -58,7 +52,7 @@ function fetchDataWithXHR(url, method = 'GET', body = null) {
 
         xhr.setRequestHeader('Content-Type', 'application/json')
 
-        xhr.onload = function () {
+        xhr.onload = () => {
             if (xhr.status === 200) resolve(JSON.parse(xhr.responseText))
             else reject(Error(xhr.statusText))
         }
@@ -70,6 +64,12 @@ function fetchDataWithXHR(url, method = 'GET', body = null) {
 }
 
 // fetch
+async function simpleFetch(url) {
+    const response = await fetch(url)
+    const data = await response.json()
+    return data
+}
+
 async function fetchData(url, method = 'GET', body = null) {
     const options = {
         method,

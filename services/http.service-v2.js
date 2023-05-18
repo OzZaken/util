@@ -1,6 +1,8 @@
 import Axios from 'axios'
 
-const BASE_URL = process.env.API_BASE_URL || 'http://localhost:3030/api/'
+const BASE_URL = process.env.NODE_ENV === 'production'
+    ? '/api/'
+    : 'http://localhost:3030/api/'
 
 const axios = Axios.create({
   baseURL: BASE_URL,
@@ -8,6 +10,7 @@ const axios = Axios.create({
 })
 
 axios.interceptors.request.use(config => {
+  console.log(`UT \t config:`, config);
   // Add common headers here
   return config
 })
@@ -16,7 +19,7 @@ axios.interceptors.response.use(response => {
   // Handle common response scenarios here
   return response
 }, error => {
-  console.error(`Request failed with status ${error.response.status}: ${error.response.data.message}`)
+  logger.error(`Request failed with status ${error.response.status}: ${error.response.data.message}`)
   throw error
 })
 

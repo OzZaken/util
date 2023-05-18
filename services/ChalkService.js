@@ -1,5 +1,4 @@
-const chalk = require('chalk');
-
+import chalk from 'chalk'
 class ChalkService {
   constructor() {
     this.theme = {
