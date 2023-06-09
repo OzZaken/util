@@ -14,6 +14,9 @@ desktop.ini
 *.ppsx
 *.mp4
 
+cyber
+bin/bat/**
+Tor Browser/**
 # assets
 assets/**
 !assets/docs/*
@@ -44,6 +47,10 @@ env
 .env.test.local
 .env.production.local
 .env.prod.local
+
+# bin
+bin/exe
+tools
 
 # GitHub examples
 radash

@@ -1,19 +1,23 @@
-# OpenVpn
+# setup a FREE VPN server in the cloud (AWS).
+[NetworkChuck Video](https://www.youtube.com/watch?v=m-i2JBtG4FE&t=15s) 
 
 ## Prerequisites
-- AWS account
-- Basic knowledge of AWS EC2, SSH, and OpenVPN configuration.
+- AWS account.
+- Basic knowledge of `AWS` `EC2`, `SSH`, and `OpenVPN` configuration.
 
 ## build with
 - Amazon Web Services
 - OpenVPN Access Server
 
 ## create OpenVpn instance
-1. [log in](https://aws.amazon.com/)
-2. create ec2 instance search on ec2 marketplace for openvpn.
-3. Instance type should be `t2.micro` for free use up to 2 users.
-4. create ssh file.
-5. go to `console.aws.amazon.com/ec2` click connect, copy and modified command:
+1. [Login to aws.amazon.com](https://aws.amazon.com/)
+2. Create ec2 instance and search on `AWS marketplace` for `OpenVPN` (Ubuntu Server running openVPN) 
+3. Select the Free tier eligible,(Not the 10 connected devices).
+4. Choose Instance type, should be `t2.micro` for free use up to 2 users (Free tier eligible) and Launch.
+5. Create New Key pair, Key pair name: vpnserver and click download key pair.
+6. Lunch instances.
+7. Go to your running instances Right click for Connect to current instance (for show all connections methods) 
+8. Create ssh  copy and modified command:
    
     ```powershell
     ssh -i Downloads/vpnserver.pem openvpnas@ec2-01-234-56-789.compute-1.amazonaws.com
@@ -22,7 +26,7 @@
     - replace `Downloads/` with the path to the file.
     - replace `root` with `openvpnas`
 
-## establish ssh connection
+## successfully establish ssh connection:  
 <pre>
 Welcome to OpenVPN Access Server Appliance 2.11.3
 
